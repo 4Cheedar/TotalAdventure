@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -101,7 +100,7 @@ Depois volta para a vila para decidir
 
 <p>Nada vem pronto. Tudo é conquistado.</p>
 
-<p>➡️ <a href="core-concepts/game-loop.md">O Loop do Jogo</a></p>
+<p>➡️ <a href="core-concepts/game-loop.html">O Loop do Jogo</a></p>
 
 <div class="ritual-divider">🌍</div>
 
