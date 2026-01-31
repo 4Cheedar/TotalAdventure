@@ -1,135 +1,247 @@
-# Cavernas 🕳️
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cavernas | Espaço, Risco e Decisão • TotalAdventure</title>
 
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">CAVERNAS</div>
+    <div class="hero-subtitle">
+      Espaços que testam orientação e coragem
+    </div>
+    <div class="hero-meta">
+      Exploração • Risco • Decisão Espacial
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Cavernas</h3>
+  <ul>
+    <li><a href="#papel">🧠 Papel</a></li>
+    <li><a href="#estrutura">🧱 Estrutura</a></li>
+    <li><a href="#exploracao">🧭 Exploração</a></li>
+    <li><a href="#minerios">💎 Recursos</a></li>
+    <li><a href="#mobs">🧝 Mobs</a></li>
+    <li><a href="#persistencia">⏳ Persistência</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>🕳️ Cavernas</h2>
+
+<p>
 As cavernas do TotalAdventure não são naturais.
-Elas são **estruturas geradas intencionalmente** para criar exploração,
+</p>
+
+<p>
+Elas são <strong>estruturas geradas intencionalmente</strong> para criar exploração,<br>
 tensão e decisões espaciais reais.
+</p>
 
-Cada caverna é um ambiente projetado,
+<p>
+Cada caverna é um ambiente projetado,<br>
 não um espaço aleatório.
+</p>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 O papel das cavernas
+<h2 id="papel">🧠 O papel das cavernas</h2>
 
-Cavernas existem para:
-- concentrar mineração de alto valor
-- criar risco ambiental constante
-- separar progressão por exploração
-- abrigar mobs, elites e bosses
+<p>Cavernas existem para:</p>
 
-Elas não são atalhos.
-São **compromissos**.
+<ul>
+  <li>concentrar mineração de alto valor</li>
+  <li>criar risco ambiental constante</li>
+  <li>separar progressão por exploração</li>
+  <li>abrigar mobs, elites e bosses</li>
+</ul>
 
-Entrar em uma caverna é aceitar que:
-- o caminho pode não ser linear
-- a saída pode não ser óbvia
-- voltar pode ser tão difícil quanto avançar
+<div class="lore-quote">
+Elas não são atalhos.<br>
+São <strong>compromissos</strong>.
+</div>
 
----
+<p>Entrar em uma caverna é aceitar que:</p>
 
-## 🧱 Estrutura modular
+<ul>
+  <li>o caminho pode não ser linear</li>
+  <li>a saída pode não ser óbvia</li>
+  <li>voltar pode ser tão difícil quanto avançar</li>
+</ul>
 
-As cavernas são formadas por **salas interligadas**.
+<div class="ritual-divider">🧱</div>
 
-Essas salas podem incluir:
-- áreas abertas
-- corredores longos
-- zonas sem saída
-- salas de risco elevado
-- arenas de boss
+<h2 id="estrutura">🧱 Estrutura modular</h2>
 
-A disposição das salas cria:
-- rotas alternativas
-- armadilhas naturais
-- decisões de navegação
+<p>
+As cavernas são formadas por <strong>salas interligadas</strong>.
+</p>
 
-Nenhuma caverna garante um caminho seguro de ida e volta.
+<p>Essas salas podem incluir:</p>
 
----
+<ul>
+  <li>áreas abertas</li>
+  <li>corredores longos</li>
+  <li>zonas sem saída</li>
+  <li>salas de risco elevado</li>
+  <li>arenas de boss</li>
+</ul>
 
-## 🧭 Exploração e orientação
+<p>A disposição das salas cria:</p>
 
-Nem toda sala leva a algo valioso.
+<ul>
+  <li>rotas alternativas</li>
+  <li>armadilhas naturais</li>
+  <li>decisões de navegação</li>
+</ul>
+
+<div class="lore-quote">
+Nenhuma caverna garante<br>
+um caminho seguro de ida e volta.
+</div>
+
+<div class="ritual-divider">🧭</div>
+
+<h2 id="exploracao">🧭 Exploração e orientação</h2>
+
+<p>
+Nem toda sala leva a algo valioso.<br>
 Nem todo caminho leva à saída.
+</p>
 
-O jogador precisa:
-- memorizar rotas
-- reconhecer padrões
-- decidir quando recuar
-- avaliar se vale continuar
+<p>O jogador precisa:</p>
 
-Cavernas punem desatenção,
+<ul>
+  <li>memorizar rotas</li>
+  <li>reconhecer padrões</li>
+  <li>decidir quando recuar</li>
+  <li>avaliar se vale continuar</li>
+</ul>
+
+<div class="lore-quote">
+Cavernas punem desatenção,<br>
 não curiosidade.
+</div>
 
----
+<div class="ritual-divider">💎</div>
 
-## 💎 Minérios e recursos
+<h2 id="minerios">💎 Minérios e recursos</h2>
 
-Minérios são inseridos **intencionalmente** nas cavernas.
+<p>
+Minérios são inseridos <strong>intencionalmente</strong> nas cavernas.
+</p>
 
-- Blocos de maior valor aparecem em áreas mais profundas
-- Regiões mais perigosas concentram melhores recompensas
-- Minerar perto da entrada é mais seguro, mas menos lucrativo
+<ul>
+  <li>Blocos de maior valor aparecem em áreas mais profundas</li>
+  <li>Regiões mais perigosas concentram melhores recompensas</li>
+  <li>Minerar perto da entrada é mais seguro, mas menos lucrativo</li>
+</ul>
 
-A caverna em si já comunica o risco.
-Quem ignora isso paga o preço.
+<div class="lore-quote">
+A caverna comunica o risco.<br>
+Quem ignora, paga.
+</div>
 
----
+<div class="ritual-divider">🧝</div>
 
-## 🧝 Mobs e geradores
+<h2 id="mobs">🧝 Mobs e geradores</h2>
 
-Cavernas podem conter:
-- mobs comuns
-- elites
-- bosses
-- geradores configurados
+<p>Cavernas podem conter:</p>
 
-A presença de mobs:
-- força movimentação constante
-- impede mineração passiva
-- transforma o ambiente em ameaça ativa
+<ul>
+  <li>mobs comuns</li>
+  <li>elites</li>
+  <li>bosses</li>
+  <li>geradores configurados</li>
+</ul>
 
-O perigo não vem só dos mobs,
-mas do **espaço onde eles estão**.
+<p>A presença de mobs:</p>
 
----
+<ul>
+  <li>força movimentação constante</li>
+  <li>impede mineração passiva</li>
+  <li>transforma o ambiente em ameaça ativa</li>
+</ul>
 
-## ⏳ Persistência e retorno
+<div class="lore-quote">
+O perigo não vem só dos mobs.<br>
+Vem do <strong>espaço onde eles estão</strong>.
+</div>
 
+<div class="ritual-divider">⏳</div>
+
+<h2 id="persistencia">⏳ Persistência e retorno</h2>
+
+<p>
 Cavernas podem ser revisitadas.
+</p>
 
-- blocos se regeneram
-- mobs retornam
-- áreas permanecem reconhecíveis
+<ul>
+  <li>blocos se regeneram</li>
+  <li>mobs retornam</li>
+  <li>áreas permanecem reconhecíveis</li>
+</ul>
 
-Isso permite:
-- planejamento de rotas
-- estratégias de farm
-- decisões de longo prazo
+<p>Isso permite:</p>
 
-Conhecer uma caverna é uma vantagem real.
+<ul>
+  <li>planejamento de rotas</li>
+  <li>estratégias de farm</li>
+  <li>decisões de longo prazo</li>
+</ul>
 
----
+<div class="lore-quote">
+Conhecer uma caverna<br>
+é vantagem real.
+</div>
 
-## 🧠 Filosofia das cavernas
+<div class="ritual-divider">🧠</div>
 
-No TotalAdventure:
-- cavernas são mapas mentais
-- risco vem do ambiente
-- poder exige exploração
-- sair é tão importante quanto entrar
+<h2 id="filosofia">🧠 Filosofia das cavernas</h2>
 
-A caverna não tenta te matar.
-Ela tenta **te confundir**.
+<ul>
+  <li>cavernas são mapas mentais</li>
+  <li>risco vem do ambiente</li>
+  <li>poder exige exploração</li>
+  <li>sair é tão importante quanto entrar</li>
+</ul>
 
----
+<div class="lore-quote">
+A caverna não tenta te matar.<br>
+Ela tenta <strong>te confundir</strong>.
+</div>
 
-## ➡️ Próximos passos
+<div class="ritual-divider">➡️</div>
 
-Agora que você entende o papel das cavernas, avance para:
+<h2>➡️ Próximos passos</h2>
 
-➡️ **[Forja](../forging/overview.md)**  
-➡️ **[Mobs](../mobs/overview.md)**  
+<ul>
+  <li>➡️ <a href="../forging/overview.html">Forja</a></li>
+  <li>➡️ <a href="../mobs/overview.html">Mobs</a></li>
+</ul>
 
-Cavernas são o palco.
-O que você faz dentro delas define a história.
+<div class="lore-quote">
+Cavernas são o palco.<br>
+O que você faz dentro delas<br>
+define a história.
+</div>
+
+</main>
+</div>
+
+</body>
+</html>

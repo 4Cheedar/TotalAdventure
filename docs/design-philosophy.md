@@ -1,214 +1,317 @@
-# Filosofia de Design 🧠
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Filosofia de Design | TotalAdventure</title>
 
-O TotalAdventure não foi criado para ser confortável.  
-Ele foi criado para ser **coerente**.
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">FILOSOFIA DE DESIGN</div>
+    <div class="hero-subtitle">
+      O jogo não pede desculpas por existir
+    </div>
+    <div class="hero-meta">
+      Coerência • Risco • Mundo Vivo • Decisão
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Filosofia</h3>
+  <ul>
+    <li><a href="#coerencia">🧠 Coerência</a></li>
+    <li><a href="#mundo">🌍 Mundo</a></li>
+    <li><a href="#progressao">🧭 Progressão</a></li>
+    <li><a href="#picaretas">⛏️ Picaretas</a></li>
+    <li><a href="#economia">💰 Economia</a></li>
+    <li><a href="#seguranca">🏦 Segurança</a></li>
+    <li><a href="#combate">⚔️ Combate</a></li>
+    <li><a href="#hostilidade">🧟 Hostilidade</a></li>
+    <li><a href="#limites">🔁 Limites</a></li>
+    <li><a href="#aprendizado">🧠 Aprendizado</a></li>
+    <li><a href="#clareza">🛠️ Clareza</a></li>
+    <li><a href="#objetivo">🧭 Objetivo</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2 id="coerencia">🧠 Coerência acima de conforto</h2>
+
+<p>
+O TotalAdventure não foi criado para ser confortável.<br>
+Ele foi criado para ser <strong>coerente</strong>.
+</p>
+
+<p>
 Cada sistema, cada limitação e cada escolha
 existem para sustentar uma ideia central:
+</p>
 
-> **a jornada importa mais do que o atalho**
+<div class="lore-quote">
+A jornada importa mais do que o atalho
+</div>
 
----
+<div class="ritual-divider">🌍</div>
 
-## 🌍 O mundo vem antes do jogador
+<h2 id="mundo">🌍 O mundo vem antes do jogador</h2>
 
+<p>
 O mundo do TotalAdventure não gira em torno do jogador.
-Ele existe **independentemente** dele.
+Ele existe <strong>independentemente</strong> dele.
+</p>
 
-Isso significa:
-- o mundo não se adapta automaticamente
-- o perigo não pede permissão
-- o progresso não é garantido
+<ul>
+  <li>o mundo não se adapta automaticamente</li>
+  <li>o perigo não pede permissão</li>
+  <li>o progresso não é garantido</li>
+</ul>
 
-Você não é o herói da história.
-Você é **mais um aventureiro tentando sobreviver** em um mundo que não foi feito para você.
+<p>
+Você não é o herói da história.<br>
+Você é <strong>mais um aventureiro tentando sobreviver</strong>
+em um mundo que não foi feito para você.
+</p>
 
----
+<div class="ritual-divider">🧭</div>
 
-## 🧭 Progressão é deslocamento, não menu
+<h2 id="progressao">🧭 Progressão é deslocamento, não menu</h2>
 
+<p>
 Avançar no jogo exige:
-- andar
-- explorar
-- voltar
-- carregar
-- arriscar
-- escolher rotas
+</p>
 
+<ul>
+  <li>andar</li>
+  <li>explorar</li>
+  <li>voltar</li>
+  <li>carregar</li>
+  <li>arriscar</li>
+  <li>escolher rotas</li>
+</ul>
+
+<p>
 Por isso:
-- não existe teleporte livre
-- não existe economia global
-- não existe acesso instantâneo a tudo
+</p>
 
-Mover-se pelo mundo **é parte do jogo**,
+<ul>
+  <li>não existe teleporte livre</li>
+  <li>não existe economia global</li>
+  <li>não existe acesso instantâneo a tudo</li>
+</ul>
+
+<p>
+Mover-se pelo mundo <strong>é parte do jogo</strong>,
 não um incômodo a ser removido.
+</p>
 
----
+<div class="ritual-divider">⛏️</div>
 
-## ⛏️ Picaretas são marcos, não consumíveis
+<h2 id="picaretas">⛏️ Picaretas são marcos, não consumíveis</h2>
 
-Picaretas:
-- não quebram
-- não são forjadas
-- não são descartáveis
-- não são triviais
+<ul>
+  <li>não quebram</li>
+  <li>não são forjadas</li>
+  <li>não são descartáveis</li>
+  <li>não são triviais</li>
+</ul>
 
+<p>
 Cada picareta representa:
-- um patamar de progressão
-- uma decisão econômica
-- um novo limite de exploração
+</p>
 
-Elas não existem para serem trocadas.
-Elas existem para **definir até onde você pode ir**.
+<ul>
+  <li>um patamar de progressão</li>
+  <li>uma decisão econômica</li>
+  <li>um novo limite de exploração</li>
+</ul>
 
----
+<p>
+Elas não existem para serem trocadas.<br>
+Elas existem para <strong>definir até onde você pode ir</strong>.
+</p>
 
-## 💰 Economia é local, física e imperfeita
+<div class="ritual-divider">💰</div>
 
+<h2 id="economia">💰 Economia é local, física e imperfeita</h2>
+
+<p>
 Dinheiro no TotalAdventure:
-- ocupa espaço
-- precisa ser transportado
-- precisa ser protegido
-- não circula livremente
+</p>
 
-Por isso:
-- moedas são físicas
-- bancos são locais
-- vilas não compartilham saldo
-- segurança nunca é gratuita
+<ul>
+  <li>ocupa espaço</li>
+  <li>precisa ser transportado</li>
+  <li>precisa ser protegido</li>
+  <li>não circula livremente</li>
+</ul>
 
-Riqueza sem logística
-não existe neste mundo.
+<p>
+Riqueza sem logística<br>
+<strong>não existe neste mundo</strong>.
+</p>
 
----
+<div class="ritual-divider">🏦</div>
 
-## 🏦 Segurança sempre tem custo
+<h2 id="seguranca">🏦 Segurança sempre tem custo</h2>
 
-Guardar dinheiro custa.  
-Sacar dinheiro custa.  
+<p>
+Guardar dinheiro custa.<br>
+Sacar dinheiro custa.<br>
 Manter patrimônio custa.
+</p>
 
-O jogo **não protege quem acumula sem pensar**.
+<p>
+O jogo <strong>não protege quem acumula sem pensar</strong>.
+</p>
 
-Se você quer segurança:
-- aceite taxas
-- aceite manutenção
-- aceite ficar preso a um lugar
+<div class="lore-quote">
+Segurança prende.<br>
+Mobilidade expõe.<br>
+Escolha um preço.
+</div>
 
-Se quer mobilidade:
-- aceite risco
-- aceite perdas
-- planeje melhor
+<div class="ritual-divider">⚔️</div>
 
----
+<h2 id="combate">⚔️ Combate exige atenção</h2>
 
-## ⚔️ Combate exige atenção
-
+<p>
 Mobs não são obstáculos descartáveis.
 Eles:
-- escalam
-- usam habilidades
-- reagem ao jogador
-- punem repetição
+</p>
 
-Lutar sem observar
+<ul>
+  <li>escalam</li>
+  <li>usam habilidades</li>
+  <li>reagem ao jogador</li>
+  <li>punem repetição</li>
+</ul>
+
+<p>
+Lutar sem observar<br>
 é escolher morrer.
+</p>
 
-O combate existe para:
-- quebrar o piloto automático
-- recompensar leitura do ambiente
-- punir descuido e arrogância
+<div class="ritual-divider">🧟</div>
 
----
+<h2 id="hostilidade">🧟 O mundo é hostil por design</h2>
 
-## 🧟 O mundo é hostil por design
+<p>
+O TotalAdventure não tenta ser justo o tempo todo.<br>
+Ele tenta ser <strong>honesto</strong>.
+</p>
 
-O TotalAdventure não tenta ser justo o tempo todo.  
-Ele tenta ser **honesto**.
-
+<p>
 Se algo é perigoso:
-- ele parece perigoso
-- ele se comporta como perigoso
-- ele pune quem ignora isso
+</p>
 
-Morrer raramente é azar.
+<ul>
+  <li>ele parece perigoso</li>
+  <li>ele se comporta como perigoso</li>
+  <li>ele pune quem ignora isso</li>
+</ul>
+
+<p>
+Morrer raramente é azar.<br>
 Na maioria das vezes, é consequência.
+</p>
 
----
+<div class="ritual-divider">🔁</div>
 
-## 🔁 Nada cresce sem limite
+<h2 id="limites">🔁 Nada cresce sem limite</h2>
 
+<p>
 Nenhum sistema é infinito:
-- reputação tem teto
-- bônus têm cap
-- vantagens têm custo
-- progressão tem atrito
+</p>
 
-Isso existe para evitar:
-- power creep
-- economia inflada
-- builds invencíveis
-- trivialização do jogo
+<ul>
+  <li>reputação tem teto</li>
+  <li>bônus têm cap</li>
+  <li>vantagens têm custo</li>
+  <li>progressão tem atrito</li>
+</ul>
 
-O objetivo é **consistência**, não abuso.
+<p>
+O objetivo é <strong>consistência</strong>, não abuso.
+</p>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 O jogador aprende pelo mundo
+<h2 id="aprendizado">🧠 O jogador aprende pelo mundo</h2>
 
+<p>
 O jogo explica pouco de forma direta.
 Ele ensina através de:
-- risco
-- erro
-- perda
-- observação
-- repetição
+</p>
 
-Quem presta atenção:
-- morre menos
-- progride melhor
-- entende o mundo
+<ul>
+  <li>risco</li>
+  <li>erro</li>
+  <li>perda</li>
+  <li>observação</li>
+  <li>repetição</li>
+</ul>
 
-Quem ignora,
-aprende do jeito difícil.
+<p>
+Quem presta atenção, progride.<br>
+Quem ignora, aprende do jeito difícil.
+</p>
 
----
+<div class="ritual-divider">🛠️</div>
 
-## 🛠️ Complexidade interna, clareza externa
+<h2 id="clareza">🛠️ Complexidade interna, clareza externa</h2>
 
-Internamente, os sistemas são complexos.
-Externamente, o jogo precisa ser **legível**.
+<p>
+Internamente, os sistemas são complexos.<br>
+Externamente, o jogo precisa ser <strong>legível</strong>.
+</p>
 
-O jogador deve conseguir perceber:
-- quando algo é perigoso
-- quando algo vale a pena
-- quando recuar é a melhor decisão
-
-Complexidade fica no código.  
+<p>
+Complexidade fica no código.<br>
 Consequência fica visível.
+</p>
 
----
+<div class="ritual-divider">🧭</div>
 
-## 🧭 O objetivo final
+<h2 id="objetivo">🧭 O objetivo final</h2>
 
+<p>
 O TotalAdventure não quer:
-- acelerar o jogador
-- facilitar tudo
-- entregar poder rápido
+</p>
 
+<ul>
+  <li>acelerar o jogador</li>
+  <li>facilitar tudo</li>
+  <li>entregar poder rápido</li>
+</ul>
+
+<p>
 Ele quer:
-- criar histórias emergentes
-- tornar decisões memoráveis
-- fazer cada conquista ter peso
+</p>
 
-Se você lembra **como** conseguiu algo,
-o design cumpriu seu papel.
+<ul>
+  <li>criar histórias emergentes</li>
+  <li>tornar decisões memoráveis</li>
+  <li>fazer cada conquista ter peso</li>
+</ul>
 
----
+<div class="lore-quote">
+O caminho molda o jogador<br>
+e o mundo não pede desculpas por isso.
+</div>
 
-## 🧠 Em uma frase
+</main>
+</div>
 
-O TotalAdventure é um jogo onde:
-
-> **o caminho molda o jogador  
-> e o mundo não pede desculpas por isso.**
+</body>
+</html>

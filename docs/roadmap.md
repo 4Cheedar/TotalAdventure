@@ -1,202 +1,277 @@
-# Roadmap 🛣️
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Roadmap | TotalAdventure</title>
 
-Este roadmap descreve a **direção evolutiva do TotalAdventure**.
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-Ele não representa promessas,
-mas intenções claras.
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">ROADMAP</div>
+    <div class="hero-subtitle">
+      Direção evolutiva de um mundo vivo
+    </div>
+    <div class="hero-meta">
+      Intenção • Risco • Responsabilidade • Coerência
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Fases</h3>
+  <ul>
+    <li><a href="#fase-atual">🟢 Fundamentos</a></li>
+    <li><a href="#vilas">🟡 Vilas</a></li>
+    <li><a href="#habitacao">🟠 Habitação</a></li>
+    <li><a href="#trofeus">🟣 Troféus</a></li>
+    <li><a href="#schematics">🔵 Construções</a></li>
+    <li><a href="#tempo">🟡 Tempo</a></li>
+    <li><a href="#sorte">🍀 Sorte</a></li>
+    <li><a href="#logistica">🟤 Logística</a></li>
+    <li><a href="#economia-social">🔴 Economia Social</a></li>
+    <li><a href="#fora-escopo">❌ Fora de Escopo</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<p>
+Este roadmap descreve a <strong>direção evolutiva do TotalAdventure</strong>.
+</p>
+
+<p>
+Ele não representa promessas,<br>
+mas intenções claras.<br>
 O mundo cresce quando novas camadas
 reforçam a jornada — não quando a encurtam.
+</p>
 
----
+<div class="ritual-divider">🟢</div>
 
-## 🟢 Fase Atual — Fundamentos do Mundo
+<h2 id="fase-atual">🟢 Fase Atual — Fundamentos do Mundo</h2>
 
-Estado atual:
-- mineração profunda funcional
-- forja em múltiplas etapas
-- mobs escaláveis com skills
-- economia local e fragmentada
-- bancos físicos
-- NPCs regionais
-- cavernas procedurais estáveis
+<p>Estado atual:</p>
 
-Esta fase define **as leis do mundo**.
+<ul>
+  <li>mineração profunda funcional</li>
+  <li>forja em múltiplas etapas</li>
+  <li>mobs escaláveis com skills</li>
+  <li>economia local e fragmentada</li>
+  <li>bancos físicos</li>
+  <li>NPCs regionais</li>
+  <li>cavernas procedurais estáveis</li>
+</ul>
+
+<div class="lore-quote">
+Esta fase define as leis do mundo.<br>
 Nada novo entra se isso quebrar.
+</div>
 
----
+<div class="ritual-divider">🟡</div>
 
-## 🟡 Próxima Fase — Expansão das Vilas
+<h2 id="vilas">🟡 Próxima Fase — Expansão das Vilas</h2>
 
-Objetivo:
-> transformar vilas em pontos de decisão, não só de retorno
+<blockquote>
+transformar vilas em pontos de decisão, não só de retorno
+</blockquote>
 
-### Direções
-- criação de novas vilas
-- vilas com identidades próprias
-- NPCs exclusivos por vila
-- bancos independentes
-- diferenças econômicas claras
-- vilas mais seguras vs vilas mais lucrativas
+<h3>Direções</h3>
 
-Vilas deixam de ser “checkpoint”
-e passam a ser **escolhas estratégicas**.
+<ul>
+  <li>criação de novas vilas</li>
+  <li>vilas com identidades próprias</li>
+  <li>NPCs exclusivos por vila</li>
+  <li>bancos independentes</li>
+  <li>diferenças econômicas claras</li>
+  <li>vilas mais seguras vs vilas mais lucrativas</li>
+</ul>
 
----
+<p>
+Vilas deixam de ser “checkpoint”<br>
+e passam a ser <strong>escolhas estratégicas</strong>.
+</p>
 
-## 🟠 Fase Intermediária — Habitação e Propriedade
+<div class="ritual-divider">🟠</div>
 
-Objetivo:
-> criar vínculo entre jogador e mundo
+<h2 id="habitacao">🟠 Fase Intermediária — Habitação e Propriedade</h2>
 
-### Sistemas planejados
-- casas alugáveis nas vilas
-- aluguel cobrado periodicamente pelo banco local
-- casas com características diferentes
-- limite de propriedades por jogador
-- risco de perda por inadimplência
+<blockquote>
+criar vínculo entre jogador e mundo
+</blockquote>
 
-Casa não é decoração.
-É **compromisso econômico**.
+<h3>Sistemas planejados</h3>
 
----
+<ul>
+  <li>casas alugáveis nas vilas</li>
+  <li>aluguel cobrado periodicamente pelo banco local</li>
+  <li>casas com características diferentes</li>
+  <li>limite de propriedades por jogador</li>
+  <li>risco de perda por inadimplência</li>
+</ul>
 
-## 🟣 Expansão da Habitação — Troféus e Estrutura
+<div class="lore-quote">
+Casa não é decoração.<br>
+É compromisso econômico.
+</div>
 
-Objetivo:
-> transformar casas em ferramentas de progressão
+<div class="ritual-divider">🟣</div>
 
-### Direções futuras
-- sistema de troféus
-- troféus obtidos por:
-  - exploração
-  - bosses
-  - feitos específicos
-- buffs locais e limitados
-- escolha entre tipos de bônus
+<h2 id="trofeus">🟣 Expansão da Habitação — Troféus e Estrutura</h2>
 
-Inspirado em sistemas como *New World*,
+<blockquote>
+transformar casas em ferramentas de progressão
+</blockquote>
+
+<ul>
+  <li>sistema de troféus</li>
+  <li>troféus obtidos por exploração, bosses e feitos</li>
+  <li>buffs locais e limitados</li>
+  <li>escolha entre tipos de bônus</li>
+</ul>
+
+<p>
+Inspirado em <em>New World</em>,<br>
 mas adaptado à economia local.
+</p>
 
----
+<div class="ritual-divider">🔵</div>
 
-## 🔵 Construções Modulares (Schematics)
+<h2 id="schematics">🔵 Construções Modulares (Schematics)</h2>
 
-Objetivo:
-> permitir personalização sem virar sandbox caótico
+<blockquote>
+permitir personalização sem virar sandbox caótico
+</blockquote>
 
-### Ideias em avaliação
-- schematics pré-definidas
-- construções anexadas ao terreno da casa
-- cada estrutura com função clara:
-  - bônus de forja
-  - armazenamento
-  - buffs temporários
-- custo de manutenção
-- limitação por terreno
+<ul>
+  <li>schematics pré-definidas</li>
+  <li>construções anexadas ao terreno da casa</li>
+  <li>estruturas com função clara</li>
+  <li>custo de manutenção</li>
+  <li>limitação por terreno</li>
+</ul>
 
-Construir é investir.
+<div class="lore-quote">
+Construir é investir.<br>
 Não é enfeitar.
+</div>
 
----
+<div class="ritual-divider">🟡</div>
 
-## 🟡 Sistema de Tempo e Eventos Diários
+<h2 id="tempo">🟡 Sistema de Tempo e Eventos Diários</h2>
 
-Objetivo:
-> fazer cada dia importar
+<blockquote>
+fazer cada dia importar
+</blockquote>
 
-### Direções
-- eventos baseados no dia do mundo
-- modificadores globais:
-  - sorte
-  - drops
-  - mobs
-- dias bons e dias ruins
-- previsibilidade parcial
+<ul>
+  <li>eventos baseados no dia do mundo</li>
+  <li>modificadores globais</li>
+  <li>dias bons e dias ruins</li>
+  <li>previsibilidade parcial</li>
+</ul>
 
-O jogador aprende:
-> hoje é um bom dia para minerar  
-> hoje é melhor não sair
+<div class="lore-quote">
+Hoje é um bom dia para minerar.<br>
+Hoje é melhor não sair.
+</div>
 
----
+<div class="ritual-divider">🍀</div>
 
-## 🍀 Sorte, Eventos e Poções
+<h2 id="sorte">🍀 Sorte, Eventos e Poções</h2>
 
-Objetivo:
-> criar picos temporários de oportunidade
+<blockquote>
+criar picos temporários de oportunidade
+</blockquote>
 
-### Sistemas planejados
-- poções de sorte
-- eventos de sorte
-- modificadores limitados no tempo
-- sinergia com mineração e drops
-- nunca permanentes
+<ul>
+  <li>poções de sorte</li>
+  <li>eventos temporários</li>
+  <li>modificadores limitados</li>
+  <li>sinergia com mineração e drops</li>
+</ul>
 
-Sorte é momento.
+<p>
+Sorte é momento.<br>
 Não estado permanente.
+</p>
 
----
+<div class="ritual-divider">🟤</div>
 
-## 🟤 Logística Física — Carroções e Transporte
+<h2 id="logistica">🟤 Logística Física — Carroções e Transporte</h2>
 
-Objetivo:
-> resolver escala sem quebrar o risco
+<blockquote>
+resolver escala sem quebrar o risco
+</blockquote>
 
-### Ideias
-- carroções para transporte de itens
-- capacidade limitada
-- risco durante o trajeto
-- necessidade de rotas seguras
-- integração com vilas e bancos
+<ul>
+  <li>carroções para transporte</li>
+  <li>capacidade limitada</li>
+  <li>risco durante o trajeto</li>
+  <li>planejamento de rotas</li>
+</ul>
 
-Mais carga.
-Mais risco.
+<div class="lore-quote">
+Mais carga.<br>
+Mais risco.<br>
 Mais planejamento.
+</div>
 
----
+<div class="ritual-divider">🔴</div>
 
-## 🔴 Fase Tardia — Economia Social
+<h2 id="economia-social">🔴 Fase Tardia — Economia Social</h2>
 
-Objetivo:
-> permitir interação econômica entre jogadores sem destruir o sistema
+<blockquote>
+interação entre jogadores sem destruir o sistema
+</blockquote>
 
-### Possibilidades (não garantidas)
-- lojas de jogadores
-- venda local de itens
-- taxas cobradas por vilas
-- limites rígidos
-- integração com bancos
+<ul>
+  <li>lojas de jogadores</li>
+  <li>venda local de itens</li>
+  <li>taxas por vila</li>
+  <li>limites rígidos</li>
+</ul>
 
-Se entrar, entra **restrito e controlado**.
+<p>
+Se entrar, entra <strong>restrito e controlado</strong>.
+</p>
 
----
+<div class="ritual-divider">❌</div>
 
-## ❌ Fora de Escopo (Intencional)
+<h2 id="fora-escopo">❌ Fora de Escopo (Intencional)</h2>
 
-- teleporte livre
-- economia global
-- buffs permanentes sem custo
-- casas gratuitas
-- armazenamento infinito
-- eventos automáticos sem decisão
+<ul>
+  <li>teleporte livre</li>
+  <li>economia global</li>
+  <li>buffs permanentes sem custo</li>
+  <li>casas gratuitas</li>
+  <li>armazenamento infinito</li>
+  <li>eventos automáticos sem decisão</li>
+</ul>
 
+<div class="lore-quote">
 Popularidade não supera coerência.
+</div>
 
----
+<div class="ritual-divider">🧭</div>
 
-## 🧠 Nota Final
+<h2>🧭 Em uma frase</h2>
 
-O TotalAdventure cresce
-quando adiciona **responsabilidade**,
-não conveniência.
+<div class="lore-quote">
+O roadmap não promete conforto.<br>
+Ele promete um mundo cada vez mais vivo.
+</div>
 
-Tudo que entra:
-- tem custo
-- tem risco
-- cria decisão
+</main>
+</div>
 
----
-
-## 🧭 Em uma frase
-
-O roadmap não promete conforto.
-Ele promete **um mundo cada vez mais vivo**.
+</body>
+</html>

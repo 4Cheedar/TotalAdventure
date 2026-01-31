@@ -1,200 +1,342 @@
-# NPCs e Comércio 🧑‍🌾
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>NPCs e Comércio | TotalAdventure</title>
 
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">NPCs & COMÉRCIO</div>
+    <div class="hero-subtitle">
+      Onde esforço ganha valor
+    </div>
+    <div class="hero-meta">
+      Escolha • Confiança • Risco
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Relações</h3>
+  <ul>
+    <li><a href="#papel">🧠 Papel</a></li>
+    <li><a href="#tipos">🛒 Tipos</a></li>
+    <li><a href="#sell">🟡 Venda</a></li>
+    <li><a href="#pickaxe">⛏️ Picaretas</a></li>
+    <li><a href="#exec">📜 Execução</a></li>
+    <li><a href="#identidade">🏷️ Identidade</a></li>
+    <li><a href="#regional">🧭 Regional</a></li>
+    <li><a href="#decisoes">⚠️ Decisões</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>🧑‍🌾 NPCs e Comércio</h2>
+
+<p>
 NPCs são o ponto de contato entre o jogador e a economia.
+</p>
 
-Eles compram,
-vendem,
-executam contratos
-e definem **quanto seu esforço realmente vale**.
+<p>
+Eles compram,<br>
+vendem,<br>
+executam contratos<br>
+e definem <strong>quanto seu esforço realmente vale</strong>.
+</p>
 
+<p>
 Escolher o NPC certo importa tanto quanto conseguir o item.
+</p>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 O papel dos NPCs
+<h2 id="papel">🧠 O papel dos NPCs</h2>
 
-NPCs existem para:
-- transformar itens em dinheiro
-- guiar progressão (picaretas)
-- aplicar reputação
-- criar identidade regional
-- oferecer decisões econômicas reais
+<p>NPCs existem para:</p>
 
-Eles não são genéricos.
+<ul>
+  <li>transformar itens em dinheiro</li>
+  <li>guiar progressão (picaretas)</li>
+  <li>aplicar reputação</li>
+  <li>criar identidade regional</li>
+  <li>oferecer decisões econômicas reais</li>
+</ul>
+
+<div class="lore-quote">
+Eles não são genéricos.<br>
 Cada NPC tem propósito.
+</div>
 
----
+<div class="ritual-divider">🛒</div>
 
-## 🛒 Tipos de NPCs
+<h2 id="tipos">🛒 Tipos de NPCs</h2>
 
-Existem três tipos principais de NPCs econômicos.
+<p>Existem três tipos principais de NPCs econômicos.</p>
 
----
+<div class="ritual-divider">🟡</div>
 
-## 🟡 NPCs de Venda (SELL)
+<h2 id="sell">🟡 NPCs de Venda (SELL)</h2>
 
-NPCs do tipo **SELL** compram itens do jogador.
+<p>NPCs do tipo <strong>SELL</strong> compram itens do jogador.</p>
 
-Eles utilizam **shops**, que definem o que é aceito.
+<p>
+Eles utilizam <strong>shops</strong>, que definem o que é aceito.
+</p>
 
-### 📦 Tipos de shop
+<h3>📦 Tipos de shop</h3>
 
-- **sell_ores**
-  - compra apenas minérios
-- **sell_gear**
-  - compra armas e armaduras
-- **sell_all**
-  - compra minérios + equipamentos
+<ul>
+  <li><strong>sell_ores</strong>
+    <ul>
+      <li>compra apenas minérios</li>
+    </ul>
+  </li>
+  <li><strong>sell_gear</strong>
+    <ul>
+      <li>compra armas e armaduras</li>
+    </ul>
+  </li>
+  <li><strong>sell_all</strong>
+    <ul>
+      <li>compra minérios + equipamentos</li>
+    </ul>
+  </li>
+</ul>
 
-Se o item não pertence ao shop,
+<p>
+Se o item não pertence ao shop,<br>
 ele não será comprado.
+</p>
 
----
+<div class="ritual-divider">💰</div>
 
-### 💰 Preço e modificadores
+<h3>💰 Preço e modificadores</h3>
 
-NPCs SELL podem possuir:
+<p>NPCs SELL podem possuir:</p>
 
-- **modifier**
-  - multiplica o valor final
-  - ex: `1.35` → +35% no pagamento
+<ul>
+  <li><strong>modifier</strong>
+    <ul>
+      <li>multiplica o valor final</li>
+      <li>ex: <code>1.35</code> → +35% no pagamento</li>
+    </ul>
+  </li>
+</ul>
 
-NPCs mais isolados ou perigosos:
-- pagam melhor
-- exigem deslocamento
-- aumentam o risco
+<p>NPCs mais isolados ou perigosos:</p>
 
+<ul>
+  <li>pagam melhor</li>
+  <li>exigem deslocamento</li>
+  <li>aumentam o risco</li>
+</ul>
+
+<div class="lore-quote">
 Lucro sempre cobra pedágio.
+</div>
 
----
+<div class="ritual-divider">⭐</div>
 
-### ⭐ Reputação
+<h3>⭐ Reputação</h3>
 
-Alguns NPCs usam reputação:
+<p>Alguns NPCs usam reputação:</p>
 
-- vender itens gera reputação
-- reputação aumenta o valor recebido
-- bônus percentual progressivo
-- limite máximo de bônus
+<ul>
+  <li>vender itens gera reputação</li>
+  <li>reputação aumenta o valor recebido</li>
+  <li>bônus percentual progressivo</li>
+  <li>limite máximo de bônus</li>
+</ul>
 
-Outros NPCs:
-- ignoram reputação
-- pagam bem desde o início
-- não recompensam fidelidade
+<p>Outros NPCs:</p>
 
+<ul>
+  <li>ignoram reputação</li>
+  <li>pagam bem desde o início</li>
+  <li>não recompensam fidelidade</li>
+</ul>
+
+<div class="lore-quote">
 Confiança local é um ativo.
+</div>
 
----
+<div class="ritual-divider">⛏️</div>
 
-## ⛏️ NPCs de Picareta (BUY_PICKAXE)
+<h2 id="pickaxe">⛏️ NPCs de Picareta (BUY_PICKAXE)</h2>
 
-NPCs do tipo **BUY_PICKAXE** vendem **uma picareta específica**.
+<p>
+NPCs do tipo <strong>BUY_PICKAXE</strong> vendem
+<strong>uma picareta específica</strong>.
+</p>
 
-Características:
-- preço fixo
-- não negociável
-- compra única
-- representa salto de progressão
+<p>Características:</p>
 
-Picaretas:
-- não podem ser forjadas
-- não podem ser trocadas
-- definem até onde o jogador pode minerar
+<ul>
+  <li>preço fixo</li>
+  <li>não negociável</li>
+  <li>compra única</li>
+  <li>representa salto de progressão</li>
+</ul>
 
-Esses NPCs são **marcos econômicos**,
+<p>Picaretas:</p>
+
+<ul>
+  <li>não podem ser forjadas</li>
+  <li>não podem ser trocadas</li>
+  <li>definem até onde o jogador pode minerar</li>
+</ul>
+
+<div class="lore-quote">
+Esses NPCs são <strong>marcos econômicos</strong>,<br>
 não vendedores comuns.
+</div>
 
----
+<div class="ritual-divider">📜</div>
 
-## 📜 NPCs de Execução (EXEC_COMMAND)
+<h2 id="exec">📜 NPCs de Execução (EXEC_COMMAND)</h2>
 
-NPCs do tipo **EXEC_COMMAND** executam comandos do servidor.
+<p>
+NPCs do tipo <strong>EXEC_COMMAND</strong>
+executam comandos do servidor.
+</p>
 
-Eles podem:
-- custar dinheiro
-- ser uso único ou múltiplo
-- conceder permissões
-- desbloquear sistemas
+<p>Eles podem:</p>
 
-Exemplos de uso:
-- licenças
-- contratos
-- acesso a mecânicas futuras
-- progressão indireta
+<ul>
+  <li>custar dinheiro</li>
+  <li>ser uso único ou múltiplo</li>
+  <li>conceder permissões</li>
+  <li>desbloquear sistemas</li>
+</ul>
 
-Dinheiro também compra **possibilidade**.
+<p>Exemplos de uso:</p>
 
----
+<ul>
+  <li>licenças</li>
+  <li>contratos</li>
+  <li>acesso a mecânicas futuras</li>
+  <li>progressão indireta</li>
+</ul>
 
-## 🏷️ Identidade dos NPCs
+<div class="lore-quote">
+Dinheiro também compra <strong>possibilidade</strong>.
+</div>
 
-Cada NPC possui:
-- nome próprio
-- título ou subtítulo
-- ícone visual
-- comportamento econômico específico
+<div class="ritual-divider">🏷️</div>
 
-Isso cria:
-- personalidade
-- reconhecimento
-- decisão consciente de venda
+<h2 id="identidade">🏷️ Identidade dos NPCs</h2>
 
-Você não vende “para o sistema”.
-Você vende **para alguém**.
+<p>Cada NPC possui:</p>
 
----
+<ul>
+  <li>nome próprio</li>
+  <li>título ou subtítulo</li>
+  <li>ícone visual</li>
+  <li>comportamento econômico específico</li>
+</ul>
 
-## 🧭 NPCs e economia regional
+<p>Isso cria:</p>
 
-NPCs estão ligados a regiões.
+<ul>
+  <li>personalidade</li>
+  <li>reconhecimento</li>
+  <li>decisão consciente de venda</li>
+</ul>
 
-Isso significa:
-- preços diferentes por vila
-- reputação separada
-- rotas de comércio
-- especialização local
+<div class="lore-quote">
+Você não vende “para o sistema”.<br>
+Você vende <strong>para alguém</strong>.
+</div>
 
-Às vezes, o melhor negócio:
-- não é o mais próximo
-- não é o mais seguro
-- é o mais distante
+<div class="ritual-divider">🧭</div>
 
----
+<h2 id="regional">🧭 NPCs e economia regional</h2>
 
-## ⚠️ Decisões importantes
+<p>NPCs estão ligados a regiões.</p>
 
-Antes de vender, pense:
+<p>Isso significa:</p>
 
-- esse NPC aceita reputação?
-- vale a pena ir mais longe?
-- preciso do dinheiro agora?
-- essa vila paga melhor?
-- esse item vale mais forjado?
+<ul>
+  <li>preços diferentes por vila</li>
+  <li>reputação separada</li>
+  <li>rotas de comércio</li>
+  <li>especialização local</li>
+</ul>
 
-Vender é uma escolha estratégica,
+<div class="lore-quote">
+Às vezes, o melhor negócio:<br>
+não é o mais próximo,<br>
+não é o mais seguro,<br>
+é o mais distante.
+</div>
+
+<div class="ritual-divider">⚠️</div>
+
+<h2 id="decisoes">⚠️ Decisões importantes</h2>
+
+<p>Antes de vender, pense:</p>
+
+<ul>
+  <li>esse NPC aceita reputação?</li>
+  <li>vale a pena ir mais longe?</li>
+  <li>preciso do dinheiro agora?</li>
+  <li>essa vila paga melhor?</li>
+  <li>esse item vale mais forjado?</li>
+</ul>
+
+<div class="lore-quote">
+Vender é uma escolha estratégica,<br>
 não reflexo automático.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Filosofia dos NPCs
+<h2 id="filosofia">🧠 Filosofia dos NPCs</h2>
 
-No TotalAdventure:
-- NPCs definem valor
-- economia é local
-- risco aumenta lucro
-- confiança é construída
-- atalhos cobram preço
+<p>No TotalAdventure:</p>
 
-Quem entende os NPCs
+<ul>
+  <li>NPCs definem valor</li>
+  <li>economia é local</li>
+  <li>risco aumenta lucro</li>
+  <li>confiança é construída</li>
+  <li>atalhos cobram preço</li>
+</ul>
+
+<div class="lore-quote">
+Quem entende os NPCs<br>
 para de jogar no piloto automático.
+</div>
 
----
+<div class="ritual-divider">➡️</div>
 
-## ➡️ Próximos passos
+<h2>➡️ Próximos passos</h2>
 
-Para fechar o sistema econômico:
+<p>Para fechar o sistema econômico:</p>
 
-➡️ **[Reputação](reputation.md)**  
+<p>
+➡️ <a href="reputation.md">Reputação</a>
+</p>
 
-NPCs movem dinheiro.
-Reputação decide **quanto ele vale**.
+<p>
+NPCs movem dinheiro.<br>
+Reputação decide <strong>quanto ele vale</strong>.
+</p>
+
+</main>
+</div>
+
+</body>
+</html>

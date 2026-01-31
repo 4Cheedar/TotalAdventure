@@ -1,185 +1,281 @@
-# Minérios 💎
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minérios | Combustível da Progressão • TotalAdventure</title>
 
-Minérios são o **combustível do TotalAdventure**.
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-Eles alimentam a forja, movem a economia,
-definem o risco da mineração
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">MINÉRIOS</div>
+    <div class="hero-subtitle">
+      O combustível do mundo
+    </div>
+    <div class="hero-meta">
+      Raridade • Peso • Decisão
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Minérios</h3>
+  <ul>
+    <li><a href="#conceito">🧠 Conceito</a></li>
+    <li><a href="#roll">🎲 Sorteio</a></li>
+    <li><a href="#chance">🍀 Chance</a></li>
+    <li><a href="#alertas">🚨 Alertas</a></li>
+    <li><a href="#blocos">🧱 Blocos</a></li>
+    <li><a href="#tabelas">📊 Listagem</a></li>
+    <li><a href="#valor">💰 Valor</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>💎 Minérios</h2>
+
+<p>
+Minérios são o <strong>combustível do TotalAdventure</strong>.
+</p>
+
+<p>
+Eles alimentam a forja, movem a economia,<br>
+definem o risco da mineração<br>
 e representam o verdadeiro progresso do jogador.
+</p>
 
-Você não minera blocos.
-Você minera **o que pode cair deles**.
+<div class="lore-quote">
+Você não minera blocos.<br>
+Você minera <strong>o que pode cair deles</strong>.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 O que é um minério
+<h2 id="conceito">🧠 O que é um minério</h2>
 
-Um minério é um item obtido durante a mineração que possui:
+<p>Um minério é um item obtido durante a mineração que possui:</p>
 
-- raridade
-- peso
-- valor econômico
-- uso em forja
-- impacto direto na progressão
+<ul>
+  <li>raridade</li>
+  <li>peso</li>
+  <li>valor econômico</li>
+  <li>uso em forja</li>
+  <li>impacto direto na progressão</li>
+</ul>
 
-Minérios:
-- não aparecem diretamente no mundo
-- são sorteados durante o dano ao bloco
-- caem no chão quando obtidos
+<p>Minérios:</p>
 
----
+<ul>
+  <li>não aparecem diretamente no mundo</li>
+  <li>são sorteados durante o dano ao bloco</li>
+  <li>caem no chão quando obtidos</li>
+</ul>
 
-## 🎲 Sistema de sorteio (Roll)
+<div class="ritual-divider">🎲</div>
 
+<h2 id="roll">🎲 Sistema de sorteio (Roll)</h2>
+
+<p>
 Os minérios não são sorteados apenas ao quebrar o bloco.
+</p>
 
-Durante a mineração:
-- o sistema tenta sortear minérios **enquanto o bloco perde vida**
-- o sorteio acontece até um limite configurado
+<p>Durante a mineração:</p>
 
-Configuração atual:
+<ul>
+  <li>o sistema tenta sortear minérios <strong>enquanto o bloco perde vida</strong></li>
+  <li>o sorteio acontece até um limite configurado</li>
+</ul>
 
-> **RollUntilHealth: 50%**
+<div class="gold-box">
+<strong>Configuração atual:</strong><br>
+RollUntilHealth: <strong>50%</strong>
+</div>
 
-Isso significa:
-- o sistema tenta sortear minérios até o bloco atingir **50% da vida**
-- após esse ponto, nenhum novo minério pode ser obtido daquele bloco
-- quebrar mais rápido reduz o número de tentativas
+<p>Isso significa:</p>
 
-📌 Minerar mais rápido ≠ mais minérios  
-Eficiência precisa ser equilibrada com oportunidade.
+<ul>
+  <li>o sistema tenta sortear minérios até o bloco atingir <strong>50% da vida</strong></li>
+  <li>após esse ponto, nenhum novo minério pode ser obtido</li>
+  <li>quebrar mais rápido reduz o número de tentativas</li>
+</ul>
 
----
+<div class="lore-quote">
+Minerar mais rápido ≠ mais minérios<br>
+Eficiência exige leitura.
+</div>
 
-## 🍀 Chance e raridade
+<div class="ritual-divider">🍀</div>
 
+<h2 id="chance">🍀 Chance e raridade</h2>
+
+<p>
 Cada minério possui uma chance base de aparecer.
+</p>
 
-- chances menores = minérios mais raros
-- sorte da picareta influencia os resultados
-- múltiplos hits geram múltiplas tentativas de roll
+<ul>
+  <li>chances menores → minérios mais raros</li>
+  <li>sorte da picareta influencia os resultados</li>
+  <li>múltiplos hits geram múltiplas tentativas</li>
+</ul>
 
-Raridade define:
-- peso do minério
-- valor de venda
-- impacto na forja
-- relevância econômica
+<p>Raridade define:</p>
 
----
+<ul>
+  <li>peso do minério</li>
+  <li>valor de venda</li>
+  <li>impacto na forja</li>
+  <li>relevância econômica</li>
+</ul>
 
-## 🚨 Alertas de minérios lendários
+<div class="ritual-divider">🚨</div>
 
+<h2 id="alertas">🚨 Alertas de minérios lendários</h2>
+
+<p>
 Minérios extremamente raros podem disparar alertas globais.
+</p>
 
-Configuração atual:
+<div class="danger-box">
+Apenas minérios com chance <strong>≤ 1/425</strong><br>
+geram alerta no servidor.
+</div>
 
-- apenas minérios com chance **igual ou maior que 1/425**
-- geram alerta no servidor ao serem obtidos
+<p>Isso cria:</p>
 
-Isso cria:
-- impacto social
-- sensação de evento
-- reconhecimento do risco assumido
+<ul>
+  <li>impacto social</li>
+  <li>sensação de evento</li>
+  <li>reconhecimento do risco assumido</li>
+</ul>
 
-Nem todo lendário é anunciado.
+<div class="lore-quote">
+Nem todo lendário é anunciado.<br>
 Só os realmente raros.
+</div>
 
----
+<div class="ritual-divider">🧱</div>
 
-## 🧱 Minérios dependem do bloco
+<h2 id="blocos">🧱 Minérios dependem do bloco</h2>
 
-Minérios **não são universais**.
+<p>
+Minérios <strong>não são universais</strong>.
+</p>
 
-Cada minério:
-- só pode aparecer em blocos específicos
-- respeita regras de spawn rígidas
-- não pode surgir fora do contexto correto
+<p>Cada minério:</p>
 
-Isso força:
-- exploração variada
-- conhecimento do mundo
-- escolha consciente de rotas
+<ul>
+  <li>só pode aparecer em blocos específicos</li>
+  <li>respeita regras rígidas de spawn</li>
+  <li>não surge fora do contexto correto</li>
+</ul>
 
----
+<p>Isso força:</p>
 
-## 📊 Minérios registrados
+<ul>
+  <li>exploração variada</li>
+  <li>conhecimento do mundo</li>
+  <li>decisão consciente de rotas</li>
+</ul>
 
-### 🪨 Comuns
+<div class="ritual-divider">📊</div>
 
-| Minério | Chance | Drops máx. | Blocos |
-|------|--------|------------|--------|
-| Fragmento de Pedra | 1/3 | 4 | Carvão, Ferro |
-| Fragmento de Cobre | 1/4 | 3 | Carvão, Ferro, Cobre |
-| Fragmento de Ferro | 1/5 | 2 | Ferro, Cobre |
+<h2 id="tabelas">📊 Minérios registrados</h2>
 
----
+<h3>🪨 Comuns</h3>
+<table>
+  <tr><th>Minério</th><th>Chance</th><th>Drops máx.</th><th>Blocos</th></tr>
+  <tr><td>Fragmento de Pedra</td><td>1/3</td><td>4</td><td>Carvão, Ferro</td></tr>
+  <tr><td>Fragmento de Cobre</td><td>1/4</td><td>3</td><td>Carvão, Ferro, Cobre</td></tr>
+  <tr><td>Fragmento de Ferro</td><td>1/5</td><td>2</td><td>Ferro, Cobre</td></tr>
+</table>
 
-### 💠 Raros
+<h3>💠 Raros</h3>
+<table>
+  <tr><th>Minério</th><th>Chance</th><th>Drops máx.</th><th>Blocos</th></tr>
+  <tr><td>Núcleo de Ferro</td><td>1/10</td><td>3</td><td>Cobre, Ferro Profundo</td></tr>
+  <tr><td>Fragmento de Ouro</td><td>1/14</td><td>2</td><td>Cobre Profundo, Prismarine</td></tr>
+  <tr><td>Cristal de Quartzo Bruto</td><td>1/16</td><td>2</td><td>Prismarine, Ametista</td></tr>
+  <tr><td>Liga Metálica Bruta</td><td>1/18</td><td>2</td><td>Cobre, Prismarine</td></tr>
+  <tr><td>Núcleo de Redstone</td><td>1/20</td><td>3</td><td>Ferro Profundo, Sculk</td></tr>
+  <tr><td>Essência Geológica</td><td>1/22</td><td>2</td><td>Carvão Profundo, Cobre</td></tr>
+</table>
 
-| Minério | Chance | Drops máx. | Blocos |
-|------|--------|------------|--------|
-| Núcleo de Ferro | 1/10 | 3 | Cobre, Ferro Profundo |
-| Fragmento de Ouro | 1/14 | 2 | Cobre Profundo, Prismarine |
-| Cristal de Quartzo Bruto | 1/16 | 2 | Prismarine, Ametista |
-| Liga Metálica Bruta | 1/18 | 2 | Cobre, Prismarine |
-| Núcleo de Redstone | 1/20 | 3 | Ferro Profundo, Sculk |
-| Essência Geológica | 1/22 | 2 | Carvão Profundo, Cobre |
+<h3>🔮 Épicos</h3>
+<table>
+  <tr><th>Minério</th><th>Chance</th><th>Drops máx.</th><th>Blocos</th></tr>
+  <tr><td>Cristal Ametista Refinado</td><td>1/55</td><td>2</td><td>Ametista, Prismarine</td></tr>
+  <tr><td>Núcleo Energético</td><td>1/65</td><td>1</td><td>Obsidian, Prismarine</td></tr>
+  <tr><td>Essência Sombria</td><td>1/85</td><td>1</td><td>Sculk, Ferro Profundo</td></tr>
+  <tr><td>Núcleo Abissal</td><td>1/80</td><td>1</td><td>Sculk</td></tr>
+  <tr><td>Fragmento Prismático</td><td>1/85</td><td>2</td><td>Prismarine</td></tr>
+</table>
 
----
+<h3>🌟 Lendários</h3>
+<table>
+  <tr><th>Minério</th><th>Chance</th><th>Drops máx.</th><th>Blocos</th></tr>
+  <tr><td>Fragmento Ancestral</td><td>1/425</td><td>1</td><td>Ancient Debris</td></tr>
+  <tr><td>Essência do Mundo</td><td>1/550</td><td>1</td><td>Ancient Debris, Sculk</td></tr>
+  <tr><td>Fragmento do Vazio</td><td>1/475</td><td>1</td><td>Obsidian, Ancient Debris</td></tr>
+</table>
 
-### 🔮 Épicos
+<div class="ritual-divider">💰</div>
 
-| Minério | Chance | Drops máx. | Blocos |
-|------|--------|------------|--------|
-| Cristal Ametista Refinado | 1/55 | 2 | Ametista, Prismarine |
-| Núcleo Energético | 1/65 | 1 | Obsidian, Prismarine |
-| Essência Sombria | 1/85 | 1 | Sculk, Ferro Profundo |
-| Núcleo Abissal | 1/80 | 1 | Sculk |
-| Fragmento Prismático | 1/85 | 2 | Prismarine |
+<h2 id="valor">💰 Valor e destino dos minérios</h2>
 
----
+<ul>
+  <li>podem ser vendidos diretamente</li>
+  <li>podem ser usados na forja</li>
+  <li>podem ser combinados para gerar peso</li>
+</ul>
 
-### 🌟 Lendários
+<div class="lore-quote">
+Nem todo minério precisa virar item.<br>
+Às vezes, vender é sabedoria.
+</div>
 
-| Minério | Chance | Drops máx. | Blocos |
-|------|--------|------------|--------|
-| Fragmento Ancestral | 1/425 | 1 | Ancient Debris |
-| Essência do Mundo | 1/550 | 1 | Ancient Debris, Sculk |
-| Fragmento do Vazio | 1/475 | 1 | Obsidian, Ancient Debris |
+<div class="ritual-divider">🧠</div>
 
----
+<h2 id="filosofia">🧠 Filosofia dos minérios</h2>
 
-## 💰 Valor e destino dos minérios
+<ul>
+  <li>minérios são oportunidade</li>
+  <li>raridade cria tensão</li>
+  <li>chance cria histórias</li>
+  <li>conhecimento cria vantagem</li>
+</ul>
 
-Minérios podem ser:
-- vendidos diretamente por moedas
-- usados na forja
-- combinados para gerar peso
+<div class="lore-quote">
+Quem sabe <strong>onde minerar</strong><br>
+e <strong>quando parar</strong><br>
+avança mais rápido do que quem só insiste.
+</div>
 
-Nem todo minério precisa virar item.
-Às vezes, vender é a escolha inteligente.
+<div class="ritual-divider">➡️</div>
 
----
+<h2>➡️ Próximos passos</h2>
 
-## 🧠 Filosofia dos minérios
+<ul>
+  <li>➡️ <a href="../forging/overview.html">Forja</a></li>
+  <li>➡️ <a href="../economy/overview.html">Economia</a></li>
+</ul>
 
-No TotalAdventure:
-- minérios são oportunidade
-- raridade cria tensão
-- chance cria histórias
-- conhecimento cria vantagem
+<div class="lore-quote">
+Minérios são o início.<br>
+O que você faz com eles decide tudo.
+</div>
 
-Quem entende **onde minerar**
-e **quando parar**
-progride mais rápido do que quem só insiste.
+</main>
+</div>
 
----
-
-## ➡️ Próximos passos
-
-Agora que você entende os minérios, avance para:
-
-➡️ **[Forja](../forging/overview.md)**  
-➡️ **[Economia](../economy/overview.md)**  
-
-Minérios são o início.
-A decisão do que fazer com eles define tudo.
+</body>
+</html>

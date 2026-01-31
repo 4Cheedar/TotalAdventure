@@ -1,214 +1,392 @@
-# Regiões e Geradores 🗺️
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Regiões e Geradores | Ritmo • Pressão • Controle • TotalAdventure</title>
 
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">REGIÕES & GERADORES</div>
+    <div class="hero-subtitle">
+      Onde o perigo nasce — e por que ele não é aleatório
+    </div>
+    <div class="hero-meta">
+      Ritmo • Densidade • Pressão • Decisão
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Sistema</h3>
+  <ul>
+    <li><a href="#conceito">🧠 Conceito</a></li>
+    <li><a href="#regioes">🗺️ Regiões</a></li>
+    <li><a href="#representacao">📍 Representação</a></li>
+    <li><a href="#limites">⏱️ Limites</a></li>
+    <li><a href="#despawn">🧹 Despawn</a></li>
+    <li><a href="#sorteio">🎲 Sorteio</a></li>
+    <li><a href="#geradores">🔮 Geradores</a></li>
+    <li><a href="#desativacao">🔌 Desativação</a></li>
+    <li><a href="#reativacao">🔁 Reativação</a></li>
+    <li><a href="#comparacao">🧭 Comparação</a></li>
+    <li><a href="#impacto">⚠️ Impacto</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2 id="conceito">🗺️ Regiões e Geradores</h2>
+
+<p>
 Mobs não aparecem por acaso.
+</p>
 
-No TotalAdventure, o perigo é **posicionado, limitado e intencional**.
+<p>
+No TotalAdventure, o perigo é <strong>posicionado, limitado e intencional</strong>.
 Regiões e geradores existem para controlar
-**densidade**, **dificuldade** e **ritmo** do combate.
+<strong>densidade</strong>, <strong>dificuldade</strong> e <strong>ritmo</strong> do combate.
+</p>
 
-O mundo decide onde lutar.
+<div class="lore-quote">
+O mundo decide onde lutar.<br>
 O jogador decide se aceita.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Conceito geral
+<h2>🧠 Conceito geral</h2>
 
+<p>
 Existem duas formas principais de spawn:
+</p>
 
-- **Regiões** → perigo ambiental contínuo
-- **Geradores** → focos ativos de ameaça
+<ul>
+  <li><strong>Regiões</strong> → perigo ambiental contínuo</li>
+  <li><strong>Geradores</strong> → focos ativos de ameaça</li>
+</ul>
 
-Ambos coexistem.
+<p>
+Ambos coexistem.<br>
 Ambos se complementam.
+</p>
 
----
+<div class="ritual-divider">🗺️</div>
 
-## 🗺️ Regiões de mobs
+<h2 id="regioes">🗺️ Regiões de mobs</h2>
 
-Regiões definem **áreas válidas de spawn**.
+<p>
+Regiões definem <strong>áreas válidas de spawn</strong>.
+</p>
 
+<p>
 Uma região controla:
-- mundo
-- altura mínima e máxima
-- tipos de bloco permitidos
-- mobs possíveis
-- limites de mobs vivos
-- regras de despawn
+</p>
 
+<ul>
+  <li>mundo</li>
+  <li>altura mínima e máxima</li>
+  <li>tipos de bloco permitidos</li>
+  <li>mobs possíveis</li>
+  <li>limites de mobs vivos</li>
+  <li>regras de despawn</li>
+</ul>
+
+<div class="lore-quote">
 Regiões moldam o mapa invisível do jogo.
+</div>
 
----
+<div class="ritual-divider">📍</div>
 
-## 📍 O que uma região representa
+<h2 id="representacao">📍 O que uma região representa</h2>
 
+<p>
 Uma região pode representar:
-- uma área perigosa
-- um bioma hostil
-- uma zona de mineração profunda
-- um corredor de acesso
-- uma sala de caverna
+</p>
 
-O jogador pode não ver a região,
+<ul>
+  <li>uma área perigosa</li>
+  <li>um bioma hostil</li>
+  <li>uma zona de mineração profunda</li>
+  <li>um corredor de acesso</li>
+  <li>uma sala de caverna</li>
+</ul>
+
+<div class="lore-quote">
+O jogador pode não ver a região,<br>
 mas sente seus efeitos.
+</div>
 
----
+<div class="ritual-divider">⏱️</div>
 
-## ⏱️ Verificação e limites
+<h2 id="limites">⏱️ Verificação e limites</h2>
 
+<p>
 Regiões possuem ciclos de verificação:
+</p>
 
-- intervalo entre checagens
-- limite máximo de mobs vivos
-- remoção automática fora de alcance
+<ul>
+  <li>intervalo entre checagens</li>
+  <li>limite máximo de mobs vivos</li>
+  <li>remoção automática fora de alcance</li>
+</ul>
 
+<p>
 Isso garante:
-- controle de desempenho
-- densidade previsível
-- dificuldade consistente
+</p>
 
-Nada explode fora de controle.
+<ul>
+  <li>controle de desempenho</li>
+  <li>densidade previsível</li>
+  <li>dificuldade consistente</li>
+</ul>
+
+<div class="lore-quote">
+Nada explode fora de controle.<br>
 Tudo é medido.
+</div>
 
----
+<div class="ritual-divider">🧹</div>
 
-## 🧹 Despawn regional
+<h2 id="despawn">🧹 Despawn regional</h2>
 
+<p>
 Mobs de regiões podem despawnar quando:
+</p>
 
-- o jogador se afasta
-- a sala é limpa
-- o gerador associado é desativado
+<ul>
+  <li>o jogador se afasta</li>
+  <li>a sala é limpa</li>
+  <li>o gerador associado é desativado</li>
+</ul>
 
+<p>
 Isso impede:
-- acúmulo eterno
-- áreas permanentemente infestadas
-- exploits de farm infinito
+</p>
 
+<ul>
+  <li>acúmulo eterno</li>
+  <li>áreas permanentemente infestadas</li>
+  <li>exploits de farm infinito</li>
+</ul>
+
+<div class="lore-quote">
 O mundo respira.
+</div>
 
----
+<div class="ritual-divider">🎲</div>
 
-## 🎲 Sorteio de mobs
+<h2 id="sorteio">🎲 Sorteio de mobs</h2>
 
+<p>
 Cada região define:
-- quais mobs podem spawnar
-- peso relativo de cada um
-- limite individual por tipo
-- range de level possível
+</p>
 
+<ul>
+  <li>quais mobs podem spawnar</li>
+  <li>peso relativo de cada um</li>
+  <li>limite individual por tipo</li>
+  <li>range de level possível</li>
+</ul>
+
+<p>
 Isso cria:
-- variedade controlada
-- encontros inesperados
-- identidade local
+</p>
 
-Nem toda luta é igual,
+<ul>
+  <li>variedade controlada</li>
+  <li>encontros inesperados</li>
+  <li>identidade local</li>
+</ul>
+
+<div class="lore-quote">
+Nem toda luta é igual,<br>
 mesmo no mesmo lugar.
+</div>
 
----
+<div class="ritual-divider">🔮</div>
 
-## 🔮 Geradores de mobs
+<h2 id="geradores">🔮 Geradores de mobs</h2>
 
-Geradores são **fontes ativas** de inimigos.
+<p>
+Geradores são <strong>fontes ativas</strong> de inimigos.
+</p>
 
+<p>
 Eles representam:
-- corrupção
-- núcleos instáveis
-- focos de ameaça
-- objetivos claros
+</p>
 
-Enquanto um gerador estiver ativo,
-o perigo **não para**.
+<ul>
+  <li>corrupção</li>
+  <li>núcleos instáveis</li>
+  <li>focos de ameaça</li>
+  <li>objetivos claros</li>
+</ul>
 
----
+<div class="lore-quote">
+Enquanto um gerador estiver ativo,<br>
+o perigo <strong>não para</strong>.
+</div>
 
-## ⚙️ Como geradores funcionam
+<div class="ritual-divider">⚙️</div>
 
+<h2>⚙️ Como geradores funcionam</h2>
+
+<p>
 Um gerador define:
-- mobs possíveis
-- peso de cada mob
-- quantidade por ciclo
-- intervalo de spawn
-- limite de mobs vivos
-- raio de spawn
+</p>
 
+<ul>
+  <li>mobs possíveis</li>
+  <li>peso de cada mob</li>
+  <li>quantidade por ciclo</li>
+  <li>intervalo de spawn</li>
+  <li>limite de mobs vivos</li>
+  <li>raio de spawn</li>
+</ul>
+
+<div class="lore-quote">
 O gerador cria pressão constante.
+</div>
 
----
+<div class="ritual-divider">🔌</div>
 
-## 🔌 Desativação de geradores
+<h2 id="desativacao">🔌 Desativação de geradores</h2>
 
+<p>
 Geradores podem ser desativados:
+</p>
 
-- por interação do jogador
-- após cumprir condições
-- com tempo de canalização
-- sob ameaça constante
+<ul>
+  <li>por interação do jogador</li>
+  <li>após cumprir condições</li>
+  <li>com tempo de canalização</li>
+  <li>sob ameaça constante</li>
+</ul>
 
+<p>
 Durante a desativação:
-- mobs continuam atacando
-- o jogador fica vulnerável
-- decisões rápidas importam
+</p>
 
-Desativar um gerador
-é um **mini-objetivo de combate**.
+<ul>
+  <li>mobs continuam atacando</li>
+  <li>o jogador fica vulnerável</li>
+  <li>decisões rápidas importam</li>
+</ul>
 
----
+<div class="lore-quote">
+Desativar um gerador<br>
+é um <strong>mini-objetivo de combate</strong>.
+</div>
 
-## 🔁 Cooldown e reativação
+<div class="ritual-divider">🔁</div>
 
+<h2 id="reativacao">🔁 Cooldown e reativação</h2>
+
+<p>
 Após desativado, um gerador pode:
+</p>
 
-- ficar inativo por um tempo
-- se reativar automaticamente
-- exigir nova limpeza futura
+<ul>
+  <li>ficar inativo por um tempo</li>
+  <li>se reativar automaticamente</li>
+  <li>exigir nova limpeza futura</li>
+</ul>
 
+<p>
 Isso cria:
-- ciclos de risco
-- áreas temporariamente seguras
-- retorno estratégico
+</p>
 
+<ul>
+  <li>ciclos de risco</li>
+  <li>áreas temporariamente seguras</li>
+  <li>retorno estratégico</li>
+</ul>
+
+<div class="lore-quote">
 Nada é definitivamente limpo.
+</div>
 
----
+<div class="ritual-divider">🧭</div>
 
-## 🧭 Regiões × Geradores
+<h2 id="comparacao">🧭 Regiões × Geradores</h2>
 
-| Regiões | Geradores |
-|------|------|
-| Perigo passivo | Perigo ativo |
-| Contínuas | Pontuais |
-| Definem ambiente | Criam objetivo |
-| Controle amplo | Pressão imediata |
+<table>
+  <thead>
+    <tr>
+      <th>Regiões</th>
+      <th>Geradores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Perigo passivo</td>
+      <td>Perigo ativo</td>
+    </tr>
+    <tr>
+      <td>Contínuas</td>
+      <td>Pontuais</td>
+    </tr>
+    <tr>
+      <td>Definem ambiente</td>
+      <td>Criam objetivo</td>
+    </tr>
+    <tr>
+      <td>Controle amplo</td>
+      <td>Pressão imediata</td>
+    </tr>
+  </tbody>
+</table>
 
-Os dois juntos criam:
-- exploração tensa
-- decisões de rota
-- combate com propósito
-
----
-
-## ⚠️ O que isso significa para o jogador
-
-- entrar em área errada importa
-- ignorar geradores é punição
-- limpar área dá alívio temporário
-- fugir às vezes é correto
-
-O mundo não persegue.
-Ele **aguarda**.
-
----
-
-## 🧠 Filosofia final
-
-No TotalAdventure:
-- perigo é distribuído
-- combate tem ritmo
-- áreas contam histórias
-- controle gera desafio
-
-Regiões constroem o palco.
+<div class="lore-quote">
+Regiões constroem o palco.<br>
 Geradores puxam o gatilho.
+</div>
 
-Se você sente que o mundo conspira contra você,
+<div class="ritual-divider">⚠️</div>
+
+<h2 id="impacto">⚠️ O que isso significa para o jogador</h2>
+
+<ul>
+  <li>entrar em área errada importa</li>
+  <li>ignorar geradores é punição</li>
+  <li>limpar área dá alívio temporário</li>
+  <li>fugir às vezes é correto</li>
+</ul>
+
+<div class="lore-quote">
+O mundo não persegue.<br>
+Ele <strong>aguarda</strong>.
+</div>
+
+<div class="ritual-divider">🧠</div>
+
+<h2 id="filosofia">🧠 Filosofia final</h2>
+
+<ul>
+  <li>perigo é distribuído</li>
+  <li>combate tem ritmo</li>
+  <li>áreas contam histórias</li>
+  <li>controle gera desafio</li>
+</ul>
+
+<div class="lore-quote">
+Se você sente que o mundo conspira contra você,<br>
 provavelmente está tudo funcionando.
+</div>
+
+</main>
+</div>
+
+</body>
+</html>

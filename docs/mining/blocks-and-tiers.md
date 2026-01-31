@@ -1,148 +1,277 @@
-# Blocos e Tiers 🧱
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Blocos e Tiers | Tempo • Limite • Risco • TotalAdventure</title>
 
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">BLOCOS E TIERS</div>
+    <div class="hero-subtitle">
+      Onde o mundo impõe limites claros
+    </div>
+    <div class="hero-meta">
+      Vida • Tier • Tempo • Progressão
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Blocos</h3>
+  <ul>
+    <li><a href="#conceito">🧠 Conceito</a></li>
+    <li><a href="#vida">🪨 Vida</a></li>
+    <li><a href="#hardness">🪜 Hardness</a></li>
+    <li><a href="#xp">✨ XP</a></li>
+    <li><a href="#regeneracao">🔁 Regeneração</a></li>
+    <li><a href="#lista">📊 Tabela</a></li>
+    <li><a href="#tempo">⏱️ Tempo</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>🧱 Blocos e Tiers</h2>
+
+<p>
 No TotalAdventure, blocos não são obstáculos passivos.
-Eles são **entidades com vida**, resistência e valor.
+</p>
 
-Minerar é um processo ativo,
+<p>
+Eles são <strong>entidades com vida</strong>, resistência e valor.
+</p>
+
+<p>
+Minerar é um processo ativo,<br>
 não um clique instantâneo.
+</p>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 O que define um bloco de mineração
+<h2 id="conceito">🧠 O que define um bloco de mineração</h2>
 
+<p>
 Cada bloco de mineração possui atributos próprios:
+</p>
 
-- **Vida (health)** → quanto dano precisa receber para ser quebrado
-- **Hardness (tier)** → qual picareta pode minerá-lo
-- **XP** → experiência concedida ao quebrar
-- **Regeneração** → tempo para reaparecer no mundo
+<ul>
+  <li><strong>Vida (health)</strong> → quanto dano precisa receber para ser quebrado</li>
+  <li><strong>Hardness (tier)</strong> → qual picareta pode minerá-lo</li>
+  <li><strong>XP</strong> → experiência concedida ao quebrar</li>
+  <li><strong>Regeneração</strong> → tempo para reaparecer no mundo</li>
+</ul>
 
-Esses atributos determinam **tempo**, **risco** e **progressão**.
+<p>
+Esses atributos determinam <strong>tempo</strong>, <strong>risco</strong> e <strong>progressão</strong>.
+</p>
 
----
+<div class="ritual-divider">🪨</div>
 
-## 🪨 Vida do bloco (Health)
+<h2 id="vida">🪨 Vida do bloco (Health)</h2>
 
+<p>
 Diferente do Minecraft padrão:
+</p>
 
-- blocos possuem vida numérica
-- cada hit da picareta causa dano ao bloco
-- o bloco só quebra quando a vida chega a zero
+<ul>
+  <li>blocos possuem vida numérica</li>
+  <li>cada hit da picareta causa dano ao bloco</li>
+  <li>o bloco só quebra quando a vida chega a zero</li>
+</ul>
 
+<p>
 Quanto maior a vida:
-- mais tempo minerando
-- mais exposição a mobs
-- maior o risco envolvido
+</p>
 
----
+<ul>
+  <li>mais tempo minerando</li>
+  <li>mais exposição a mobs</li>
+  <li>maior o risco envolvido</li>
+</ul>
 
-## 🪜 Hardness (Tier do bloco)
+<div class="lore-quote">
+Vida alta não protege o bloco.<br>
+Ela <strong>expõe o jogador</strong>.
+</div>
 
-O atributo **hardness** define o tier mínimo da picareta.
+<div class="ritual-divider">🪜</div>
 
-A regra é absoluta:
+<h2 id="hardness">🪜 Hardness (Tier do bloco)</h2>
 
-> **hardness da picareta ≥ hardness do bloco**
+<p>
+O atributo <strong>hardness</strong> define o tier mínimo da picareta.
+</p>
 
+<blockquote>
+hardness da picareta ≥ hardness do bloco
+</blockquote>
+
+<p>
 Se a picareta não atingir o tier exigido:
-- o bloco não recebe dano
-- não há progressão
-- insistir não adianta
+</p>
 
-Hardness não escala com dano.
-Ele **bloqueia acesso**.
+<ul>
+  <li>o bloco não recebe dano</li>
+  <li>não há progressão</li>
+  <li>insistir não adianta</li>
+</ul>
 
----
+<div class="lore-quote">
+Hardness não escala com dano.<br>
+Ele <strong>bloqueia acesso</strong>.
+</div>
 
-## ✨ Experiência (XP)
+<div class="ritual-divider">✨</div>
 
+<h2 id="xp">✨ Experiência (XP)</h2>
+
+<p>
 Ao ser quebrado, o bloco concede experiência.
+</p>
 
-- XP é fixa por tipo de bloco
-- Blocos mais perigosos concedem mais XP
-- XP recompensa eficiência e progressão
+<ul>
+  <li>XP é fixa por tipo de bloco</li>
+  <li>Blocos mais perigosos concedem mais XP</li>
+  <li>XP recompensa eficiência e progressão</li>
+</ul>
 
-Quanto mais fundo e raro o bloco,
+<p>
+Quanto mais fundo e raro o bloco,<br>
 maior o retorno em experiência.
+</p>
 
----
+<div class="ritual-divider">🔁</div>
 
-## 🔁 Regeneração de blocos
+<h2 id="regeneracao">🔁 Regeneração de blocos</h2>
 
-Blocos minerados **não desaparecem permanentemente**.
+<p>
+Blocos minerados <strong>não desaparecem permanentemente</strong>.
+</p>
 
-- Após serem quebrados, eles se regeneram
-- O tempo de regeneração é global
+<ul>
+  <li>Após serem quebrados, eles se regeneram</li>
+  <li>O tempo de regeneração é global</li>
+</ul>
 
-Configuração atual:
-- **10 segundos** para reaparecer
+<div class="danger-box">
+⏱️ Configuração atual<br>
+<strong>10 segundos</strong> para reaparecer
+</div>
 
-📌 Implicações importantes:
-- mineração não esgota o mundo
-- regiões podem ser reutilizadas
-- timing vira parte da estratégia
+<p>
+Implicações importantes:
+</p>
 
-Valores menores favorecem farm,
-valores maiores favorecem exploração.
+<ul>
+  <li>mineração não esgota o mundo</li>
+  <li>regiões podem ser reutilizadas</li>
+  <li>timing vira parte da estratégia</li>
+</ul>
 
----
+<p>
+Valores menores favorecem farm.<br>
+Valores maiores favorecem exploração.
+</p>
 
-## 📊 Blocos disponíveis e seus tiers
+<div class="ritual-divider">📊</div>
 
-| Bloco | Vida | XP | Hardness |
-|-----|------|----|----------|
-| Veio de Carvão | 150 | 8 | 1 |
-| Veio de Carvão Profundo | 180 | 10 | 1 |
-| Veio de Ferro Bruto | 260 | 16 | 2 |
-| Veio de Ferro Compactado | 320 | 20 | 2 |
-| Veio de Cobre Instável | 450 | 28 | 3 |
-| Veio de Cobre Denso | 520 | 32 | 3 |
-| Núcleo Cristalino | 700 | 45 | 4 |
-| Rocha Prismática | 820 | 55 | 4 |
-| Rocha Ancestral | 1200 | 80 | 5 |
-| Núcleo do Mundo | 2000 | 150 | 6 |
-| Coração Abissal | 2500 | 200 | 6 |
+<h2 id="lista">📊 Blocos disponíveis e seus tiers</h2>
 
----
+<table>
+  <thead>
+    <tr>
+      <th>Bloco</th>
+      <th>Vida</th>
+      <th>XP</th>
+      <th>Hardness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Veio de Carvão</td><td>150</td><td>8</td><td>1</td></tr>
+    <tr><td>Veio de Carvão Profundo</td><td>180</td><td>10</td><td>1</td></tr>
+    <tr><td>Veio de Ferro Bruto</td><td>260</td><td>16</td><td>2</td></tr>
+    <tr><td>Veio de Ferro Compactado</td><td>320</td><td>20</td><td>2</td></tr>
+    <tr><td>Veio de Cobre Instável</td><td>450</td><td>28</td><td>3</td></tr>
+    <tr><td>Veio de Cobre Denso</td><td>520</td><td>32</td><td>3</td></tr>
+    <tr><td>Núcleo Cristalino</td><td>700</td><td>45</td><td>4</td></tr>
+    <tr><td>Rocha Prismática</td><td>820</td><td>55</td><td>4</td></tr>
+    <tr><td>Rocha Ancestral</td><td>1200</td><td>80</td><td>5</td></tr>
+    <tr><td>Núcleo do Mundo</td><td>2000</td><td>150</td><td>6</td></tr>
+    <tr><td>Coração Abissal</td><td>2500</td><td>200</td><td>6</td></tr>
+  </tbody>
+</table>
 
-## ⏱️ Tempo é risco
+<div class="ritual-divider">⏱️</div>
 
+<h2 id="tempo">⏱️ Tempo é risco</h2>
+
+<p>
 Quanto maior:
-- a vida do bloco
-- o tier exigido
-- a profundidade da caverna  
+</p>
 
+<ul>
+  <li>a vida do bloco</li>
+  <li>o tier exigido</li>
+  <li>a profundidade da caverna</li>
+</ul>
+
+<p>
 maior o tempo parado minerando.
+</p>
 
-Tempo parado significa:
-- mais mobs
-- mais chance de erro
-- mais risco acumulado
+<div class="lore-quote">
+Tempo parado significa:<br>
+mais mobs • mais erro • mais risco acumulado
+</div>
 
-Minerar rápido não é luxo.
-É sobrevivência.
+<p>
+Minerar rápido não é luxo.<br>
+É <strong>sobrevivência</strong>.
+</p>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Filosofia dos blocos
+<h2 id="filosofia">🧠 Filosofia dos blocos</h2>
 
-No TotalAdventure:
-- blocos definem o ritmo
-- tiers definem limites claros
-- vida define o custo real
-- regeneração mantém o mundo vivo
+<ul>
+  <li>blocos definem o ritmo</li>
+  <li>tiers definem limites claros</li>
+  <li>vida define o custo real</li>
+  <li>regeneração mantém o mundo vivo</li>
+</ul>
 
-Você não “quebra blocos”.
-Você **investe tempo em troca de oportunidade**.
+<div class="lore-quote">
+Você não “quebra blocos”.<br>
+Você <strong>investe tempo em troca de oportunidade</strong>.
+</div>
 
----
+<div class="ritual-divider">➡️</div>
 
-## ➡️ Próximos passos
+<h2>➡️ Próximos passos</h2>
 
-Para continuar no sistema de mineração:
+<ul>
+  <li>➡️ <a href="ores.html">Minérios</a></li>
+  <li>➡️ <a href="caves.html">Cavernas</a></li>
+</ul>
 
-➡️ **[Minérios](ores.md)**  
-➡️ **[Cavernas](caves.md)**  
-
-Blocos definem o desafio.
+<div class="lore-quote">
+Blocos definem o desafio.<br>
 Minérios definem a recompensa.
+</div>
+
+</main>
+</div>
+
+</body>
+</html>

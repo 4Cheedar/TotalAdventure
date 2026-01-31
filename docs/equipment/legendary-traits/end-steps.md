@@ -1,123 +1,229 @@
-# ✦ Passos do Fim
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Passos do Fim | Trait Lendário • TotalAdventure</title>
 
-**Passos do Fim** é um trait lendário focado em **mobilidade ativa**.
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-Ele permite ao jogador **distorcer o espaço**
-e se reposicionar instantaneamente,
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">PASSOS DO FIM</div>
+    <div class="hero-subtitle">
+      Mobilidade ativa e reposicionamento
+    </div>
+    <div class="hero-meta">
+      Trait lendário • Botas • Controle de posição
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Passos do Fim</h3>
+  <ul>
+    <li><a href="#conceito">🧠 Conceito</a></li>
+    <li><a href="#onde">🎯 Onde aparece</a></li>
+    <li><a href="#ativar">🕹️ Ativação</a></li>
+    <li><a href="#mecanica">📊 Mecânica</a></li>
+    <li><a href="#visual">✨ Visual</a></li>
+    <li><a href="#sonoro">🔊 Sonoro</a></li>
+    <li><a href="#uso">⚔️ Estratégia</a></li>
+    <li><a href="#riscos">⚠️ Limitações</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>✦ Passos do Fim</h2>
+
+<p>
+<strong>Passos do Fim</strong> é um trait lendário focado em
+<strong>mobilidade ativa</strong>.
+</p>
+
+<p>
+Ele permite ao jogador <strong>distorcer o espaço</strong><br>
+e se reposicionar instantaneamente,<br>
 ignorando obstáculos e terreno.
+</p>
 
-Não é fuga.
-É **reposicionamento consciente**.
+<div class="lore-quote">
+Não é fuga.<br>
+É <strong>reposicionamento consciente</strong>.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Conceito
+<h2 id="conceito">🧠 Conceito</h2>
 
-O espaço ao redor do jogador se dobra.
+<p>
+O espaço ao redor do jogador se dobra.<br>
 Por um breve momento, distância deixa de existir.
+</p>
 
-Esse poder:
-- não é automático
-- exige ativação manual
-- possui cooldown
-- cobra precisão
+<p>Esse poder:</p>
 
-Teletransportar no momento errado
+<ul>
+  <li>não é automático</li>
+  <li>exige ativação manual</li>
+  <li>possui cooldown</li>
+  <li>cobra precisão</li>
+</ul>
+
+<div class="lore-quote">
+Teletransportar no momento errado<br>
 é tão perigoso quanto não teleportar.
+</div>
 
----
+<div class="ritual-divider">🎯</div>
 
-## 🎯 Onde pode aparecer
+<h2 id="onde">🎯 Onde pode aparecer</h2>
 
-- **Tipo de item:** Botas  
-- **Categoria:** Trait lendário de mobilidade  
-- **Estilo:** Controle de posição e escape tático
+<ul>
+  <li><strong>Tipo de item:</strong> Botas</li>
+  <li><strong>Categoria:</strong> Trait lendário de mobilidade</li>
+  <li><strong>Estilo:</strong> Controle de posição e escape tático</li>
+</ul>
 
----
+<div class="ritual-divider">🕹️</div>
 
-## 🕹️ Como ativar
+<h2 id="ativar">🕹️ Como ativar</h2>
 
-Para usar Passos do Fim:
+<p>Para usar Passos do Fim:</p>
 
-> **Shift + Clique Esquerdo**  
-> *(com as mãos vazias)*
+<blockquote>
+<strong>Shift + Clique Esquerdo</strong><br>
+<em>(com as mãos vazias)</em>
+</blockquote>
 
-O jogador é teleportado
+<p>
+O jogador é teleportado<br>
 na direção em que estiver olhando.
+</p>
 
-Nada acontece sem intenção clara.
+<div class="lore-quote">
+Nada acontece<br>
+sem <strong>intenção clara</strong>.
+</div>
 
----
+<div class="ritual-divider">📊</div>
 
-## 📊 Mecânica detalhada
+<h2 id="mecanica">📊 Mecânica detalhada</h2>
 
-### 🌀 Teleporte
-- Distância máxima: **20 blocos**
-- Direção baseada no olhar do jogador
-- Teleporte seguro (evita locais inválidos)
-- Pequeno atraso visual antes do salto
+<h3>🌀 Teleporte</h3>
 
----
+<ul>
+  <li>Distância máxima: <strong>20 blocos</strong></li>
+  <li>Direção baseada no olhar do jogador</li>
+  <li>Teleporte seguro (evita locais inválidos)</li>
+  <li>Pequeno atraso visual antes do salto</li>
+</ul>
 
-### ⏱️ Cooldown
-- Tempo de recarga: **20 segundos**
-- O trait não pode ser reutilizado antes disso
-- Um som indica quando está pronto novamente
+<h3>⏱️ Cooldown</h3>
 
----
+<ul>
+  <li>Tempo de recarga: <strong>20 segundos</strong></li>
+  <li>O trait não pode ser reutilizado antes disso</li>
+  <li>Um som indica quando está pronto novamente</li>
+</ul>
 
-### 🛡️ Proteções pós-teleporte
-- Curta invulnerabilidade após chegar
-- Evita morte instantânea por reposicionamento agressivo
-- Não permite abuso contínuo
+<h3>🛡️ Proteções pós-teleporte</h3>
 
----
+<ul>
+  <li>Curta invulnerabilidade após chegar</li>
+  <li>Evita morte instantânea por reposicionamento agressivo</li>
+  <li>Não permite abuso contínuo</li>
+</ul>
 
-## ✨ Feedback visual
+<div class="ritual-divider">✨</div>
 
-Ao usar o trait:
-- explosão inicial de partículas
-- rastro dimensional durante o deslocamento
-- aura ao chegar ao destino
-- leve elevação visual do jogador
+<h2 id="visual">✨ Feedback visual</h2>
 
-O uso é **impossível de não perceber**.
+<p>Ao usar o trait:</p>
 
----
+<ul>
+  <li>explosão inicial de partículas</li>
+  <li>rastro dimensional durante o deslocamento</li>
+  <li>aura ao chegar ao destino</li>
+  <li>leve elevação visual do jogador</li>
+</ul>
 
-## 🔊 Feedback sonoro
+<div class="lore-quote">
+O uso é <strong>impossível de não perceber</strong>.
+</div>
 
-- Ao ativar:
-  - som de teleporte intenso
-- Ao chegar:
-  - impacto dimensional
-- Ao finalizar o cooldown:
-  - som de prontidão
+<div class="ritual-divider">🔊</div>
 
-O trait comunica estado o tempo todo.
+<h2 id="sonoro">🔊 Feedback sonoro</h2>
 
----
+<ul>
+  <li>Ao ativar:
+    <ul>
+      <li>som de teleporte intenso</li>
+    </ul>
+  </li>
+  <li>Ao chegar:
+    <ul>
+      <li>impacto dimensional</li>
+    </ul>
+  </li>
+  <li>Ao finalizar o cooldown:
+    <ul>
+      <li>som de prontidão</li>
+    </ul>
+  </li>
+</ul>
 
-## ⚔️ Uso estratégico
+<div class="lore-quote">
+O trait comunica estado<br>
+<strong>o tempo todo</strong>.
+</div>
 
-Passos do Fim é ideal para:
-- sair de cercos
-- atravessar lacunas
-- reposicionar em cavernas
-- evitar ataques letais
-- iniciar ou encerrar combates
+<div class="ritual-divider">⚔️</div>
 
-Também pode ser usado ofensivamente,
+<h2 id="uso">⚔️ Uso estratégico</h2>
+
+<p>Passos do Fim é ideal para:</p>
+
+<ul>
+  <li>sair de cercos</li>
+  <li>atravessar lacunas</li>
+  <li>reposicionar em cavernas</li>
+  <li>evitar ataques letais</li>
+  <li>iniciar ou encerrar combates</li>
+</ul>
+
+<p>
+Também pode ser usado ofensivamente,<br>
 mas exige leitura perfeita do ambiente.
+</p>
 
----
+<div class="ritual-divider">⚠️</div>
 
-## ⚠️ Riscos e limitações
+<h2 id="riscos">⚠️ Riscos e limitações</h2>
 
-- cooldown relativamente longo
-- uso errado pode isolar o jogador
-- teleporte ofensivo sem saída é suicídio
-- não atravessa limites impossíveis
+<ul>
+  <li>cooldown relativamente longo</li>
+  <li>uso errado pode isolar o jogador</li>
+  <li>teleporte ofensivo sem saída é suicídio</li>
+  <li>não atravessa limites impossíveis</li>
+</ul>
 
-Mobilidade sem planejamento
-vira arma
+<div class="lore-quote">
+Mobilidade sem planejamento<br>
+vira <strong>arma contra você mesmo</strong>.
+</div>
+
+</main>
+</div>
+
+</body>
+</html>

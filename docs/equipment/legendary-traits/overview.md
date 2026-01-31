@@ -1,163 +1,278 @@
-# Traits Lendários ✦
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Traits Lendários | TotalAdventure</title>
 
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">TRAITS LENDÁRIOS</div>
+    <div class="hero-subtitle">
+      Identidade acima de números
+    </div>
+    <div class="hero-meta">
+      Mecânica • Exceção • Memória
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Traits</h3>
+  <ul>
+    <li><a href="#o-que-e">🧠 Conceito</a></li>
+    <li><a href="#diferenca">⚖️ Trait × Atributo</a></li>
+    <li><a href="#obtencao">🔓 Obtenção</a></li>
+    <li><a href="#interacao">🎯 Interações</a></li>
+    <li><a href="#estado">⏳ Estado</a></li>
+    <li><a href="#visual">✨ Feedback</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>✦ Traits Lendários</h2>
+
+<p>
 Traits lendários são o nível mais alto de identidade
 que um equipamento pode alcançar no TotalAdventure.
+</p>
 
-Eles não são bônus.
-Eles não são encantamentos.
-Eles são **assinaturas únicas**.
+<p>
+Eles não são bônus.<br>
+Eles não são encantamentos.<br>
+Eles são <strong>assinaturas únicas</strong>.
+</p>
 
-Um item com trait lendário não é apenas forte.
-Ele **se comporta diferente**.
+<div class="lore-quote">
+Um item com trait lendário não é apenas forte.<br>
+Ele <strong>se comporta diferente</strong>.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 O que é um trait lendário
+<h2 id="o-que-e">🧠 O que é um trait lendário</h2>
 
+<p>
 Um trait lendário é uma habilidade especial
 que pode ser aplicada a um equipamento durante o caldeirão.
+</p>
 
-Diferente de atributos, um trait:
-- reage a eventos do jogo
-- pode ter estado interno (stacks, cooldown)
-- pode ativar efeitos visuais e sonoros
-- pode alterar completamente o estilo de jogo
+<p>Diferente de atributos, um trait:</p>
 
-📌 Traits não escalam números.  
-Eles **introduzem mecânicas**.
+<ul>
+  <li>reage a eventos do jogo</li>
+  <li>pode ter estado interno (stacks, cooldown)</li>
+  <li>pode ativar efeitos visuais e sonoros</li>
+  <li>pode alterar completamente o estilo de jogo</li>
+</ul>
 
----
+<div class="lore-quote">
+Traits não escalam números.<br>
+Eles <strong>introduzem mecânicas</strong>.
+</div>
 
-## ⚖️ Trait ≠ Atributo
+<div class="ritual-divider">⚖️</div>
 
-A diferença é fundamental:
+<h2 id="diferenca">⚖️ Trait ≠ Atributo</h2>
 
-### 🧬 Atributos
-- são valores numéricos
-- aumentam dano, vida, chance, etc
-- escalam com raridade
-- são previsíveis
+<p>A diferença é fundamental:</p>
 
-### ✦ Traits lendários
-- são habilidades
-- possuem regras próprias
-- mudam comportamento
-- criam identidade
+<h3>🧬 Atributos</h3>
 
-Um item pode ter ótimos atributos
+<ul>
+  <li>são valores numéricos</li>
+  <li>aumentam dano, vida, chance, etc</li>
+  <li>escalam com raridade</li>
+  <li>são previsíveis</li>
+</ul>
+
+<h3>✦ Traits lendários</h3>
+
+<ul>
+  <li>são habilidades</li>
+  <li>possuem regras próprias</li>
+  <li>mudam comportamento</li>
+  <li>criam identidade</li>
+</ul>
+
+<div class="lore-quote">
+Um item pode ter ótimos atributos<br>
 e ainda assim ser esquecível.
+</div>
 
+<p>
 Um item com trait raramente é.
+</p>
 
----
+<div class="ritual-divider">🔓</div>
 
-## 🔓 Como um trait é obtido
+<h2 id="obtencao">🔓 Como um trait é obtido</h2>
 
-Traits lendários:
-- **não são garantidos**
-- dependem do template do item
-- só podem surgir se `allowLegendaryTrait = true`
-- são sorteados apenas no caldeirão
-- geralmente exigem itens de alta raridade
+<p>Traits lendários:</p>
 
-Nem todo item lendário possui trait.
+<ul>
+  <li><strong>não são garantidos</strong></li>
+  <li>dependem do template do item</li>
+  <li>só podem surgir se <code>allowLegendaryTrait = true</code></li>
+  <li>são sorteados apenas no caldeirão</li>
+  <li>geralmente exigem itens de alta raridade</li>
+</ul>
+
+<div class="lore-quote">
+Nem todo item lendário possui trait.<br>
 Mas todo trait é lendário.
+</div>
 
----
+<div class="ritual-divider">🎯</div>
 
-## 🎯 Tipos de interação
+<h2 id="interacao">🎯 Tipos de interação</h2>
 
-Um trait pode reagir a diferentes eventos, como:
-- ataques
-- mortes de inimigos
-- dano recebido
-- uso ativo do item
-- estados temporários do jogador
+<p>Um trait pode reagir a diferentes eventos, como:</p>
 
-Isso permite:
-- builds baseadas em ritmo
-- habilidades condicionais
-- janelas de poder
-- decisões táticas em combate
+<ul>
+  <li>ataques</li>
+  <li>mortes de inimigos</li>
+  <li>dano recebido</li>
+  <li>uso ativo do item</li>
+  <li>estados temporários do jogador</li>
+</ul>
 
----
+<p>Isso permite:</p>
 
-## ⏳ Estado, stacks e cooldowns
+<ul>
+  <li>builds baseadas em ritmo</li>
+  <li>habilidades condicionais</li>
+  <li>janelas de poder</li>
+  <li>decisões táticas em combate</li>
+</ul>
 
-Traits podem possuir:
-- acúmulo de stacks
-- duração temporária
-- tempo de recarga
-- consumo de estado ao ativar
+<div class="ritual-divider">⏳</div>
 
-Esses sistemas impedem:
-- spam
-- poder constante
-- efeitos passivos eternos
+<h2 id="estado">⏳ Estado, stacks e cooldowns</h2>
 
-O poder existe.
-Mas ele precisa ser **gerenciado**.
+<p>Traits podem possuir:</p>
 
----
+<ul>
+  <li>acúmulo de stacks</li>
+  <li>duração temporária</li>
+  <li>tempo de recarga</li>
+  <li>consumo de estado ao ativar</li>
+</ul>
 
-## ✨ Feedback visual e sonoro
+<p>Esses sistemas impedem:</p>
 
-Traits lendários não são invisíveis.
+<ul>
+  <li>spam</li>
+  <li>poder constante</li>
+  <li>efeitos passivos eternos</li>
+</ul>
 
-Eles podem exibir:
-- partículas
-- cores específicas
-- auras
-- efeitos de trilha
-- sons únicos
+<div class="lore-quote">
+O poder existe.<br>
+Mas ele precisa ser <strong>gerenciado</strong>.
+</div>
 
-Isso cria:
-- leitura visual clara
-- reconhecimento imediato
-- impacto social
-- identidade estética
+<div class="ritual-divider">✨</div>
 
-Um trait lendário é percebido
+<h2 id="visual">✨ Feedback visual e sonoro</h2>
+
+<p>Traits lendários não são invisíveis.</p>
+
+<p>Eles podem exibir:</p>
+
+<ul>
+  <li>partículas</li>
+  <li>cores específicas</li>
+  <li>auras</li>
+  <li>efeitos de trilha</li>
+  <li>sons únicos</li>
+</ul>
+
+<p>Isso cria:</p>
+
+<ul>
+  <li>leitura visual clara</li>
+  <li>reconhecimento imediato</li>
+  <li>impacto social</li>
+  <li>identidade estética</li>
+</ul>
+
+<div class="lore-quote">
+Um trait lendário é percebido<br>
 antes mesmo de ser entendido.
+</div>
 
----
+<div class="ritual-divider">🧩</div>
 
-## 🧩 Compatibilidade por equipamento
+<h2>🧩 Compatibilidade por equipamento</h2>
 
-Cada trait define:
-- em quais tipos de item pode aparecer
-  - armas
-  - botas
-  - peitorais
-  - etc.
+<p>Cada trait define:</p>
 
-Isso evita combinações absurdas
+<ul>
+  <li>em quais tipos de item pode aparecer</li>
+  <li>armas</li>
+  <li>botas</li>
+  <li>peitorais</li>
+  <li>etc.</li>
+</ul>
+
+<p>
+Isso evita combinações absurdas<br>
 e mantém identidade temática.
+</p>
 
-Um poder deve **combinar com o item**.
+<div class="lore-quote">
+Um poder deve <strong>combinar com o item</strong>.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Filosofia dos traits lendários
+<h2 id="filosofia">🧠 Filosofia dos traits lendários</h2>
 
-No TotalAdventure:
-- traits não são obrigatórios
-- não existem para balancear builds fracas
-- existem para criar exceções memoráveis
-- quebram padrões de forma controlada
+<p>No TotalAdventure:</p>
 
-Um trait lendário não faz o item “melhor”.
-Ele faz o item **interessante**.
+<ul>
+  <li>traits não são obrigatórios</li>
+  <li>não existem para balancear builds fracas</li>
+  <li>existem para criar exceções memoráveis</li>
+  <li>quebram padrões de forma controlada</li>
+</ul>
 
----
+<div class="lore-quote">
+Um trait lendário não faz o item “melhor”.<br>
+Ele faz o item <strong>interessante</strong>.
+</div>
 
-## ➡️ Próximos passos
+<div class="ritual-divider">➡️</div>
 
-Para entender traits específicos, veja:
+<h2>➡️ Próximos passos</h2>
 
-➡️ **[Sede de Sangue](bloodlust.md)**  
-➡️ **[Passos do Fim](end-steps.md)**  
-➡️ **[Escudo de Ferro](iron-shield.md)**  
+<p>Para entender traits específicos, veja:</p>
 
-Traits são raros por um motivo.
+<p>
+➡️ <a href="bloodlust.md">Sede de Sangue</a><br>
+➡️ <a href="end-steps.md">Passos do Fim</a><br>
+➡️ <a href="iron-shield.md">Escudo de Ferro</a>
+</p>
+
+<div class="lore-quote">
+Traits são raros por um motivo.<br>
 Eles existem para serem lembrados.
+</div>
+
+</main>
+</div>
+
+</body>
+</html>

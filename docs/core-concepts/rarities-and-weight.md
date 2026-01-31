@@ -1,139 +1,317 @@
-# Raridades e Peso ⚖️
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Raridades e Peso | TotalAdventure</title>
 
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">RARIDADES & PESO</div>
+    <div class="hero-subtitle">
+      Onde ambição, valor e risco se encontram
+    </div>
+    <div class="hero-meta">
+      Valor • Poder • Consequência
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Fundamentos</h3>
+  <ul>
+    <li><a href="#raridades">💎 Raridades</a></li>
+    <li><a href="#mineracao">⛏️ Mineração</a></li>
+    <li><a href="#peso">⚖️ Peso</a></li>
+    <li><a href="#forja">🔥 Forja</a></li>
+    <li><a href="#tendencia">⚔️ Tendência</a></li>
+    <li><a href="#risco">🧪 Risco</a></li>
+    <li><a href="#pensar">🧠 Decisão</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>⚖️ Raridades e Peso</h2>
+
+<p>
 No TotalAdventure, raridade não é um rótulo cosmético.
-Ela define **valor**, **poder**, **risco** e **progressão**.
+Ela define <strong>valor</strong>, <strong>poder</strong>, <strong>risco</strong> e <strong>progressão</strong>.
+</p>
 
+<p>
 Tudo — minérios, itens, equipamentos e resultados da forja —
 existe dentro de um sistema de raridades bem definido.
+</p>
 
----
+<div class="ritual-divider">💎</div>
 
-## 💎 As raridades do jogo
+<h2 id="raridades">💎 As raridades do jogo</h2>
 
-Existem quatro raridades principais:
+<p>Existem quatro raridades principais:</p>
 
-- **Comum**
-- **Raro**
-- **Épico**
-- **Lendário**
+<ul>
+  <li><strong>Comum</strong></li>
+  <li><strong>Raro</strong></li>
+  <li><strong>Épico</strong></li>
+  <li><strong>Lendário</strong></li>
+</ul>
 
+<p>
 Essas raridades aparecem em múltiplos sistemas,
 mas sempre mantêm o mesmo significado conceitual:
+</p>
 
-> Quanto mais rara, maior o potencial —  
-> e maiores as consequências das decisões.
+<blockquote>
+Quanto mais rara, maior o potencial —<br>
+e maiores as consequências das decisões.
+</blockquote>
 
----
+<div class="ritual-divider">⛏️</div>
 
-## ⛏️ Raridade na mineração
+<h2 id="mineracao">⛏️ Raridade na mineração</h2>
 
-Durante a mineração, a raridade influencia diretamente:
+<p>Durante a mineração, a raridade influencia diretamente:</p>
 
-- experiência recebida
-- quantidade de drops
-- chance de efeitos especiais
-- valor de venda
-- peso contribuído na forja
+<ul>
+  <li>experiência recebida</li>
+  <li>quantidade de drops</li>
+  <li>chance de efeitos especiais</li>
+  <li>valor de venda</li>
+  <li>peso contribuído na forja</li>
+</ul>
 
-### 📊 Comparação geral
+<h3>📊 Comparação geral</h3>
 
-| Raridade   | XP Mult. | Drop Mult. | Chance de Efeito | Peso | Valor de Venda |
-|-----------|----------|------------|------------------|------|----------------|
-| Comum     | 1.0×     | 1.0×       | 0%               | 1    | 20–50          |
-| Raro      | 1.2×     | 1.3×       | 5%               | 2    | 50–120         |
-| Épico     | 1.5×     | 1.7×       | 10%              | 4    | 120–300        |
-| Lendário  | 2.0×     | 2.5×       | 20%              | 7    | 300–600        |
+<table>
+  <thead>
+    <tr>
+      <th>Raridade</th>
+      <th>XP Mult.</th>
+      <th>Drop Mult.</th>
+      <th>Chance de Efeito</th>
+      <th>Peso</th>
+      <th>Valor de Venda</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comum</td>
+      <td>1.0×</td>
+      <td>1.0×</td>
+      <td>0%</td>
+      <td>1</td>
+      <td>20–50</td>
+    </tr>
+    <tr>
+      <td>Raro</td>
+      <td>1.2×</td>
+      <td>1.3×</td>
+      <td>5%</td>
+      <td>2</td>
+      <td>50–120</td>
+    </tr>
+    <tr>
+      <td>Épico</td>
+      <td>1.5×</td>
+      <td>1.7×</td>
+      <td>10%</td>
+      <td>4</td>
+      <td>120–300</td>
+    </tr>
+    <tr>
+      <td>Lendário</td>
+      <td>2.0×</td>
+      <td>2.5×</td>
+      <td>20%</td>
+      <td>7</td>
+      <td>300–600</td>
+    </tr>
+  </tbody>
+</table>
 
-📌 **Importante**  
-O valor de venda é aplicado **a minérios e itens**  
+<p><strong>📌 Importante</strong><br>
+O valor de venda é aplicado <strong>a minérios e itens</strong><br>
 e pode variar dentro do intervalo definido.
+</p>
 
----
+<div class="ritual-divider">⚖️</div>
 
-## ⚖️ Peso — o elo entre mineração e forja
+<h2 id="peso">⚖️ Peso — o elo entre mineração e forja</h2>
 
-Peso é o recurso invisível mais importante do jogo.
+<p>Peso é o recurso invisível mais importante do jogo.</p>
 
-- Cada minério possui um peso baseado na raridade
-- Ao forjar, os pesos são **somados**
-- O peso total define:
-  - a raridade final do item
-  - o número de batidas na bigorna
-  - o multiplicador de atributos
-  - a chance de falha no caldeirão
+<ul>
+  <li>Cada minério possui um peso baseado na raridade</li>
+  <li>Ao forjar, os pesos são <strong>somados</strong></li>
+  <li>O peso total define:</li>
+</ul>
 
-> Peso não mede quantidade.  
-> Mede **ambição**.
+<ul>
+  <li>a raridade final do item</li>
+  <li>o número de batidas na bigorna</li>
+  <li>o multiplicador de atributos</li>
+  <li>a chance de falha no caldeirão</li>
+</ul>
 
----
+<div class="lore-quote">
+Peso não mede quantidade.<br>
+Mede <strong>ambição</strong>.
+</div>
 
-## 🔥 Raridade na forja
+<div class="ritual-divider">🔥</div>
 
-A raridade de um item forjado **não é escolhida**.
-Ela é determinada automaticamente pelo **peso total** dos minérios usados.
+<h2 id="forja">🔥 Raridade na forja</h2>
 
-### 📊 Faixas de peso
+<p>
+A raridade de um item forjado <strong>não é escolhida</strong>.
+Ela é determinada automaticamente pelo <strong>peso total</strong> dos minérios usados.
+</p>
 
-| Raridade   | Peso Total | Multiplicador | Batidas | Chance de Falha |
-|-----------|------------|---------------|---------|-----------------|
-| Comum     | 0–15       | 1.0×          | 10      | 35%             |
-| Raro      | 16–35      | 1.2×          | 15      | 20%             |
-| Épico     | 36–70      | 1.5×          | 20      | 10%             |
-| Lendário  | 71+        | 2.0×          | 25      | 3%              |
+<h3>📊 Faixas de peso</h3>
 
----
+<table>
+  <thead>
+    <tr>
+      <th>Raridade</th>
+      <th>Peso Total</th>
+      <th>Multiplicador</th>
+      <th>Batidas</th>
+      <th>Chance de Falha</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comum</td>
+      <td>0–15</td>
+      <td>1.0×</td>
+      <td>10</td>
+      <td>35%</td>
+    </tr>
+    <tr>
+      <td>Raro</td>
+      <td>16–35</td>
+      <td>1.2×</td>
+      <td>15</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>Épico</td>
+      <td>36–70</td>
+      <td>1.5×</td>
+      <td>20</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <td>Lendário</td>
+      <td>71+</td>
+      <td>2.0×</td>
+      <td>25</td>
+      <td>3%</td>
+    </tr>
+  </tbody>
+</table>
 
-## ⚔️ Tendência de equipamento (Weapon Bias)
+<div class="ritual-divider">⚔️</div>
 
-Durante a forja, existe uma chance maior de gerar **armas**
+<h2 id="tendencia">⚔️ Tendência de equipamento (Weapon Bias)</h2>
+
+<p>
+Durante a forja, existe uma chance maior de gerar <strong>armas</strong>
 conforme a raridade aumenta.
+</p>
 
-| Raridade   | Tendência para Armas |
-|-----------|----------------------|
-| Comum     | 15%                  |
-| Raro      | 35%                  |
-| Épico     | 60%                  |
-| Lendário  | 80%                  |
+<table>
+  <thead>
+    <tr>
+      <th>Raridade</th>
+      <th>Tendência para Armas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comum</td>
+      <td>15%</td>
+    </tr>
+    <tr>
+      <td>Raro</td>
+      <td>35%</td>
+    </tr>
+    <tr>
+      <td>Épico</td>
+      <td>60%</td>
+    </tr>
+    <tr>
+      <td>Lendário</td>
+      <td>80%</td>
+    </tr>
+  </tbody>
+</table>
 
+<p>
 Itens lendários tendem naturalmente a se tornarem armas,
 mas isso nunca é garantido.
+</p>
 
----
+<div class="ritual-divider">🧪</div>
 
-## 🧪 O risco real da raridade
+<h2 id="risco">🧪 O risco real da raridade</h2>
 
-Raridade alta **não é só vantagem**.
+<p>Raridade alta <strong>não é só vantagem</strong>.</p>
 
-- mais peso → mais investimento
-- mais batidas → mais tempo
-- menos chance de falha → mas nunca zero
-- falhar no caldeirão destrói o item
+<ul>
+  <li>mais peso → mais investimento</li>
+  <li>mais batidas → mais tempo</li>
+  <li>menos chance de falha → mas nunca zero</li>
+  <li>falhar no caldeirão destrói o item</li>
+</ul>
 
-> O jogo não pune quem tenta.  
-> Ele pune quem tenta **sem entender o risco**.
+<div class="lore-quote">
+O jogo não pune quem tenta.<br>
+Ele pune quem tenta <strong>sem entender o risco</strong>.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Como pensar em raridade
+<h2 id="pensar">🧠 Como pensar em raridade</h2>
 
-Algumas verdades importantes:
+<p>Algumas verdades importantes:</p>
 
-- muitos minérios comuns > poucos minérios lendários
-- peso mal distribuído gera itens medianos
-- vender pode ser mais seguro que forjar
-- nem todo minério precisa virar equipamento
+<ul>
+  <li>muitos minérios comuns &gt; poucos minérios lendários</li>
+  <li>peso mal distribuído gera itens medianos</li>
+  <li>vender pode ser mais seguro que forjar</li>
+  <li>nem todo minério precisa virar equipamento</li>
+</ul>
 
-Raridade não é meta.
-É **ferramenta de decisão**.
+<div class="lore-quote">
+Raridade não é meta.<br>
+É <strong>ferramenta de decisão</strong>.
+</div>
 
----
+<div class="ritual-divider">➡️</div>
 
-## ➡️ Próximos passos
+<h2>➡️ Próximos passos</h2>
 
-Agora que você entende raridade e peso, avance para:
+<p>Agora que você entende raridade e peso, avance para:</p>
 
-➡️ **[Mineração](../mining/overview.md)**  
-➡️ **[Forja](../forging/overview.md)**  
-➡️ **[Equipamentos e Atributos](../equipment/overview.md)**  
+<p>
+➡️ <a href="../mining/overview.md">Mineração</a><br>
+➡️ <a href="../forging/overview.md">Forja</a><br>
+➡️ <a href="../equipment/overview.md">Equipamentos e Atributos</a>
+</p>
 
-Esses sistemas só fazem sentido quando vistos juntos.
+</main>
+</div>
+
+</body>
+</html>

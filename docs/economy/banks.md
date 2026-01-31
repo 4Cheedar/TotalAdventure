@@ -1,162 +1,278 @@
-# Bancos 🏦
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Bancos | TotalAdventure</title>
 
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">BANCOS</div>
+    <div class="hero-subtitle">
+      Segurança localizada, risco organizado
+    </div>
+    <div class="hero-meta">
+      Presença • Logística • Consequência
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Instituição</h3>
+  <ul>
+    <li><a href="#papel">🧠 Papel</a></li>
+    <li><a href="#lugares">🧱 Lugares Reais</a></li>
+    <li><a href="#fluxo">🔄 Fluxo</a></li>
+    <li><a href="#depositos">💰 Depósitos</a></li>
+    <li><a href="#saques">💸 Saques</a></li>
+    <li><a href="#manutencao">🧹 Manutenção</a></li>
+    <li><a href="#identidade">🏙️ Identidade</a></li>
+    <li><a href="#riscos">⚠️ Riscos</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>🏦 Bancos</h2>
+
+<p>
 No TotalAdventure, um banco não é um conceito abstrato.
-Ele é **um bloco físico no mundo**.
+Ele é <strong>um bloco físico no mundo</strong>.
+</p>
 
-Se você não estiver lá,
+<p>
+Se você não estiver lá,<br>
 seu dinheiro não existe.
+</p>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 O papel dos bancos
+<h2 id="papel">🧠 O papel dos bancos</h2>
 
-Bancos existem para:
-- armazenar moedas físicas
-- permitir compras em NPCs locais
-- criar economia regional
-- impor custo ao acúmulo de riqueza
+<p>Bancos existem para:</p>
 
-Eles não facilitam o jogo.
-Eles **organizam o risco**.
+<ul>
+  <li>armazenar moedas físicas</li>
+  <li>permitir compras em NPCs locais</li>
+  <li>criar economia regional</li>
+  <li>impor custo ao acúmulo de riqueza</li>
+</ul>
 
----
+<div class="lore-quote">
+Eles não facilitam o jogo.<br>
+Eles <strong>organizam o risco</strong>.
+</div>
 
-## 🧱 Bancos são lugares reais
+<div class="ritual-divider">🧱</div>
 
-Cada banco possui:
-- uma posição fixa no mundo
-- um bloco físico interativo
-- um nome exibido ao jogador
-- regras próprias de taxas
+<h2 id="lugares">🧱 Bancos são lugares reais</h2>
 
-📌 Não existe banco global  
-📌 Não existe saldo compartilhado  
-📌 Cada local é independente  
+<p>Cada banco possui:</p>
 
-Se você muda de vila,
-seu dinheiro **fica para trás**.
+<ul>
+  <li>uma posição fixa no mundo</li>
+  <li>um bloco físico interativo</li>
+  <li>um nome exibido ao jogador</li>
+  <li>regras próprias de taxas</li>
+</ul>
 
----
+<p>
+📌 Não existe banco global<br>
+📌 Não existe saldo compartilhado<br>
+📌 Cada local é independente
+</p>
 
-## 🔄 Fluxo básico de uso
+<p>
+Se você muda de vila,<br>
+seu dinheiro <strong>fica para trás</strong>.
+</p>
 
-O ciclo econômico com bancos é sempre o mesmo:
+<div class="ritual-divider">🔄</div>
 
-> **Ganhar moedas → Ir até o banco → Depositar → Gastar localmente**
+<h2 id="fluxo">🔄 Fluxo básico de uso</h2>
 
-Detalhes importantes:
-- moedas no inventário **não contam**
-- NPCs só aceitam dinheiro do banco da região
-- morrer não remove dinheiro do banco
+<p>O ciclo econômico com bancos é sempre o mesmo:</p>
 
-O banco é segurança.
+<blockquote>
+<strong>Ganhar moedas → Ir até o banco → Depositar → Gastar localmente</strong>
+</blockquote>
+
+<p>Detalhes importantes:</p>
+
+<ul>
+  <li>moedas no inventário <strong>não contam</strong></li>
+  <li>NPCs só aceitam dinheiro do banco da região</li>
+  <li>morrer não remove dinheiro do banco</li>
+</ul>
+
+<div class="lore-quote">
+O banco é segurança.<br>
 Chegar até ele é o desafio.
+</div>
 
----
+<div class="ritual-divider">💰</div>
 
-## 💰 Depósitos
+<h2 id="depositos">💰 Depósitos</h2>
 
-- moedas físicas são depositadas manualmente
-- bronze, prata e ouro são convertidas automaticamente
-- o saldo fica registrado no banco local
+<ul>
+  <li>moedas físicas são depositadas manualmente</li>
+  <li>bronze, prata e ouro são convertidas automaticamente</li>
+  <li>o saldo fica registrado no banco local</li>
+</ul>
 
-Depositar é sempre seguro.
+<div class="lore-quote">
+Depositar é sempre seguro.<br>
 O perigo está no caminho até lá.
+</div>
 
----
+<div class="ritual-divider">💸</div>
 
-## 💸 Saques
+<h2 id="saques">💸 Saques</h2>
 
-Bancos podem cobrar taxa de saque.
+<p>Bancos podem cobrar taxa de saque.</p>
 
-- taxa percentual configurável
-- aplicada sobre o valor retirado
-- varia de banco para banco
+<ul>
+  <li>taxa percentual configurável</li>
+  <li>aplicada sobre o valor retirado</li>
+  <li>varia de banco para banco</li>
+</ul>
 
-Alguns bancos:
-- incentivam circulação
-- outros punem retirada constante
+<p>Alguns bancos:</p>
 
-Sacar dinheiro **tem custo**.
+<ul>
+  <li>incentivam circulação</li>
+  <li>outros punem retirada constante</li>
+</ul>
 
----
+<div class="lore-quote">
+Sacar dinheiro <strong>tem custo</strong>.
+</div>
 
-## 🧹 Manutenção
+<div class="ritual-divider">🧹</div>
 
-Bancos podem aplicar manutenção automática.
+<h2 id="manutencao">🧹 Manutenção</h2>
 
-- cobrança periódica (geralmente semanal)
-- percentual sobre o saldo atual
-- taxa fixa adicional
-- ocorre mesmo se o jogador não logar
+<p>Bancos podem aplicar manutenção automática.</p>
 
+<ul>
+  <li>cobrança periódica (geralmente semanal)</li>
+  <li>percentual sobre o saldo atual</li>
+  <li>taxa fixa adicional</li>
+  <li>ocorre mesmo se o jogador não logar</li>
+</ul>
+
+<p>
 📌 Dinheiro parado perde valor.
+</p>
 
-Manutenção existe para:
-- evitar acúmulo infinito
-- incentivar gasto e circulação
-- reforçar economia viva
+<p>Manutenção existe para:</p>
 
----
+<ul>
+  <li>evitar acúmulo infinito</li>
+  <li>incentivar gasto e circulação</li>
+  <li>reforçar economia viva</li>
+</ul>
 
-## 🏙️ Identidade regional
+<div class="ritual-divider">🏙️</div>
 
-Cada banco pertence a uma região.
+<h2 id="identidade">🏙️ Identidade regional</h2>
 
-Isso permite:
-- vilas ricas
-- vilas decadentes
-- centros comerciais
-- postos avançados perigosos
+<p>Cada banco pertence a uma região.</p>
 
-Um banco em local seguro:
-- cobra menos
-- paga menos
+<p>Isso permite:</p>
 
-Um banco em área hostil:
-- paga melhor
-- cobra mais
+<ul>
+  <li>vilas ricas</li>
+  <li>vilas decadentes</li>
+  <li>centros comerciais</li>
+  <li>postos avançados perigosos</li>
+</ul>
 
+<p>Um banco em local seguro:</p>
+<ul>
+  <li>cobra menos</li>
+  <li>paga menos</li>
+</ul>
+
+<p>Um banco em área hostil:</p>
+<ul>
+  <li>paga melhor</li>
+  <li>cobra mais</li>
+</ul>
+
+<div class="lore-quote">
 A economia reflete o mundo.
+</div>
 
----
+<div class="ritual-divider">⚠️</div>
 
-## ⚠️ Riscos e decisões
+<h2 id="riscos">⚠️ Riscos e decisões</h2>
 
-Guardar muito dinheiro em um banco:
-- aumenta custo de manutenção
-- prende riqueza a um local
-- cria dependência regional
+<p>Guardar muito dinheiro em um banco:</p>
 
-Espalhar dinheiro:
-- reduz risco
-- aumenta logística
-- exige planejamento
+<ul>
+  <li>aumenta custo de manutenção</li>
+  <li>prende riqueza a um local</li>
+  <li>cria dependência regional</li>
+</ul>
 
-Não existe escolha perfeita.
-Existe **estratégia**.
+<p>Espalhar dinheiro:</p>
 
----
+<ul>
+  <li>reduz risco</li>
+  <li>aumenta logística</li>
+  <li>exige planejamento</li>
+</ul>
 
-## 🧠 Filosofia dos bancos
+<div class="lore-quote">
+Não existe escolha perfeita.<br>
+Existe <strong>estratégia</strong>.
+</div>
 
-No TotalAdventure:
-- dinheiro não viaja sozinho
-- segurança tem preço
-- riqueza exige presença
-- logística é parte do jogo
+<div class="ritual-divider">🧠</div>
 
-O banco não guarda seu dinheiro.
-Ele guarda **suas decisões passadas**.
+<h2 id="filosofia">🧠 Filosofia dos bancos</h2>
 
----
+<ul>
+  <li>dinheiro não viaja sozinho</li>
+  <li>segurança tem preço</li>
+  <li>riqueza exige presença</li>
+  <li>logística é parte do jogo</li>
+</ul>
 
-## ➡️ Próximos passos
+<div class="lore-quote">
+O banco não guarda seu dinheiro.<br>
+Ele guarda <strong>suas decisões passadas</strong>.
+</div>
 
-Para continuar entendendo a economia:
+<div class="ritual-divider">➡️</div>
 
-➡️ **[NPCs e Comércio](npcs.md)**  
-➡️ **[Reputação](reputation.md)**  
+<h2>➡️ Próximos passos</h2>
 
-O banco protege o que você já conquistou.
+<p>Para continuar entendendo a economia:</p>
+
+<p>
+➡️ <a href="npcs.md">NPCs e Comércio</a><br>
+➡️ <a href="reputation.md">Reputação</a>
+</p>
+
+<p>
+O banco protege o que você já conquistou.<br>
 O mundo decide se você merece chegar até ele.
+</p>
+
+</main>
+</div>
+
+</body>
+</html>

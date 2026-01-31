@@ -1,115 +1,232 @@
-# A Bigorna ⚒️
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>A Bigorna | Esforço Antes do Risco • TotalAdventure</title>
 
-A bigorna é onde o item deixa de ser potencial
-e passa a ser **algo concreto**.
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-Ela não decide raridade.
-Ela não aplica atributos.
-Ela exige **esforço**.
+<body>
 
----
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">A BIGORNA</div>
+    <div class="hero-subtitle">
+      Onde o potencial vira forma
+    </div>
+    <div class="hero-meta">
+      Esforço • Tempo • Atenção
+    </div>
+  </div>
+</div>
 
-## 🧠 O papel da bigorna
+<div class="layout">
 
-A bigorna existe para:
-- transformar o item bruto em um item formado
-- materializar a raridade escolhida na forja
-- impor custo de tempo e atenção
-- separar intenção de descuido
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>A Bigorna</h3>
+  <ul>
+    <li><a href="#papel">🧠 Papel</a></li>
+    <li><a href="#processo">🔨 Processo</a></li>
+    <li><a href="#batidas">⏱️ Batidas</a></li>
+    <li><a href="#risco">⚠️ Risco</a></li>
+    <li><a href="#estado">🧱 Estado do Item</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
 
-Sem passar pela bigorna,
+<main>
+
+<h2>⚒️ A Bigorna</h2>
+
+<p>
+A bigorna é onde o item deixa de ser potencial<br>
+e passa a ser <strong>algo concreto</strong>.
+</p>
+
+<p>
+Ela não decide raridade.<br>
+Ela não aplica atributos.<br>
+Ela exige <strong>esforço</strong>.
+</p>
+
+<div class="ritual-divider">🧠</div>
+
+<h2 id="papel">🧠 O papel da bigorna</h2>
+
+<p>A bigorna existe para:</p>
+
+<ul>
+  <li>transformar o item bruto em um item formado</li>
+  <li>materializar a raridade escolhida na forja</li>
+  <li>impor custo de tempo e atenção</li>
+  <li>separar intenção de descuido</li>
+</ul>
+
+<div class="lore-quote">
+Sem passar pela bigorna,<br>
 o item simplesmente não existe.
+</div>
 
----
+<div class="ritual-divider">🔨</div>
 
-## 🔨 Processo de martelagem
+<h2 id="processo">🔨 Processo de martelagem</h2>
 
+<p>
 Após sair da forja, o item bruto:
+</p>
 
-- não pode ser usado
-- não possui atributos
-- não pode ser equipado
-- não pode ser vendido como equipamento
+<ul>
+  <li>não pode ser usado</li>
+  <li>não possui atributos</li>
+  <li>não pode ser equipado</li>
+  <li>não pode ser vendido como equipamento</li>
+</ul>
 
+<p>
 Na bigorna:
-- cada interação aplica uma martelada
-- marteladas são cumulativas
-- o progresso é salvo
+</p>
 
-Quando o número necessário de batidas é atingido,
-o item é considerado **formado**.
+<ul>
+  <li>cada interação aplica uma martelada</li>
+  <li>marteladas são cumulativas</li>
+  <li>o progresso é salvo</li>
+</ul>
 
----
+<div class="lore-quote">
+Quando o número necessário de batidas é atingido,<br>
+o item é considerado <strong>formado</strong>.
+</div>
 
-## ⏱️ Batidas por raridade
+<div class="ritual-divider">⏱️</div>
 
-A quantidade de marteladas depende da raridade do item:
+<h2 id="batidas">⏱️ Batidas por raridade</h2>
 
-| Raridade   | Batidas Necessárias |
-|-----------|---------------------|
-| Comum     | 10                  |
-| Raro      | 15                  |
-| Épico     | 20                  |
-| Lendário  | 25                  |
+<table>
+  <thead>
+    <tr>
+      <th>Raridade</th>
+      <th>Batidas Necessárias</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comum</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Raro</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Épico</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Lendário</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
 
+<p>
 Quanto mais raro o item:
-- mais tempo parado
-- maior exposição
-- maior investimento emocional
+</p>
 
----
+<ul>
+  <li>mais tempo parado</li>
+  <li>maior exposição</li>
+  <li>maior investimento emocional</li>
+</ul>
 
-## ⚠️ Risco indireto
+<div class="ritual-divider">⚠️</div>
 
-A bigorna **não destrói itens**.
+<h2 id="risco">⚠️ Risco indireto</h2>
 
+<p>
+A bigorna <strong>não destrói itens</strong>.
+</p>
+
+<p>
 Mas ela cria risco de forma indireta:
-- tempo parado
-- ambiente vulnerável
-- possibilidade de interrupção
+</p>
 
-Em cavernas perigosas ou vilas mal posicionadas,
+<ul>
+  <li>tempo parado</li>
+  <li>ambiente vulnerável</li>
+  <li>possibilidade de interrupção</li>
+</ul>
+
+<div class="lore-quote">
+Em cavernas perigosas ou vilas mal posicionadas,<br>
 até a bigorna pode ser uma ameaça.
+</div>
 
----
+<div class="ritual-divider">🧱</div>
 
-## 🧱 Estado do item após a bigorna
+<h2 id="estado">🧱 Estado do item após a bigorna</h2>
 
+<p>
 Após completar a martelagem, o item:
+</p>
 
-- possui forma final
-- pode ser equipado
-- pode ser vendido
-- **ainda não possui atributos**
-- **ainda não possui traits**
+<ul>
+  <li>possui forma final</li>
+  <li>pode ser equipado</li>
+  <li>pode ser vendido</li>
+  <li><strong>ainda não possui atributos</strong></li>
+  <li><strong>ainda não possui traits</strong></li>
+</ul>
 
-Ele é funcional,
+<div class="lore-quote">
+Ele é funcional,<br>
 mas ainda incompleto.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Filosofia da bigorna
+<h2 id="filosofia">🧠 Filosofia da bigorna</h2>
 
-No TotalAdventure:
-- forja decide
-- bigorna confirma
-- caldeirão arrisca
+<ul>
+  <li>forja decide</li>
+  <li>bigorna confirma</li>
+  <li>caldeirão arrisca</li>
+</ul>
 
-A bigorna separa:
-- quem entende o custo
-- de quem só empilha minérios
+<div class="lore-quote">
+A bigorna separa:<br>
+quem entende o custo<br>
+de quem só empilha minérios.
+</div>
 
-Ela não é perigosa.
-Ela é **exaustiva**.
+<p>
+Ela não é perigosa.<br>
+Ela é <strong>exaustiva</strong>.
+</p>
 
----
+<div class="ritual-divider">➡️</div>
 
-## ➡️ Próximos passos
+<h2>➡️ Próximos passos</h2>
 
-O item agora está formado.
+<p>
+O item agora está formado.<br>
 O próximo passo é o mais arriscado de todos:
+</p>
 
-➡️ **[O Caldeirão](cauldron.md)**  
+<ul>
+  <li>➡️ <a href="cauldron.html">O Caldeirão</a></li>
+</ul>
 
-Aqui não existe progresso gradual.
+<div class="lore-quote">
+Aqui não existe progresso gradual.<br>
 Existe sucesso — ou perda total.
+</div>
+
+</main>
+</div>
+
+</body>
+</html>

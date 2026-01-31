@@ -1,162 +1,290 @@
-# Equipamentos 🧬
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Equipamentos | TotalAdventure</title>
 
-Equipamentos no TotalAdventure não são encontrados.
-Eles são **conquistados**.
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-Cada arma ou armadura existente no mundo passou por:
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">EQUIPAMENTOS</div>
+    <div class="hero-subtitle">
+      Poder não é encontrado
+    </div>
+    <div class="hero-meta">
+      Conquista • Risco • Identidade
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Equipamentos</h3>
+  <ul>
+    <li><a href="#papel">🧠 Papel</a></li>
+    <li><a href="#tipos">🧱 Tipos</a></li>
+    <li><a href="#raridade">💎 Raridade</a></li>
+    <li><a href="#atributos">🧪 Atributos</a></li>
+    <li><a href="#templates">🧩 Templates</a></li>
+    <li><a href="#traits">✦ Traits</a></li>
+    <li><a href="#valor">💰 Valor</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>🧬 Equipamentos</h2>
+
+<p>
+Equipamentos no TotalAdventure não são encontrados.<br>
+Eles são <strong>conquistados</strong>.
+</p>
+
+<p>
+Cada arma ou armadura existente no mundo passou por:<br>
 mineração → forja → bigorna → caldeirão.
+</p>
 
-Se algo chegou até aqui, é porque **sobreviveu**.
+<div class="lore-quote">
+Se algo chegou até aqui,<br>
+é porque <strong>sobreviveu</strong>.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 O papel dos equipamentos
+<h2 id="papel">🧠 O papel dos equipamentos</h2>
 
-Equipamentos existem para:
-- permitir progressão em áreas mais perigosas
-- enfrentar mobs mais fortes
-- definir estilos de jogo
-- criar valor econômico real
+<p>Equipamentos existem para:</p>
 
-Eles não são obrigatórios,
+<ul>
+  <li>permitir progressão em áreas mais perigosas</li>
+  <li>enfrentar mobs mais fortes</li>
+  <li>definir estilos de jogo</li>
+  <li>criar valor econômico real</li>
+</ul>
+
+<p>
+Eles não são obrigatórios,<br>
 mas ignorá-los limita o quanto você pode avançar.
+</p>
 
----
+<div class="ritual-divider">🧱</div>
 
-## 🧱 Tipos de equipamento
+<h2 id="tipos">🧱 Tipos de equipamento</h2>
 
+<p>
 Atualmente, os equipamentos se dividem em duas grandes categorias:
+</p>
 
-### ⚔️ Armas
-- focadas em dano e efeitos ofensivos
-- influenciam diretamente o combate
-- possuem atributos agressivos
-- podem conter traits lendários
+<h3>⚔️ Armas</h3>
 
-### 🛡️ Armaduras
-- focadas em sobrevivência e mitigação
-- influenciam vida, defesa e mobilidade
-- definem resistência em cavernas perigosas
-- também podem conter traits
+<ul>
+  <li>focadas em dano e efeitos ofensivos</li>
+  <li>influenciam diretamente o combate</li>
+  <li>possuem atributos agressivos</li>
+  <li>podem conter traits lendários</li>
+</ul>
 
+<h3>🛡️ Armaduras</h3>
+
+<ul>
+  <li>focadas em sobrevivência e mitigação</li>
+  <li>influenciam vida, defesa e mobilidade</li>
+  <li>definem resistência em cavernas perigosas</li>
+  <li>também podem conter traits</li>
+</ul>
+
+<p>
 Cada tipo segue regras próprias de atributos e templates.
+</p>
 
----
+<div class="ritual-divider">💎</div>
 
-## 💎 Raridade do equipamento
+<h2 id="raridade">💎 Raridade do equipamento</h2>
 
-A raridade de um equipamento é definida **na forja**,
+<p>
+A raridade de um equipamento é definida <strong>na forja</strong>,
 com base no peso total dos minérios utilizados.
+</p>
 
-Ela influencia:
-- quantidade de atributos possíveis
-- multiplicadores internos
-- chance de traits lendários
-- valor econômico
-- risco assumido na criação
+<p>Ela influencia:</p>
 
-Raridade **não garante poder**.
+<ul>
+  <li>quantidade de atributos possíveis</li>
+  <li>multiplicadores internos</li>
+  <li>chance de traits lendários</li>
+  <li>valor econômico</li>
+  <li>risco assumido na criação</li>
+</ul>
+
+<div class="lore-quote">
+Raridade <strong>não garante poder</strong>.<br>
 Ela define potencial.
+</div>
 
----
+<div class="ritual-divider">🧪</div>
 
-## 🧪 Atributos
+<h2 id="atributos">🧪 Atributos</h2>
 
+<p>
 Atributos são valores aleatórios aplicados no caldeirão.
+</p>
 
-Eles podem:
-- aumentar dano
-- melhorar defesa
-- alterar velocidade
-- introduzir mecânicas especiais
-- definir o estilo do item
+<p>Eles podem:</p>
 
-Os atributos:
-- respeitam o tipo do item
-- são limitados pelo template
-- nunca são totalmente previsíveis
+<ul>
+  <li>aumentar dano</li>
+  <li>melhorar defesa</li>
+  <li>alterar velocidade</li>
+  <li>introduzir mecânicas especiais</li>
+  <li>definir o estilo do item</li>
+</ul>
 
-Dois itens iguais podem ter comportamentos totalmente diferentes.
+<p>Os atributos:</p>
 
----
+<ul>
+  <li>respeitam o tipo do item</li>
+  <li>são limitados pelo template</li>
+  <li>nunca são totalmente previsíveis</li>
+</ul>
 
-## 🧩 Templates de equipamento
+<div class="lore-quote">
+Dois itens iguais<br>
+podem ter comportamentos totalmente diferentes.
+</div>
 
-Todo equipamento utiliza um **template**.
+<div class="ritual-divider">🧩</div>
 
-O template define:
-- quantidade mínima e máxima de atributos
-- quais atributos são permitidos
-- se o item pode receber trait lendário
+<h2 id="templates">🧩 Templates de equipamento</h2>
 
-Templates existem para:
-- diferenciar categorias de itens
-- criar progressão clara
-- permitir balanceamento fino
+<p>
+Todo equipamento utiliza um <strong>template</strong>.
+</p>
 
-Eles não escolhem atributos.
-Eles **limitam o caos**.
+<p>O template define:</p>
 
----
+<ul>
+  <li>quantidade mínima e máxima de atributos</li>
+  <li>quais atributos são permitidos</li>
+  <li>se o item pode receber trait lendário</li>
+</ul>
 
-## ✦ Traits lendários
+<p>Templates existem para:</p>
 
-Alguns equipamentos podem nascer com **traits lendários**.
+<ul>
+  <li>diferenciar categorias de itens</li>
+  <li>criar progressão clara</li>
+  <li>permitir balanceamento fino</li>
+</ul>
 
-Traits são:
-- habilidades únicas
-- mecânicas ativas ou passivas
-- efeitos visuais e sonoros
-- identidade do item
+<div class="lore-quote">
+Eles não escolhem atributos.<br>
+Eles <strong>limitam o caos</strong>.
+</div>
 
-Eles não são encantamentos.
-São **poderes**.
+<div class="ritual-divider">✦</div>
 
-Nem todo item lendário possui trait.
+<h2 id="traits">✦ Traits lendários</h2>
+
+<p>
+Alguns equipamentos podem nascer com <strong>traits lendários</strong>.
+</p>
+
+<p>Traits são:</p>
+
+<ul>
+  <li>habilidades únicas</li>
+  <li>mecânicas ativas ou passivas</li>
+  <li>efeitos visuais e sonoros</li>
+  <li>identidade do item</li>
+</ul>
+
+<div class="lore-quote">
+Eles não são encantamentos.<br>
+São <strong>poderes</strong>.
+</div>
+
+<p>
+Nem todo item lendário possui trait.<br>
 Mas todo trait muda completamente o item.
+</p>
 
----
+<div class="ritual-divider">💰</div>
 
-## 💰 Valor econômico
+<h2 id="valor">💰 Valor econômico</h2>
 
+<p>
 Equipamentos possuem valor real.
+</p>
 
-Eles podem ser:
-- usados pelo jogador
-- vendidos para NPCs
-- negociados entre jogadores
+<p>Eles podem ser:</p>
 
-O valor depende de:
-- raridade
-- atributos
-- traits
-- demanda local (banco/vila)
+<ul>
+  <li>usados pelo jogador</li>
+  <li>vendidos para NPCs</li>
+  <li>negociados entre jogadores</li>
+</ul>
 
-Às vezes, vender é a escolha certa.
+<p>O valor depende de:</p>
+
+<ul>
+  <li>raridade</li>
+  <li>atributos</li>
+  <li>traits</li>
+  <li>demanda local (banco/vila)</li>
+</ul>
+
+<div class="lore-quote">
+Às vezes, vender é a escolha certa.<br>
 Às vezes, usar é um erro caro.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Filosofia dos equipamentos
+<h2 id="filosofia">🧠 Filosofia dos equipamentos</h2>
 
-No TotalAdventure:
-- equipamento é consequência
-- poder vem com custo
-- aleatoriedade cria identidade
-- perda dá significado à vitória
+<p>No TotalAdventure:</p>
 
-Itens não definem o jogador.
-Eles refletem **as escolhas que ele fez**.
+<ul>
+  <li>equipamento é consequência</li>
+  <li>poder vem com custo</li>
+  <li>aleatoriedade cria identidade</li>
+  <li>perda dá significado à vitória</li>
+</ul>
 
----
+<div class="lore-quote">
+Itens não definem o jogador.<br>
+Eles refletem <strong>as escolhas que ele fez</strong>.
+</div>
 
-## ➡️ Próximos passos
+<div class="ritual-divider">➡️</div>
 
-Para aprofundar no sistema de equipamentos:
+<h2>➡️ Próximos passos</h2>
 
-➡️ **[Atributos](attributes.md)**  
-➡️ **[Escalonamento por Raridade](rarity-scaling.md)**  
-➡️ **[Traits Lendários](legendary-traits/overview.md)**  
+<p>Para aprofundar no sistema de equipamentos:</p>
 
-Equipamentos são o fim do ciclo.
+<ul>
+  <li><a href="attributes.md">Atributos</a></li>
+  <li><a href="rarity-scaling.md">Escalonamento por Raridade</a></li>
+  <li><a href="legendary-traits/overview.md">Traits Lendários</a></li>
+</ul>
+
+<div class="lore-quote">
+Equipamentos são o fim do ciclo.<br>
 E o começo de outro.
+</div>
+
+</main>
+</div>
+
+</body>
+</html>

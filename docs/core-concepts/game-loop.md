@@ -1,193 +1,304 @@
-# O Loop do Jogo 🔁
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>O Loop do Jogo | TotalAdventure</title>
 
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">O LOOP DO JOGO</div>
+    <div class="hero-subtitle">
+      O ciclo que sustenta toda a progressão
+    </div>
+    <div class="hero-meta">
+      Explorar • Arriscar • Decidir • Evoluir
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Fluxo do Mundo</h3>
+  <ul>
+    <li><a href="#visao-geral">🧭 Visão Geral</a></li>
+    <li><a href="#a-vila">🏘️ A Vila</a></li>
+    <li><a href="#exploracao">🚶 Exploração</a></li>
+    <li><a href="#mineracao">⛏️ Mineração</a></li>
+    <li><a href="#combate">🧝 Combate</a></li>
+    <li><a href="#retorno">🎒 Retorno</a></li>
+    <li><a href="#forja">🔥 Forja</a></li>
+    <li><a href="#bigorna">⚒️ Bigorna</a></li>
+    <li><a href="#caldeirao">🧪 Caldeirão</a></li>
+    <li><a href="#evolucao">🧬 Evolução</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>🔁 O Loop do Jogo</h2>
+
+<p>
 O TotalAdventure foi projetado em torno de um loop simples,
 mas profundo o suficiente para sustentar progressão de longo prazo.
+</p>
 
+<p>
 Não existem atalhos artificiais.
-Tudo gira em torno de **explorar, arriscar e decidir**.
+Tudo gira em torno de <strong>explorar, arriscar e decidir</strong>.
+</p>
 
----
+<div class="ritual-divider">🧭</div>
 
-## 🧭 Visão geral
+<h2 id="visao-geral">🧭 Visão geral</h2>
 
-O loop principal do jogo é:
+<p>O loop principal do jogo é:</p>
 
-> **Vila → Exploração → Mineração → Combate → Retorno → Forja → Risco → Evolução**
+<blockquote>
+<strong>Vila → Exploração → Mineração → Combate → Retorno → Forja → Risco → Evolução</strong>
+</blockquote>
 
+<p>
 Cada etapa alimenta a próxima.
 Ignorar uma delas significa estagnar.
+</p>
 
----
+<div class="ritual-divider">🏘️</div>
 
-## 🏘️ 1. A Vila — ponto de origem e retorno
+<h2 id="a-vila">🏘️ 1. A Vila — ponto de origem e retorno</h2>
 
-Toda jornada começa (e termina) em uma vila.
+<p>Toda jornada começa (e termina) em uma vila.</p>
 
-Na vila, o jogador encontra:
-- NPCs de compra e venda
-- Bancos para depósito de moedas
-- Forja, bigorna e caldeirão
-- Segurança temporária
+<p>Na vila, o jogador encontra:</p>
+<ul>
+  <li>NPCs de compra e venda</li>
+  <li>Bancos para depósito de moedas</li>
+  <li>Forja, bigorna e caldeirão</li>
+  <li>Segurança temporária</li>
+</ul>
 
-A vila não é um menu.
-É um **lugar físico**, e sair dela é uma decisão.
+<div class="lore-quote">
+A vila não é um menu.<br>
+É um lugar físico, e sair dela é uma decisão.
+</div>
 
----
+<div class="ritual-divider">🚶</div>
 
-## 🚶 2. Exploração — sem atalhos
+<h2 id="exploracao">🚶 2. Exploração — sem atalhos</h2>
 
-Não existem teletransportes para cavernas ou regiões especiais.
+<p>Não existem teletransportes para cavernas ou regiões especiais.</p>
 
-O jogador:
-- anda
-- explora
-- encontra cavernas naturalmente
-- decide até onde está disposto a ir
+<p>O jogador:</p>
+<ul>
+  <li>anda</li>
+  <li>explora</li>
+  <li>encontra cavernas naturalmente</li>
+  <li>decide até onde está disposto a ir</li>
+</ul>
 
+<p>
 Quanto mais longe da vila,
 maior o risco e o custo do retorno.
+</p>
 
----
+<div class="ritual-divider">⛏️</div>
 
-## ⛏️ 3. Mineração — progressão por tier
+<h2 id="mineracao">⛏️ 3. Mineração — progressão por tier</h2>
 
-A mineração é o eixo central do jogo.
+<p>A mineração é o eixo central do jogo.</p>
 
-- Picaretas possuem **tiers**
-- Blocos exigem um tier mínimo para serem quebrados
-- Minérios dropam no chão ao serem minerados
-- A chance de drop é influenciada por modificadores
+<ul>
+  <li>Picaretas possuem <strong>tiers</strong></li>
+  <li>Blocos exigem um tier mínimo para serem quebrados</li>
+  <li>Minérios dropam no chão ao serem minerados</li>
+  <li>A chance de drop é influenciada por modificadores</li>
+</ul>
 
-Sem a picareta correta, o progresso simplesmente não acontece.
+<div class="lore-quote">
+Sem a picareta correta,<br>
+o progresso simplesmente não acontece.
+</div>
 
----
+<div class="ritual-divider">🧝</div>
 
-## 🧝 4. Combate — risco inevitável
+<h2 id="combate">🧝 4. Combate — risco inevitável</h2>
 
-Cavernas não são seguras.
+<p>Cavernas não são seguras.</p>
 
-Durante a exploração, o jogador enfrenta:
-- mobs comuns
-- elites
-- bosses
+<p>Durante a exploração, o jogador enfrenta:</p>
+<ul>
+  <li>mobs comuns</li>
+  <li>elites</li>
+  <li>bosses</li>
+</ul>
 
-Esses mobs:
-- possuem níveis escaláveis
-- usam habilidades
-- aplicam efeitos negativos
-- podem dropar moedas e itens
+<p>Esses mobs:</p>
+<ul>
+  <li>possuem níveis escaláveis</li>
+  <li>usam habilidades</li>
+  <li>aplicam efeitos negativos</li>
+  <li>podem dropar moedas e itens</li>
+</ul>
 
-O combate não é opcional.
+<div class="lore-quote">
+O combate não é opcional.<br>
 Ele faz parte do custo da mineração.
+</div>
 
----
+<div class="ritual-divider">🎒</div>
 
-## 🎒 5. Retorno — quando saber voltar
+<h2 id="retorno">🎒 5. Retorno — quando saber voltar</h2>
 
-Depois de minerar e lutar, surge a decisão crítica:
+<p>Depois de minerar e lutar, surge a decisão crítica:</p>
 
-> **Continuar explorando ou voltar com o que já foi conquistado?**
+<blockquote>
+<strong>Continuar explorando ou voltar com o que já foi conquistado?</strong>
+</blockquote>
 
+<p>
 Não existe resposta certa.
 Ganância e cautela disputam o controle o tempo todo.
+</p>
 
-Ao morrer:
-- o jogador retorna para a vila
-- não perde itens
+<p>Ao morrer:</p>
+<ul>
+  <li>o jogador retorna para a vila</li>
+  <li>não perde itens</li>
+</ul>
 
-O verdadeiro risco não está na morte,
+<div class="lore-quote">
+O verdadeiro risco não está na morte,<br>
 mas no que vem depois.
+</div>
 
----
+<div class="ritual-divider">🔥</div>
 
-## 🔥 6. Forja — transformar recursos em poder
+<h2 id="forja">🔥 6. Forja — transformar recursos em poder</h2>
 
-De volta à vila, o jogador pode:
+<p>De volta à vila, o jogador pode:</p>
 
-- vender minérios
-- guardar moedas no banco
-- ou investir tudo na forja
+<ul>
+  <li>vender minérios</li>
+  <li>guardar moedas no banco</li>
+  <li>ou investir tudo na forja</li>
+</ul>
 
-A forja permite:
-- combinar até 16 minérios
-- respeitando limites de peso
-- para gerar um item forjado bruto
+<p>A forja permite:</p>
+<ul>
+  <li>combinar até 16 minérios</li>
+  <li>respeitando limites de peso</li>
+  <li>para gerar um item forjado bruto</li>
+</ul>
 
-Quanto maior o peso,
+<div class="lore-quote">
+Quanto maior o peso,<br>
 maior o potencial do item.
+</div>
 
----
+<div class="ritual-divider">⚒️</div>
 
-## ⚒️ 7. Bigorna — dar forma ao item
+<h2 id="bigorna">⚒️ 7. Bigorna — dar forma ao item</h2>
 
-O item bruto não é utilizável.
+<p>O item bruto não é utilizável.</p>
 
-Na bigorna:
-- o jogador precisa martelar o item
-- a quantidade de batidas varia conforme a raridade
-- após isso, o item é formado
+<p>Na bigorna:</p>
+<ul>
+  <li>o jogador precisa martelar o item</li>
+  <li>a quantidade de batidas varia conforme a raridade</li>
+  <li>após isso, o item é formado</li>
+</ul>
 
-Ainda não há atributos.
+<div class="lore-quote">
+Ainda não há atributos.<br>
 Ainda não há poder real.
+</div>
 
----
+<div class="ritual-divider">🧪</div>
 
-## 🧪 8. Caldeirão — o ponto sem retorno
+<h2 id="caldeirao">🧪 8. Caldeirão — o ponto sem retorno</h2>
 
-O caldeirão define tudo.
+<p>O caldeirão define tudo.</p>
 
-Aqui:
-- o item tenta ganhar atributos
-- a chance de falha depende da raridade
-- **falhar destrói o item completamente**
+<p>Aqui:</p>
+<ul>
+  <li>o item tenta ganhar atributos</li>
+  <li>a chance de falha depende da raridade</li>
+  <li><strong>falhar destrói o item completamente</strong></li>
+</ul>
 
-Não existe recuperação.
-Não existe downgrade.
+<div class="danger-box">
+Não existe recuperação.<br>
+Não existe downgrade.<br>
 Não existe meio termo.
+</div>
 
-> Arriscar é opcional.  
-> Evoluir, não.
+<blockquote>
+Arriscar é opcional.<br>
+Evoluir, não.
+</blockquote>
 
----
+<div class="ritual-divider">🧬</div>
 
-## 🧬 9. Evolução — o resultado das decisões
+<h2 id="evolucao">🧬 9. Evolução — o resultado das decisões</h2>
 
-Se o processo for bem-sucedido, o jogador obtém:
-- armas ou armaduras utilizáveis
-- atributos aleatórios
-- possíveis traits lendários
-- itens com valor econômico real
+<p>Se o processo for bem-sucedido, o jogador obtém:</p>
+<ul>
+  <li>armas ou armaduras utilizáveis</li>
+  <li>atributos aleatórios</li>
+  <li>possíveis traits lendários</li>
+  <li>itens com valor econômico real</li>
+</ul>
 
-Esses itens permitem:
-- explorar regiões mais perigosas
-- enfrentar mobs mais fortes
-- forjar itens ainda melhores
+<p>Esses itens permitem:</p>
+<ul>
+  <li>explorar regiões mais perigosas</li>
+  <li>enfrentar mobs mais fortes</li>
+  <li>forjar itens ainda melhores</li>
+</ul>
 
-O loop se fecha.
+<div class="lore-quote">
+O loop se fecha.<br>
 E recomeça em um nível mais alto.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Filosofia do loop
+<h2 id="filosofia">🧠 Filosofia do loop</h2>
 
-O TotalAdventure não recompensa pressa.
-Ele recompensa **decisões conscientes**.
+<ul>
+  <li>Mineração sem risco é inútil</li>
+  <li>Forja sem coragem é desperdício</li>
+  <li>Poder sem custo não existe</li>
+</ul>
 
-- Mineração sem risco é inútil
-- Forja sem coragem é desperdício
-- Poder sem custo não existe
+<div class="lore-quote">
+O jogo não pune o jogador por morrer.<br>
+Ele pune o jogador por apostar sem pensar.
+</div>
 
-O jogo não pune o jogador por morrer.
-Ele pune o jogador por **apostar sem pensar**.
+<div class="ritual-divider">➡️</div>
 
----
+<h2>➡️ Próximos passos</h2>
 
-## ➡️ Próximos passos
+<p>Agora que você entende o loop do jogo, avance para:</p>
 
-Agora que você entende o loop do jogo, avance para:
+<p>
+➡️ <a href="rarities-and-weight.md">Sistema de Raridades e Peso</a><br>
+➡️ <a href="../mining/overview.md">Mineração</a><br>
+➡️ <a href="../forging/overview.md">Forja e Risco</a>
+</p>
 
-➡️ **[Sistema de Raridades e Peso](rarities-and-weight.md)**  
-➡️ **[Mineração](../mining/overview.md)**  
-➡️ **[Forja e Risco](../forging/overview.md)**  
+</main>
+</div>
 
-Cada página aprofunda uma parte desse ciclo.
+</body>
+</html>

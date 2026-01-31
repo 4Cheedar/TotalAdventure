@@ -1,208 +1,326 @@
-# Economia 💰
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Economia | TotalAdventure</title>
 
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">ECONOMIA</div>
+    <div class="hero-subtitle">
+      Local, física e fragmentada
+    </div>
+    <div class="hero-meta">
+      Valor • Deslocamento • Consequência
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Sistema Econômico</h3>
+  <ul>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+    <li><a href="#moedas">🪙 Moedas</a></li>
+    <li><a href="#bancos">🏦 Bancos</a></li>
+    <li><a href="#deposito">🔒 Depósito</a></li>
+    <li><a href="#taxas">🧾 Taxas</a></li>
+    <li><a href="#npcs">🧑‍🌾 NPCs</a></li>
+    <li><a href="#reputacao">⭐ Reputação</a></li>
+    <li><a href="#regional">🧭 Economia Regional</a></li>
+    <li><a href="#filosofia-final">🧠 Filosofia Final</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>💰 Economia</h2>
+
+<p>
 A economia do TotalAdventure não é global.
-Ela é **local, física e fragmentada**.
+Ela é <strong>local, física e fragmentada</strong>.
+</p>
 
+<p>
 Dinheiro existe no mundo.
 Ele ocupa espaço.
 Ele precisa ser guardado.
 E ele não vale nada fora do lugar certo.
+</p>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Filosofia da economia
+<h2 id="filosofia">🧠 Filosofia da economia</h2>
 
-A economia foi construída para:
+<p>A economia foi construída para:</p>
 
-- reforçar exploração
-- evitar acumulação infinita
-- criar identidade regional
-- dar valor ao deslocamento
-- tornar decisões econômicas relevantes
+<ul>
+  <li>reforçar exploração</li>
+  <li>evitar acumulação infinita</li>
+  <li>criar identidade regional</li>
+  <li>dar valor ao deslocamento</li>
+  <li>tornar decisões econômicas relevantes</li>
+</ul>
 
-Não existe “dinheiro universal”.
-Existe **influência local**.
+<div class="lore-quote">
+Não existe “dinheiro universal”.<br>
+Existe <strong>influência local</strong>.
+</div>
 
----
+<div class="ritual-divider">🪙</div>
 
-## 🪙 Moedas
+<h2 id="moedas">🪙 Moedas</h2>
 
-Existem três tipos de moedas físicas:
+<p>Existem três tipos de moedas físicas:</p>
 
-- **Moeda de Bronze** → valor base (1)
-- **Moeda de Prata** → 10 moedas
-- **Moeda de Ouro** → 100 moedas
+<ul>
+  <li><strong>Moeda de Bronze</strong> → valor base (1)</li>
+  <li><strong>Moeda de Prata</strong> → 10 moedas</li>
+  <li><strong>Moeda de Ouro</strong> → 100 moedas</li>
+</ul>
 
-Moedas são obtidas através de:
-- venda de minérios
-- venda de equipamentos
-- drops de mobs
-- interações com NPCs
+<p>Moedas são obtidas através de:</p>
 
-📌 Moedas **ocupam inventário**  
+<ul>
+  <li>venda de minérios</li>
+  <li>venda de equipamentos</li>
+  <li>drops de mobs</li>
+  <li>interações com NPCs</li>
+</ul>
+
+<p>
+📌 Moedas <strong>ocupam inventário</strong><br>
 📌 Não entram automaticamente em banco
+</p>
 
----
+<div class="ritual-divider">🏦</div>
 
-## 🏦 Bancos (FourBanks)
+<h2 id="bancos">🏦 Bancos (FourBanks)</h2>
 
-Bancos são **blocos físicos no mundo**.
+<p>Bancos são <strong>blocos físicos no mundo</strong>.</p>
 
-- cada banco existe em uma localização específica
-- cada banco possui saldo próprio
-- dinheiro **não é compartilhado** entre bancos
-- não existe “conta global”
+<ul>
+  <li>cada banco existe em uma localização específica</li>
+  <li>cada banco possui saldo próprio</li>
+  <li>dinheiro <strong>não é compartilhado</strong> entre bancos</li>
+  <li>não existe “conta global”</li>
+</ul>
 
+<p>
 Se você ganha dinheiro longe,
-precisa **voltar fisicamente** para depositar.
+precisa <strong>voltar fisicamente</strong> para depositar.
+</p>
 
----
+<div class="ritual-divider">🔒</div>
 
-## 🔒 Depósito e uso do dinheiro
+<h2 id="deposito">🔒 Depósito e uso do dinheiro</h2>
 
-O fluxo é sempre:
+<p>O fluxo é sempre:</p>
 
-> **Ganhar moedas → Depositar no banco → Gastar naquela vila**
+<blockquote>
+<strong>Ganhar moedas → Depositar no banco → Gastar naquela vila</strong>
+</blockquote>
 
-Importante:
-- dinheiro no inventário **não pode ser usado**
-- apenas dinheiro depositado no banco local vale
-- NPCs só aceitam dinheiro do banco da região
+<p>Importante:</p>
 
-Isso cria:
-- economia regional
-- rotas comerciais
-- vilas com identidade própria
+<ul>
+  <li>dinheiro no inventário <strong>não pode ser usado</strong></li>
+  <li>apenas dinheiro depositado no banco local vale</li>
+  <li>NPCs só aceitam dinheiro do banco da região</li>
+</ul>
 
----
+<p>Isso cria:</p>
 
-## 🧾 Taxas e manutenção
+<ul>
+  <li>economia regional</li>
+  <li>rotas comerciais</li>
+  <li>vilas com identidade própria</li>
+</ul>
 
-Bancos podem possuir taxas configuráveis:
+<div class="ritual-divider">🧾</div>
 
-### 💸 Saque
-- percentual aplicado ao retirar dinheiro
-- pode variar de banco para banco
+<h2 id="taxas">🧾 Taxas e manutenção</h2>
 
-### 🧹 Manutenção
-- cobrança periódica automática
-- percentual sobre o saldo
-- taxa fixa adicional
-- geralmente semanal
+<p>Bancos podem possuir taxas configuráveis:</p>
 
-📌 Dinheiro parado **custa dinheiro**.
+<h3>💸 Saque</h3>
+<ul>
+  <li>percentual aplicado ao retirar dinheiro</li>
+  <li>pode variar de banco para banco</li>
+</ul>
 
----
+<h3>🧹 Manutenção</h3>
+<ul>
+  <li>cobrança periódica automática</li>
+  <li>percentual sobre o saldo</li>
+  <li>taxa fixa adicional</li>
+  <li>geralmente semanal</li>
+</ul>
 
-## 🧑‍🌾 NPCs de comércio
+<div class="lore-quote">
+Dinheiro parado <strong>custa dinheiro</strong>.
+</div>
 
-NPCs são o principal meio de circulação econômica.
+<div class="ritual-divider">🧑‍🌾</div>
 
-Eles se dividem em tipos claros:
+<h2 id="npcs">🧑‍🌾 NPCs de comércio</h2>
 
----
+<p>NPCs são o principal meio de circulação econômica.</p>
 
-### 🛒 NPCs de Venda (SELL)
+<p>Eles se dividem em tipos claros:</p>
 
-- compram itens do jogador
-- podem aceitar:
-  - apenas minérios
-  - apenas equipamentos
-  - ambos
-- possuem modificadores de preço
-- podem ou não usar reputação
+<h3>🛒 NPCs de Venda (SELL)</h3>
 
+<ul>
+  <li>compram itens do jogador</li>
+  <li>podem aceitar:</li>
+</ul>
+
+<ul>
+  <li>apenas minérios</li>
+  <li>apenas equipamentos</li>
+  <li>ambos</li>
+</ul>
+
+<ul>
+  <li>possuem modificadores de preço</li>
+  <li>podem ou não usar reputação</li>
+</ul>
+
+<p>
 Alguns NPCs pagam melhor,
 mas ignoram sua reputação.
 Outros recompensam fidelidade.
+</p>
 
----
+<h3>⛏️ NPCs de Picaretas (BUY_PICKAXE)</h3>
 
-### ⛏️ NPCs de Picaretas (BUY_PICKAXE)
+<ul>
+  <li>vendem <strong>uma picareta específica</strong></li>
+  <li>preço fixo</li>
+  <li>não negociável</li>
+  <li>representa progressão direta</li>
+</ul>
 
-- vendem **uma picareta específica**
-- preço fixo
-- não negociável
-- representa progressão direta
+<div class="lore-quote">
+Picaretas não são itens comuns.<br>
+São <strong>marcos econômicos</strong>.
+</div>
 
-Picaretas não são itens comuns.
-São **marcos econômicos**.
+<h3>📜 NPCs de Comando (EXEC_COMMAND)</h3>
 
----
+<ul>
+  <li>executam comandos no servidor</li>
+  <li>podem custar dinheiro</li>
+  <li>podem ser uso único ou múltiplo</li>
+</ul>
 
-### 📜 NPCs de Comando (EXEC_COMMAND)
+<p>Usados para:</p>
+<ul>
+  <li>licenças</li>
+  <li>permissões</li>
+  <li>contratos</li>
+  <li>progressão indireta</li>
+</ul>
 
-- executam comandos no servidor
-- podem custar dinheiro
-- podem ser uso único ou múltiplo
+<div class="ritual-divider">⭐</div>
 
-Usados para:
-- licenças
-- permissões
-- contratos
-- progressão indireta
+<h2 id="reputacao">⭐ Reputação</h2>
 
----
+<p>NPCs do tipo SELL podem usar reputação.</p>
 
-## ⭐ Reputação
+<ul>
+  <li>vender itens aumenta reputação</li>
+  <li>reputação aumenta o valor recebido</li>
+  <li>bônus é percentual</li>
+  <li>existe limite máximo</li>
+</ul>
 
-NPCs do tipo SELL podem usar reputação.
+<p>Reputação:</p>
+<ul>
+  <li>não é global</li>
+  <li>não é infinita</li>
+  <li>não pode ser abusada</li>
+</ul>
 
-- vender itens aumenta reputação
-- reputação aumenta o valor recebido
-- bônus é percentual
-- existe limite máximo
+<div class="lore-quote">
+Ela representa <strong>confiança local</strong>.
+</div>
 
-Reputação:
-- não é global
-- não é infinita
-- não pode ser abusada
+<div class="ritual-divider">🧭</div>
 
-Ela representa **confiança local**.
+<h2 id="regional">🧭 Economia regional</h2>
 
----
+<p>Cada vila pode ter:</p>
 
-## 🧭 Economia regional
+<ul>
+  <li>banco próprio</li>
+  <li>NPCs próprios</li>
+  <li>modificadores diferentes</li>
+  <li>identidade econômica única</li>
+</ul>
 
-Cada vila pode ter:
+<p>Isso permite:</p>
 
-- banco próprio
-- NPCs próprios
-- modificadores diferentes
-- identidade econômica única
+<ul>
+  <li>rotas de comércio</li>
+  <li>vilas especializadas</li>
+  <li>decisões de onde vender</li>
+  <li>risco versus lucro</li>
+</ul>
 
-Isso permite:
-- rotas de comércio
-- vilas especializadas
-- decisões de onde vender
-- risco versus lucro
-
-Às vezes, vender longe vale mais.
+<div class="lore-quote">
+Às vezes, vender longe vale mais.<br>
 Às vezes, voltar vivo não vale.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Filosofia final
+<h2 id="filosofia-final">🧠 Filosofia final</h2>
 
-No TotalAdventure:
-- dinheiro é físico
-- economia é local
-- deslocamento tem custo
-- segurança não é garantida
-- riqueza exige planejamento
+<p>No TotalAdventure:</p>
 
-Não basta ganhar dinheiro.
-É preciso **saber onde ele vale algo**.
+<ul>
+  <li>dinheiro é físico</li>
+  <li>economia é local</li>
+  <li>deslocamento tem custo</li>
+  <li>segurança não é garantida</li>
+  <li>riqueza exige planejamento</li>
+</ul>
 
----
+<div class="lore-quote">
+Não basta ganhar dinheiro.<br>
+É preciso <strong>saber onde ele vale algo</strong>.
+</div>
 
-## ➡️ Próximos passos
+<div class="ritual-divider">➡️</div>
 
-Para aprofundar:
+<h2>➡️ Próximos passos</h2>
 
-➡️ **[Bancos](banks.md)**  
-➡️ **[NPCs e Comércio](npcs.md)**  
-➡️ **[Reputação](reputation.md)**  
+<p>Para aprofundar:</p>
 
-A economia não move o mundo.
-Ela **obriga você a atravessá-lo**.
+<p>
+➡️ <a href="banks.md">Bancos</a><br>
+➡️ <a href="npcs.md">NPCs e Comércio</a><br>
+➡️ <a href="reputation.md">Reputação</a>
+</p>
+
+<p>
+A economia não move o mundo.<br>
+Ela <strong>obriga você a atravessá-lo</strong>.
+</p>
+
+</main>
+</div>
+
+</body>
+</html>

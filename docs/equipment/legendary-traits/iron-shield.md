@@ -1,177 +1,316 @@
-# ✦ Escudo de Ferro
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Escudo de Ferro | Trait Lendário • TotalAdventure</title>
 
-**Escudo de Ferro** é um trait lendário de **defesa reativa**.
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
-Ele não evita o combate.
-Ele **absorve o impacto** e responde com força.
+<body>
 
-Enquanto estiver pronto, um escudo de ferro acompanha o jogador.
-Quando ativado, o escudo some.
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">ESCUDO DE FERRO</div>
+    <div class="hero-subtitle">
+      Retaliação defensiva
+    </div>
+    <div class="hero-meta">
+      Trait lendário • Peitoral • Controle de zona
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h3>Escudo de Ferro</h3>
+  <ul>
+    <li><a href="#conceito">🧠 Conceito</a></li>
+    <li><a href="#onde">🎯 Onde aparece</a></li>
+    <li><a href="#estado">🛡️ Estado</a></li>
+    <li><a href="#funciona">🔄 Funcionamento</a></li>
+    <li><a href="#mecanica">📊 Mecânica</a></li>
+    <li><a href="#visual">✨ Visual</a></li>
+    <li><a href="#sonoro">🔊 Sonoro</a></li>
+    <li><a href="#uso">⚔️ Estratégia</a></li>
+    <li><a href="#riscos">⚠️ Limitações</a></li>
+    <li><a href="#filosofia">🧠 Filosofia</a></li>
+  </ul>
+</aside>
+
+<main>
+
+<h2>✦ Escudo de Ferro</h2>
+
+<p>
+<strong>Escudo de Ferro</strong> é um trait lendário de <strong>defesa reativa</strong>.
+</p>
+
+<p>
+Ele não evita o combate.<br>
+Ele <strong>absorve o impacto</strong> e responde com força.
+</p>
+
+<p>
+Enquanto estiver pronto, um escudo de ferro acompanha o jogador.<br>
+Quando ativado, o escudo some.<br>
 Quando o cooldown termina, ele retorna.
+</p>
 
-Visual claro. Estado claro. Decisão clara.
+<div class="lore-quote">
+Visual claro.<br>
+Estado claro.<br>
+Decisão clara.
+</div>
 
----
+<div class="ritual-divider">🧠</div>
 
-## 🧠 Conceito
+<h2 id="conceito">🧠 Conceito</h2>
 
+<p>
 O ferro vivo reage ao ataque.
+</p>
 
-Ao sofrer dano:
-- parte do impacto é refletida
-- o agressor é punido
-- o espaço ao redor se torna hostil
+<p>Ao sofrer dano:</p>
 
-O escudo não é passivo.
-Ele **entra em ação**.
+<ul>
+  <li>parte do impacto é refletida</li>
+  <li>o agressor é punido</li>
+  <li>o espaço ao redor se torna hostil</li>
+</ul>
 
----
+<div class="lore-quote">
+O escudo não é passivo.<br>
+Ele <strong>entra em ação</strong>.
+</div>
 
-## 🎯 Onde pode aparecer
+<div class="ritual-divider">🎯</div>
 
-- **Tipo de item:** Peitoral  
-- **Categoria:** Trait lendário defensivo  
-- **Estilo:** Retaliação e controle de zona
+<h2 id="onde">🎯 Onde pode aparecer</h2>
 
----
+<ul>
+  <li><strong>Tipo de item:</strong> Peitoral</li>
+  <li><strong>Categoria:</strong> Trait lendário defensivo</li>
+  <li><strong>Estilo:</strong> Retaliação e controle de zona</li>
+</ul>
 
-## 🛡️ Estado do escudo
+<div class="ritual-divider">🛡️</div>
 
-O trait possui dois estados visuais claros:
+<h2 id="estado">🛡️ Estado do escudo</h2>
 
-### ✅ Pronto
-- um escudo aparece nas costas do jogador
-- acompanha o movimento em tempo real
-- indica que o trait pode ativar
+<p>O trait possui dois estados visuais claros:</p>
 
-### ❌ Em cooldown
-- o escudo desaparece
-- o trait não pode ser ativado
-- o jogador fica exposto
+<h3>✅ Pronto</h3>
 
-O próprio modelo **ensina o estado** do trait.
+<ul>
+  <li>um escudo aparece nas costas do jogador</li>
+  <li>acompanha o movimento em tempo real</li>
+  <li>indica que o trait pode ativar</li>
+</ul>
 
----
+<h3>❌ Em cooldown</h3>
 
-## 🔄 Como funciona
+<ul>
+  <li>o escudo desaparece</li>
+  <li>o trait não pode ser ativado</li>
+  <li>o jogador fica exposto</li>
+</ul>
 
-Quando o jogador sofre dano **direto** enquanto o escudo está pronto:
+<div class="lore-quote">
+O próprio modelo<br>
+<strong>ensina o estado</strong> do trait.
+</div>
 
-1. O dano recebido é parcialmente refletido
-2. O escudo é consumido
-3. O trait entra em cooldown
-4. Mecanismos defensivos são ativados
-5. Mordidas surgem ao redor do jogador
+<div class="ritual-divider">🔄</div>
 
-Nada acontece por acaso.
-Tudo é reação.
+<h2 id="funciona">🔄 Como funciona</h2>
 
----
+<p>
+Quando o jogador sofre dano <strong>direto</strong> enquanto o escudo está pronto:
+</p>
 
-## 📊 Mecânica detalhada
+<ol>
+  <li>O dano recebido é parcialmente refletido</li>
+  <li>O escudo é consumido</li>
+  <li>O trait entra em cooldown</li>
+  <li>Mecanismos defensivos são ativados</li>
+  <li>Mordidas surgem ao redor do jogador</li>
+</ol>
 
-### 🛡️ Reflexão de dano
-- Reflete **30%** do dano recebido
-- Apenas dano direto
-- Ignora fontes indiretas
+<div class="lore-quote">
+Nada acontece por acaso.<br>
+Tudo é <strong>reação</strong>.
+</div>
 
----
+<div class="ritual-divider">📊</div>
 
-### ⏱️ Cooldown
-- Tempo de recarga: **40 segundos**
-- Durante o cooldown:
-  - o escudo não existe
-  - o trait não pode ativar
+<h2 id="mecanica">📊 Mecânica detalhada</h2>
 
+<h3>🛡️ Reflexão de dano</h3>
+
+<ul>
+  <li>Reflete <strong>30%</strong> do dano recebido</li>
+  <li>Apenas dano direto</li>
+  <li>Ignora fontes indiretas</li>
+</ul>
+
+<h3>⏱️ Cooldown</h3>
+
+<ul>
+  <li>Tempo de recarga: <strong>40 segundos</strong></li>
+  <li>Durante o cooldown:
+    <ul>
+      <li>o escudo não existe</li>
+      <li>o trait não pode ativar</li>
+    </ul>
+  </li>
+</ul>
+
+<p>
 Quando o cooldown termina:
-- o escudo reaparece automaticamente
-- um som indica prontidão
+</p>
 
----
+<ul>
+  <li>o escudo reaparece automaticamente</li>
+  <li>um som indica prontidão</li>
+</ul>
 
-### 🐍 Mordidas do invoker
-Ao ativar o trait:
-- **4 mordidas** surgem ao redor do jogador
-- Raio de ação: **1.25 blocos**
-- Pequeno delay antes de aparecerem
-- Punem inimigos próximos
+<h3>🐍 Mordidas do invoker</h3>
 
-O escudo não apenas defende.
-Ele **afasta**.
+<p>Ao ativar o trait:</p>
 
----
+<ul>
+  <li><strong>4 mordidas</strong> surgem ao redor do jogador</li>
+  <li>Raio de ação: <strong>1.25 blocos</strong></li>
+  <li>Pequeno delay antes de aparecerem</li>
+  <li>Punem inimigos próximos</li>
+</ul>
 
-## ✨ Feedback visual
+<div class="lore-quote">
+O escudo não apenas defende.<br>
+Ele <strong>afasta</strong>.
+</div>
 
-- Escudo visível nas costas quando pronto
-- Desaparecimento imediato ao ativar
-- Mordidas emergindo do chão
-- Acompanhamento suave do modelo
+<div class="ritual-divider">✨</div>
 
+<h2 id="visual">✨ Feedback visual</h2>
+
+<ul>
+  <li>Escudo visível nas costas quando pronto</li>
+  <li>Desaparecimento imediato ao ativar</li>
+  <li>Mordidas emergindo do chão</li>
+  <li>Acompanhamento suave do modelo</li>
+</ul>
+
+<p>
 O ambiente inteiro percebe quando o escudo entra em ação.
+</p>
 
----
+<div class="ritual-divider">🔊</div>
 
-## 🔊 Feedback sonoro
+<h2 id="sonoro">🔊 Feedback sonoro</h2>
 
-- Ao ativar:
-  - som metálico de bloqueio
-- Ao ficar pronto novamente:
-  - som de energia restaurada
+<ul>
+  <li>Ao ativar:
+    <ul>
+      <li>som metálico de bloqueio</li>
+    </ul>
+  </li>
+  <li>Ao ficar pronto novamente:
+    <ul>
+      <li>som de energia restaurada</li>
+    </ul>
+  </li>
+</ul>
 
+<div class="lore-quote">
 O trait nunca fica silencioso.
+</div>
 
----
+<div class="ritual-divider">⚔️</div>
 
-## ⚔️ Uso estratégico
+<h2 id="uso">⚔️ Uso estratégico</h2>
 
-Escudo de Ferro é ideal para:
-- lutas corpo a corpo
-- cavernas apertadas
-- segurar avanço inimigo
-- builds mais lentas e resistentes
+<p>Escudo de Ferro é ideal para:</p>
 
-Funciona melhor quando:
-- inimigos atacam em grupo
-- o jogador aceita o impacto
-- o posicionamento é agressivo
+<ul>
+  <li>lutas corpo a corpo</li>
+  <li>cavernas apertadas</li>
+  <li>segurar avanço inimigo</li>
+  <li>builds mais lentas e resistentes</li>
+</ul>
 
----
+<p>Funciona melhor quando:</p>
 
-## ⚠️ Riscos e limitações
+<ul>
+  <li>inimigos atacam em grupo</li>
+  <li>o jogador aceita o impacto</li>
+  <li>o posicionamento é agressivo</li>
+</ul>
 
-- cooldown longo
-- não protege indefinidamente
-- ativação exige sofrer dano
-- timing errado desperdiça o efeito
+<div class="ritual-divider">⚠️</div>
 
-Defesa sem leitura
-vira confiança excessiva.
+<h2 id="riscos">⚠️ Riscos e limitações</h2>
 
----
+<ul>
+  <li>cooldown longo</li>
+  <li>não protege indefinidamente</li>
+  <li>ativação exige sofrer dano</li>
+  <li>timing errado desperdiça o efeito</li>
+</ul>
 
-## 🧠 Filosofia do trait
+<div class="lore-quote">
+Defesa sem leitura<br>
+vira <strong>confiança excessiva</strong>.
+</div>
 
-Escudo de Ferro não evita o perigo.
-Ele **responde a ele**.
+<div class="ritual-divider">🧠</div>
 
-Ele recompensa quem:
-- entende o tempo do combate
-- aceita ser atingido
-- controla o espaço ao redor
+<h2 id="filosofia">🧠 Filosofia do trait</h2>
 
-Às vezes, a melhor defesa
+<p>
+Escudo de Ferro não evita o perigo.<br>
+Ele <strong>responde a ele</strong>.
+</p>
+
+<p>Ele recompensa quem:</p>
+
+<ul>
+  <li>entende o tempo do combate</li>
+  <li>aceita ser atingido</li>
+  <li>controla o espaço ao redor</li>
+</ul>
+
+<div class="lore-quote">
+Às vezes, a melhor defesa<br>
 é deixar o inimigo chegar perto demais.
+</div>
 
----
+<div class="ritual-divider">➡️</div>
 
-## ➡️ Próximo passo
+<h2>➡️ Próximo passo</h2>
 
+<p>
 Com isso, todos os traits lendários atuais estão documentados:
+</p>
 
-- **Sede de Sangue** → agressão contínua  
-- **Passos do Fim** → controle de espaço  
-- **Escudo de Ferro** → retaliação defensiva  
+<ul>
+  <li><strong>Sede de Sangue</strong> → agressão contínua</li>
+  <li><strong>Passos do Fim</strong> → controle de espaço</li>
+  <li><strong>Escudo de Ferro</strong> → retaliação defensiva</li>
+</ul>
 
-Traits não são bônus.
-São **estilos de jogo encapsulados**.
+<div class="lore-quote">
+Traits não são bônus.<br>
+São <strong>estilos de jogo encapsulados</strong>.
+</div>
+
+</main>
+</div>
+
+</body>
+</html>
