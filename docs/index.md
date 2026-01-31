@@ -1,56 +1,88 @@
-# TotalAdventure 🧭
+<p align="center">
+  <img src="assets/banner-totaladventure.png" width="100%" />
+</p>
+
+<p align="center">
+  <b>Um RPG de mineração onde decisões importam.</b><br>
+  Progressão real • Economia local • Risco permanente
+</p>
+
+---
+
+## 🧭 Bem-vindo ao TotalAdventure
 
 **TotalAdventure** é um projeto de RPG e mineração para Minecraft,
 focado em **progressão real**, **risco significativo** e **economia localizada**.
 
-Aqui não existe atalho mágico, teleporte conveniente ou item grátis.
-Existe **uma picareta**, **um mundo**, e **decisões que têm peso**.
+Aqui não existe:
+- teleporte conveniente
+- progresso automático
+- poder sem custo
+
+Existe **um mundo hostil**,  
+**uma picareta**,  
+e **decisões que deixam marcas**.
 
 ---
 
 ## 🧠 O que é o TotalAdventure?
 
 TotalAdventure é um jogo onde:
-- o mundo não gira em torno do jogador
-- progresso exige deslocamento
-- poder tem custo
-- erro ensina
 
-Você não é o herói.
-Você é um aventureiro tentando sobreviver, evoluir
-e não perder tudo no processo.
+- o mundo não gira em torno do jogador  
+- progresso exige deslocamento  
+- poder cobra um preço  
+- erro ensina  
+
+Você não é o herói escolhido.  
+Você é apenas mais um aventureiro tentando **sobreviver, evoluir e não perder tudo no processo**.
 
 ---
 
 ## 🔁 O loop central do jogo
 
-Tudo gira em torno de um ciclo simples e intencional:
+Tudo no TotalAdventure existe para sustentar um único ciclo:
 
 > **Nascer na vila → minerar → lutar → forjar → arriscar → evoluir**
 
-Você começa com uma picareta básica,
-explora cavernas perigosas,
-enfrenta mobs escaláveis,
-coleta minérios raros
-e volta para a vila para decidir o próximo passo.
+Você começa fraco.  
+Explora cavernas perigosas.  
+Enfrenta mobs escaláveis.  
+Coleta recursos raros.  
+E volta para a vila para decidir **quanto risco está disposto a assumir**.
 
 Nada vem pronto.  
-Tudo é construído.
+Tudo é conquistado.
 
 ➡️ **[O Loop do Jogo](core-concepts/game-loop.md)**
 
 ---
 
+## 🌍 O mundo e suas regras
+
+O mundo não se adapta a você.  
+Você se adapta a ele.
+
+Não existe:
+- economia global
+- acesso instantâneo
+- progressão linear garantida
+
+Mover-se pelo mapa **é parte da progressão**.  
+Escolher onde ir **é parte do risco**.
+
+---
+
 ## ⛏️ Mineração com progressão real
 
-A mineração não é decorativa.
-Ela define **até onde você pode ir**.
+Mineração não é um meio.
+É um **limitador de mundo**.
 
 - Picaretas possuem **tiers**
-- Blocos exigem um tier mínimo
+- Blocos exigem tier mínimo
 - Blocos têm vida e resistem ao dano
 - Minérios dropam por **chance**
-- Sorte e modificadores influenciam resultados
+- Sorte e modificadores importam
 - Tudo segue **raridade**:
   - Comum
   - Raro
@@ -66,16 +98,18 @@ mais o mundo tenta te impedir.
 
 ## 🔥 Forja, bigorna e o risco final
 
-Forjar não é um clique em menu.
-É um processo.
+Forjar não é clicar.
+É decidir.
 
+O processo envolve:
 - combinar minérios na **forja**
 - respeitar peso e limites
 - moldar o item na **bigorna**
 - arriscar tudo no **caldeirão**
 
-⚠️ **Falhou no caldeirão?  
-O item é perdido. Definitivamente.**
+⚠️ **Falhou no caldeirão?**  
+O item é perdido.  
+Definitivamente.
 
 Aqui, poder exige coragem.
 
@@ -85,34 +119,39 @@ Aqui, poder exige coragem.
 
 ## 🧬 Equipamentos, atributos e traits
 
-Itens forjados possuem:
+Itens forjados nunca são iguais.
+
+Eles podem possuir:
 - atributos aleatórios
 - raridade visível
 - escalonamento por qualidade
-- chance de **traits lendários**
+- **traits lendários** raros
 
 Traits não são encantamentos.
-São **habilidades únicas**, com mecânicas próprias,
-efeitos visuais e identidade forte.
+São **habilidades únicas**, com identidade,
+efeitos visuais e impacto real.
 
 Cada item lendário conta uma história.
+Nem todas terminam bem.
 
 ➡️ **[Equipamentos e Traits](equipment/overview.md)**
 
 ---
 
-## 🧟 Mobs, combate e perigo real
+## 🧟 Combate, mobs e perigo real
 
-Mobs no TotalAdventure:
+Mobs no TotalAdventure não são obstáculos descartáveis.
+
+Eles:
 - possuem level
 - escalam atributos
 - usam equipamentos
-- têm skills
+- ativam skills
 - reagem a eventos
 - punem descuido
 
-Aqui, combate não é automático.
-É leitura, decisão e consequência.
+Aqui, combate não é reflexo.
+É leitura, planejamento e consequência.
 
 ➡️ **[Mobs e Combate](mobs/overview.md)**
 
@@ -120,13 +159,14 @@ Aqui, combate não é automático.
 
 ## 💰 Economia local e bancos físicos
 
-O dinheiro não é global.
+O dinheiro não é abstrato.
+Ele pesa.
 
 - Moedas são físicas
 - Drops e vendas geram dinheiro no inventário
 - Para usar dinheiro, é preciso **depositar em um banco**
-- Cada vila tem seu próprio banco
-- Dinheiro de um lugar não vale em outro
+- Cada vila possui seu próprio banco
+- Dinheiro não viaja livremente
 
 > Poder econômico é regional.  
 > O mundo importa.
@@ -137,19 +177,23 @@ O dinheiro não é global.
 
 ## 👥 Multiplayer sem proteção artificial
 
+O jogo não força PvP.  
+Mas também não protege contra más decisões.
+
 - Minérios dropam no chão
 - Jogadores podem trocar itens
 - Picaretas são pessoais e travadas
-- Não existe proteção contra oportunismo
+- Oportunismo existe
 
-O jogo não força PvP,  
-mas também não protege contra escolhas ruins.
+Confiança é escolha.
+Consequência também.
 
 ---
 
 ## 🧭 Filosofia, visão e direção
 
 Algumas decisões são intencionais:
+
 - não há teleporte livre
 - não há economia global
 - não há progresso automático
@@ -166,9 +210,12 @@ Isso não é limitação técnica.
 ## 👤 Sobre o projeto
 
 TotalAdventure é um projeto autoral,
-desenvolvido com foco em sistemas,
-coerência de mundo
-e evolução a longo prazo.
+desenvolvido com foco em:
+
+- sistemas interligados
+- coerência de mundo
+- progressão significativa
+- evolução a longo prazo
 
 ➡️ **[Sobre o Criador](creator.md)**
 
@@ -190,9 +237,9 @@ Se você é novo no projeto, siga esta ordem:
 
 TotalAdventure está em desenvolvimento ativo.
 
-Sistemas evoluem,  
-números mudam,  
-ideias amadurecem.
+Sistemas evoluem.  
+Números mudam.  
+Ideias amadurecem.
 
 A documentação acompanha essa evolução.
 
