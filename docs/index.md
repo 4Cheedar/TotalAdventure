@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>TotalAdventure</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO / TOPO -->
 <div class="hero">
   <div class="hero-content">
     <div class="hero-title">TOTAL ADVENTURE</div>
@@ -12,31 +25,34 @@
 
 <div class="layout">
 
+<!-- SIDEBAR -->
 <aside class="sidebar">
   <h3>Mapa do Mundo</h3>
   <ul>
-    <li>🧭 Visão Geral</li>
-    <li>⛏️ Mineração</li>
-    <li>🔥 Forja</li>
-    <li>🧬 Equipamentos</li>
-    <li>🧟 Combate</li>
-    <li>💰 Economia</li>
+    <li><a href="#bem-vindo-ao-totaladventure">🧭 Visão Geral</a></li>
+    <li><a href="#o-que-e-o-totaladventure">🧠 O que é</a></li>
+    <li><a href="#o-loop-central-do-jogo">🔁 Loop</a></li>
+    <li><a href="#mineracao-com-progressao-real">⛏️ Mineração</a></li>
+    <li><a href="#forja-bigorna-e-o-risco-final">🔥 Forja</a></li>
+    <li><a href="#equipamentos-atributos-e-traits">🧬 Equipamentos</a></li>
+    <li><a href="#combate-mobs-e-perigo-real">🧟 Combate</a></li>
+    <li><a href="#economia-local-e-bancos-fisicos">💰 Economia</a></li>
   </ul>
 </aside>
 
 <main>
 
-<section class="chapter">
 
-## 🧭 Bem-vindo ao TotalAdventure
+<h2 id="bem-vindo-ao-totaladventure">🧭 Bem-vindo ao TotalAdventure</h2>
 
-**TotalAdventure** é um projeto de RPG e mineração para Minecraft,
-focado em **progressão real**, **risco significativo** e **economia localizada**.
+<p><strong>TotalAdventure</strong> é um projeto de RPG e mineração para Minecraft,
+focado em <strong>progressão real</strong>, <strong>risco significativo</strong> e <strong>economia localizada</strong>.</p>
 
-Aqui não existe:
-- teleporte conveniente
-- progresso automático
-- poder sem custo
+<ul>
+  <li>teleporte conveniente</li>
+  <li>progresso automático</li>
+  <li>poder sem custo</li>
+</ul>
 
 <div class="lore-quote">
 Existe um mundo hostil,<br>
@@ -44,302 +60,93 @@ uma picareta,<br>
 e decisões que deixam marcas.
 </div>
 
-</section>
-
 <div class="divider">✦ ✦ ✦</div>
 
-<section class="chapter">
+<h2 id="o-que-e-o-totaladventure">🧠 O que é o TotalAdventure?</h2>
 
-## 🧠 O que é o TotalAdventure?
-
-TotalAdventure é um jogo onde:
-
-- o mundo não gira em torno do jogador  
-- progresso exige deslocamento  
-- poder cobra um preço  
-- erro ensina  
+<ul>
+  <li>o mundo não gira em torno do jogador</li>
+  <li>progresso exige deslocamento</li>
+  <li>poder cobra um preço</li>
+  <li>erro ensina</li>
+</ul>
 
 <div class="lore-quote">
 Você não é o herói escolhido.<br>
-Você é apenas mais um aventureiro tentando sobreviver,<br>
-e não perder tudo no processo.
+Você é apenas mais um aventureiro tentando sobreviver.
 </div>
 
-</section>
-
 <div class="divider">✦ ✦ ✦</div>
 
-<section class="chapter">
-
-## 🔁 O loop central do jogo
-
-Tudo no TotalAdventure existe para sustentar um único ciclo:
+<h2 id="o-loop-central-do-jogo">🔁 O loop central do jogo</h2>
 
 <blockquote>
-<strong>Nascer na vila → minerar → lutar → forjar → arriscar → evoluir</strong>
+Nascer na vila → minerar → lutar → forjar → arriscar → evoluir
 </blockquote>
 
-Você começa fraco.  
-Explora cavernas perigosas.  
-Enfrenta mobs escaláveis.  
-Coleta recursos raros.  
-
-Volta para a vila para decidir **quanto risco está disposto a assumir**.
-
-Nada vem pronto.  
-Tudo é conquistado.
-
-➡️ **[O Loop do Jogo](core-concepts/game-loop.md)**
-
-</section>
+<p>➡️ <a href="core-concepts/game-loop.md">O Loop do Jogo</a></p>
 
 <div class="divider">✦ ✦ ✦</div>
 
-<section class="chapter">
-
-## 🌍 O mundo e suas regras
-
-O mundo não se adapta a você.  
-Você se adapta a ele.
-
-Não existe:
-- economia global
-- acesso instantâneo
-- progressão linear garantida
-
-Mover-se pelo mapa **é parte da progressão**.  
-Escolher onde ir **é parte do risco**.
-
-</section>
-
-<div class="divider">✦ ✦ ✦</div>
-
-<section class="chapter">
-
-## ⛏️ Mineração com progressão real
-
-Mineração não é um meio.  
-É um **limitador de mundo**.
-
-- Picaretas possuem **tiers**
-- Blocos exigem tier mínimo
-- Blocos têm vida e resistem ao dano
-- Minérios dropam por **chance**
-- Sorte e modificadores importam
-- Tudo segue **raridade**:
-  - Comum
-  - Raro
-  - Épico
-  - Lendário
+<h2 id="mineracao-com-progressao-real">⛏️ Mineração com progressão real</h2>
 
 <div class="lore-quote">
 Quanto mais fundo você vai,<br>
 mais o mundo tenta te impedir.
 </div>
 
-➡️ **[Sistema de Mineração](mining/overview.md)**
-
-</section>
+<p>➡️ <a href="mining/overview.md">Sistema de Mineração</a></p>
 
 <div class="divider">✦ ✦ ✦</div>
 
-<section class="chapter">
-
-## 🔥 Forja, bigorna e o risco final
-
-Forjar não é clicar.  
-É decidir.
-
-O processo envolve:
-- combinar minérios na **forja**
-- respeitar peso e limites
-- moldar o item na **bigorna**
-- arriscar tudo no **caldeirão**
+<h2 id="forja-bigorna-e-o-risco-final">🔥 Forja, bigorna e o risco final</h2>
 
 <div class="danger-box">
-⚠️ <strong>Falhou no caldeirão?</strong><br>
-O item é perdido.<br>
-Definitivamente.
+⚠️ Falhou no caldeirão?<br>
+O item é perdido. Definitivamente.
 </div>
 
-Aqui, poder exige coragem.
-
-➡️ **[Forja e Risco](forging/overview.md)**
-
-</section>
+<p>➡️ <a href="forging/overview.md">Forja e Risco</a></p>
 
 <div class="divider">✦ ✦ ✦</div>
 
-<section class="chapter">
-
-## 🧬 Equipamentos, atributos e traits
-
-Itens forjados nunca são iguais.
-
-Eles podem possuir:
-- atributos aleatórios
-- raridade visível
-- escalonamento por qualidade
-- <strong>traits lendários</strong> raros
-
-Traits não são encantamentos.  
-São **habilidades únicas**, com identidade,
-efeitos visuais e impacto real.
+<h2 id="equipamentos-atributos-e-traits">🧬 Equipamentos, atributos e traits</h2>
 
 <div class="lore-quote">
 Cada item lendário conta uma história.<br>
 Nem todas terminam bem.
 </div>
 
-➡️ **[Equipamentos e Traits](equipment/overview.md)**
-
-</section>
+<p>➡️ <a href="equipment/overview.md">Equipamentos e Traits</a></p>
 
 <div class="divider">✦ ✦ ✦</div>
 
-<section class="chapter">
+<h2 id="combate-mobs-e-perigo-real">🧟 Combate, mobs e perigo real</h2>
 
-## 🧟 Combate, mobs e perigo real
-
-Mobs no TotalAdventure não são obstáculos descartáveis.
-
-Eles:
-- possuem level
-- escalam atributos
-- usam equipamentos
-- ativam skills
-- reagem a eventos
-- punem descuido
-
-<div class="lore-quote">
-Aqui, combate não é reflexo.<br>
-É leitura, planejamento e consequência.
-</div>
-
-➡️ **[Mobs e Combate](mobs/overview.md)**
-
-</section>
+<p>➡️ <a href="mobs/overview.md">Mobs e Combate</a></p>
 
 <div class="divider">✦ ✦ ✦</div>
 
-<section class="chapter">
-
-## 💰 Economia local e bancos físicos
-
-O dinheiro não é abstrato.  
-Ele pesa.
-
-- Moedas são físicas
-- Drops e vendas geram dinheiro no inventário
-- Para usar dinheiro, é preciso **depositar em um banco**
-- Cada vila possui seu próprio banco
-- Dinheiro não viaja livremente
+<h2 id="economia-local-e-bancos-fisicos">💰 Economia local e bancos físicos</h2>
 
 <blockquote>
 Poder econômico é regional.<br>
 O mundo importa.
 </blockquote>
 
-➡️ **[Economia](economy/overview.md)**
-
-</section>
+<p>➡️ <a href="economy/overview.md">Economia</a></p>
 
 <div class="divider">✦ ✦ ✦</div>
 
-<section class="chapter">
-
-## 👥 Multiplayer sem proteção artificial
-
-O jogo não força PvP.  
-Mas também não protege contra más decisões.
-
-- Minérios dropam no chão
-- Jogadores podem trocar itens
-- Picaretas são pessoais e travadas
-- Oportunismo existe
-
-<div class="lore-quote">
-Confiança é escolha.<br>
-Consequência também.
-</div>
-
-</section>
-
-<div class="divider">✦ ✦ ✦</div>
-
-<section class="chapter">
-
-## 🧭 Filosofia, visão e direção
-
-Algumas decisões são intencionais:
-
-- não há teleporte livre
-- não há economia global
-- não há progresso automático
-- não há poder sem custo
-
-Isso não é limitação técnica.  
-É <strong>filosofia de design</strong>.
-
-➡️ **[Filosofia de Design](design-philosophy.md)**  
-➡️ **[Roadmap](roadmap.md)**
-
-</section>
-
-<div class="divider">✦ ✦ ✦</div>
-
-<section class="chapter">
-
-## 👤 Sobre o projeto
-
-TotalAdventure é um projeto autoral,
-desenvolvido com foco em:
-
-- sistemas interligados
-- coerência de mundo
-- progressão significativa
-- evolução a longo prazo
-
-➡️ **[Sobre o Criador](creator.md)**
-
-</section>
-
-<div class="divider">✦ ✦ ✦</div>
-
-<section class="chapter">
-
-## 📚 Por onde começar?
-
-Se você é novo no projeto, siga esta ordem:
-
-1. **[O Loop do Jogo](core-concepts/game-loop.md)**
-2. **[Mineração](mining/overview.md)**
-3. **[Forja](forging/overview.md)**
-4. **[Mobs e Combate](mobs/overview.md)**
-5. **[Economia](economy/overview.md)**
-
-</section>
-
-<div class="divider">✦ ✦ ✦</div>
-
-<section class="chapter">
-
-## 🛠️ Estado do projeto
-
-TotalAdventure está em desenvolvimento ativo.
-
-Sistemas evoluem.  
-Números mudam.  
-Ideias amadurecem.
-
-A documentação acompanha essa evolução.
+<h2>🛠️ Estado do projeto</h2>
 
 <div class="danger-box">
 Nada aqui é definitivo.<br>
 Exceto as consequências das suas decisões no caldeirão.
 </div>
 
-</section>
-
 </main>
 </div>
+
+</body>
+</html>
