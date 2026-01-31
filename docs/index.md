@@ -1,13 +1,32 @@
-<div class="banner">
-  <img src="assets/banner-totaladventure.png">
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-title">TOTAL ADVENTURE</div>
+    <div class="hero-subtitle">
+      Um RPG de mineração onde decisões importam
+    </div>
+    <div class="hero-meta">
+      Progressão real • Economia local • Risco permanente
+    </div>
+  </div>
 </div>
 
-<p align="center">
-  <b>Um RPG de mineração onde decisões importam.</b><br>
-  Progressão real • Economia local • Risco permanente
-</p>
+<div class="layout">
 
-<div class="divider">✦ ✦ ✦</div>
+<aside class="sidebar">
+  <h3>Mapa do Mundo</h3>
+  <ul>
+    <li>🧭 Visão Geral</li>
+    <li>⛏️ Mineração</li>
+    <li>🔥 Forja</li>
+    <li>🧬 Equipamentos</li>
+    <li>🧟 Combate</li>
+    <li>💰 Economia</li>
+  </ul>
+</aside>
+
+<main>
+
+<section class="chapter">
 
 ## 🧭 Bem-vindo ao TotalAdventure
 
@@ -25,7 +44,11 @@ uma picareta,<br>
 e decisões que deixam marcas.
 </div>
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 🧠 O que é o TotalAdventure?
 
@@ -42,7 +65,11 @@ Você é apenas mais um aventureiro tentando sobreviver,<br>
 e não perder tudo no processo.
 </div>
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 🔁 O loop central do jogo
 
@@ -64,7 +91,11 @@ Tudo é conquistado.
 
 ➡️ **[O Loop do Jogo](core-concepts/game-loop.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 🌍 O mundo e suas regras
 
@@ -79,7 +110,11 @@ Não existe:
 Mover-se pelo mapa **é parte da progressão**.  
 Escolher onde ir **é parte do risco**.
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## ⛏️ Mineração com progressão real
 
@@ -104,7 +139,11 @@ mais o mundo tenta te impedir.
 
 ➡️ **[Sistema de Mineração](mining/overview.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 🔥 Forja, bigorna e o risco final
 
@@ -127,7 +166,11 @@ Aqui, poder exige coragem.
 
 ➡️ **[Forja e Risco](forging/overview.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 🧬 Equipamentos, atributos e traits
 
@@ -150,7 +193,11 @@ Nem todas terminam bem.
 
 ➡️ **[Equipamentos e Traits](equipment/overview.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 🧟 Combate, mobs e perigo real
 
@@ -171,7 +218,11 @@ Aqui, combate não é reflexo.<br>
 
 ➡️ **[Mobs e Combate](mobs/overview.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 💰 Economia local e bancos físicos
 
@@ -191,7 +242,11 @@ O mundo importa.
 
 ➡️ **[Economia](economy/overview.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 👥 Multiplayer sem proteção artificial
 
@@ -208,7 +263,11 @@ Confiança é escolha.<br>
 Consequência também.
 </div>
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 🧭 Filosofia, visão e direção
 
@@ -225,7 +284,11 @@ Isso não é limitação técnica.
 ➡️ **[Filosofia de Design](design-philosophy.md)**  
 ➡️ **[Roadmap](roadmap.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 👤 Sobre o projeto
 
@@ -239,7 +302,11 @@ desenvolvido com foco em:
 
 ➡️ **[Sobre o Criador](creator.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 📚 Por onde começar?
 
@@ -251,7 +318,11 @@ Se você é novo no projeto, siga esta ordem:
 4. **[Mobs e Combate](mobs/overview.md)**
 5. **[Economia](economy/overview.md)**
 
+</section>
+
 <div class="divider">✦ ✦ ✦</div>
+
+<section class="chapter">
 
 ## 🛠️ Estado do projeto
 
@@ -266,4 +337,9 @@ A documentação acompanha essa evolução.
 <div class="danger-box">
 Nada aqui é definitivo.<br>
 Exceto as consequências das suas decisões no caldeirão.
+</div>
+
+</section>
+
+</main>
 </div>
