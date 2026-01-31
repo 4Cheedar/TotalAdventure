@@ -78,6 +78,28 @@ main {
   transform: translateX(4px);
 }
 
+.sidebar-divider {
+  margin: 16px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-footer a {
+  display: block;
+  padding: 8px 10px;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.sidebar-footer a:hover {
+  opacity: 1;
+}
+
 /* -------- Hero / Topo -------- */
 .hero {
   background:
