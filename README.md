@@ -109,8 +109,7 @@ o design funcionou.
 
 A documentação completa explica todos os sistemas em detalhe:
 
-➡️ **https://4cheedar.github.io/totaladventure/**  
-*(ou ajuste para o link correto do GitHub Pages)*
+➡️ **https://4cheedar.github.io/TotalAdventure/**  
 
 ---
 
