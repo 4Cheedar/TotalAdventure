@@ -1,0 +1,81 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa do Mundo | TotalAdventure</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <script src="assets/js/site-config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+
+<body class="map-page">
+  <section class="map-page-hero">
+    <div class="map-page-hero-inner">
+      <div class="map-page-crest" aria-hidden="true">✦</div>
+      <span class="map-kicker">Cartografia Arcana</span>
+      <h1>Mapa do Mundo</h1>
+      <p>
+        Observe o reino de cima, acompanhe a expansao dos aventureiros e use a carta viva do servidor para planejar expedicoes.
+      </p>
+
+      <div class="map-page-actions">
+        <a href="index.html">Voltar para a home</a>
+        <a data-bluemap-link href="#" target="_blank" rel="noreferrer noopener">Abrir BlueMap em nova aba</a>
+      </div>
+
+      <div class="map-page-hero-strip">
+        <div class="map-hero-pill">
+          <span class="map-info-label">Leitura</span>
+          <strong>Mapa vivo do reino</strong>
+        </div>
+        <div class="map-hero-pill">
+          <span class="map-info-label">Foco</span>
+          <strong>Canvas ampliado</strong>
+        </div>
+        <div class="map-hero-pill">
+          <span class="map-info-label">Uso</span>
+          <strong>Exploracao e rotas</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="map-page-main">
+    <section class="map-page-layout map-page-layout-wide">
+      <aside class="map-page-panel">
+        <h2>Leituras Uteis</h2>
+        <div class="map-info-box">
+          <span class="map-info-label">Exploracao</span>
+          <strong>Rotas e fronteiras</strong>
+          <p>Veja ate onde o mundo ja foi ocupado e quais caminhos estao mais seguros.</p>
+        </div>
+        <div class="map-info-box">
+          <span class="map-info-label">Comunidade</span>
+          <strong>Construcoes visiveis</strong>
+          <p>Use o mapa para localizar centros de atividade, estradas e marcos do servidor.</p>
+        </div>
+        <div class="map-page-panel-note">
+          O mapa e uma carta viva do reino. Use-o para preparar jornadas, localizar civilizacao e evitar se perder no ermo.
+        </div>
+      </aside>
+
+      <section class="map-page-canvas">
+        <div class="map-card map-card-full">
+          <div class="map-card-header map-card-header-wide">
+            <span class="map-kicker">BlueMap</span>
+            <h3>Carta Principal do Mundo</h3>
+          </div>
+
+          <div class="map-frame-shell map-frame-shell-orb">
+            <div data-bluemap-embed class="map-embed-placeholder map-embed-full">
+              Mapa carregando...
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

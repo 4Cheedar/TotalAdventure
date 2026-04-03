@@ -5,294 +5,332 @@
 
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <script src="assets/js/site-config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
 </head>
 
 <body>
 
-<!-- HERO -->
 <div class="hero">
   <div class="hero-content">
     <div class="hero-title">TOTAL ADVENTURE</div>
     <div class="hero-subtitle">
-      Um RPG de mineração onde decisões importam
+      Um RPG de mineracao onde decisoes importam
     </div>
     <div class="hero-meta">
-      Progressão real • Economia local • Risco permanente
+      Progressao real • Economia local • Risco permanente
     </div>
   </div>
 </div>
 
 <div class="layout">
 
-<!-- SIDEBAR -->
 <aside class="sidebar">
   <h3>Mapa do Mundo</h3>
   <ul>
-    <li><a href="#bem-vindo-ao-totaladventure">🧭 Visão Geral</a></li>
-    <li><a href="#o-que-e-o-totaladventure">🧠 O que é</a></li>
-    <li><a href="#o-loop-central-do-jogo">🔁 Loop</a></li>
-    <li><a href="#o-mundo-e-suas-regras">🌍 Mundo</a></li>
-    <li><a href="#mineracao-com-progressao-real">⛏️ Mineração</a></li>
-    <li><a href="#forja-bigorna-e-o-risco-final">🔥 Forja</a></li>
-    <li><a href="#equipamentos-atributos-e-traits">🧬 Equipamentos</a></li>
-    <li><a href="#combate-mobs-e-perigo-real">🧟 Combate</a></li>
-    <li><a href="#economia-local-e-bancos-fisicos">💰 Economia</a></li>
-    <li><a href="#multiplayer-sem-protecao-artificial">👥 Multiplayer</a></li>
-    <li><a href="#filosofia-visao-e-direcao">🧭 Filosofia</a></li>
-    <li><a href="#por-onde-comecar">📚 Começar</a></li>
-    <li><a href="#caminho-adiante">🛠️ Estado</a></li>
+    <li><a href="mapa.html">Mapa Ao Vivo</a></li>
+    <li><a href="#bem-vindo-ao-totaladventure">Visao Geral</a></li>
+    <li><a href="#o-que-e-o-totaladventure">O que e</a></li>
+    <li><a href="#o-loop-central-do-jogo">Loop</a></li>
+    <li><a href="#o-mundo-e-suas-regras">Mundo</a></li>
+    <li><a href="#mineracao-com-progressao-real">Mineracao</a></li>
+    <li><a href="#forja-bigorna-e-o-risco-final">Forja</a></li>
+    <li><a href="#equipamentos-atributos-e-traits">Equipamentos</a></li>
+    <li><a href="#combate-mobs-e-perigo-real">Combate</a></li>
+    <li><a href="#economia-local-e-bancos-fisicos">Economia</a></li>
+    <li><a href="#multiplayer-sem-protecao-artificial">Multiplayer</a></li>
+    <li><a href="#filosofia-visao-e-direcao">Filosofia</a></li>
+    <li><a href="#por-onde-comecar">Comecar</a></li>
+    <li><a href="#caminho-adiante">Estado</a></li>
   </ul>
   <div class="sidebar-divider"></div>
 
-  <!-- Voltar -->
   <ul class="sidebar-footer">
     <li>
-      <a href="../index.html">⬅️ Voltar ao Mundo</a>
+      <a href="../index.html">Voltar ao Mundo</a>
     </li>
   </ul>
 </aside>
 
 <main>
 
-<h2 id="bem-vindo-ao-totaladventure">🧭 Bem-vindo ao TotalAdventure</h2>
+<h2 id="mapa-ao-vivo">Cartografia do Reino</h2>
 
-<p><strong>TotalAdventure</strong> é um projeto de RPG e mineração para Minecraft,
-focado em <strong>progressão real</strong>, <strong>risco significativo</strong> e
+<p>
+O mundo agora tambem pode ser observado de cima. Acompanhe regioes exploradas, estradas, construcoes e abra a carta completa do servidor em uma guia propria.
+</p>
+
+<div class="map-card map-card-preview">
+  <div class="map-card-header">
+    <span class="map-kicker">BlueMap</span>
+    <h3>Mapa do Mundo</h3>
+    <p>Uma previa rapida para lembrar aos jogadores que o mundo esta sempre visivel.</p>
+  </div>
+
+  <div class="map-frame-shell map-frame-shell-preview map-frame-shell-orb">
+    <div data-bluemap-embed class="map-embed-placeholder map-embed-preview">
+      Mapa carregando...
+    </div>
+  </div>
+
+  <div class="map-info-grid">
+    <div class="map-info-box">
+      <span class="map-info-label">Visao</span>
+      <strong>Leitura do territorio</strong>
+      <p>Boa para mostrar vilas, trilhas, muralhas e o alcance da exploracao dos players.</p>
+    </div>
+
+    <div class="map-info-box">
+      <span class="map-info-label">Navegacao</span>
+      <strong>Pagina dedicada</strong>
+      <p>O mapa completo fica separado do restante da documentacao para dar mais foco e espaco.</p>
+    </div>
+
+    <div class="map-info-box">
+      <span class="map-info-label">Destino</span>
+      <strong>Abrir cartografia</strong>
+      <p><a href="mapa.html">Entrar na pagina do mapa</a></p>
+    </div>
+  </div>
+</div>
+
+<h2 id="bem-vindo-ao-totaladventure">Bem-vindo ao TotalAdventure</h2>
+
+<p><strong>TotalAdventure</strong> e um projeto de RPG e mineracao para Minecraft,
+focado em <strong>progressao real</strong>, <strong>risco significativo</strong> e
 <strong>economia localizada</strong>.</p>
 
-<p>Aqui não existe:</p>
+<p>Aqui nao existe:</p>
 <ul>
   <li>teleporte conveniente</li>
-  <li>progresso automático</li>
+  <li>progresso automatico</li>
   <li>poder sem custo</li>
 </ul>
 
 <div class="lore-quote">
 Existe um mundo hostil,<br>
 uma picareta,<br>
-e decisões que deixam marcas.
+e decisoes que deixam marcas.
 </div>
 
-<div class="ritual-divider">🧭</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="o-que-e-o-totaladventure">🧠 O que é o TotalAdventure?</h2>
+<h2 id="o-que-e-o-totaladventure">O que e o TotalAdventure?</h2>
 
-<p>TotalAdventure é um jogo onde:</p>
+<p>TotalAdventure e um jogo onde:</p>
 <ul>
-  <li>o mundo não gira em torno do jogador</li>
+  <li>o mundo nao gira em torno do jogador</li>
   <li>progresso exige deslocamento</li>
-  <li>poder cobra um preço</li>
+  <li>poder cobra um preco</li>
   <li>erro ensina</li>
 </ul>
 
 <div class="lore-quote">
-Você não é o herói escolhido.<br>
-Você é apenas mais um aventureiro tentando sobreviver,<br>
-e não perder tudo no processo.
+Voce nao e o heroi escolhido.<br>
+Voce e apenas mais um aventureiro tentando sobreviver,<br>
+e nao perder tudo no processo.
 </div>
 
-<div class="ritual-divider">🔁</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="o-loop-central-do-jogo">🔁 O loop central do jogo</h2>
+<h2 id="o-loop-central-do-jogo">O loop central do jogo</h2>
 
 <blockquote>
-Nascer na vila → minerar → lutar → forjar → arriscar → evoluir
+Nascer na vila -> minerar -> lutar -> forjar -> arriscar -> evoluir
 </blockquote>
 
 <p>
-Você começa fraco, explora cavernas perigosas,
-enfrenta mobs escaláveis e coleta recursos raros.
+Voce comeca fraco, explora cavernas perigosas,
+enfrenta mobs escalaveis e coleta recursos raros.
 Depois volta para a vila para decidir
-<strong>quanto risco está disposto a assumir</strong>.
+<strong>quanto risco esta disposto a assumir</strong>.
 </p>
 
-<p>Nada vem pronto. Tudo é conquistado.</p>
+<p>Nada vem pronto. Tudo e conquistado.</p>
 
-<p>➡️ <a href="core-concepts/game-loop.html">O Loop do Jogo</a></p>
+<p><a href="core-concepts/game-loop.html">O Loop do Jogo</a></p>
 
-<div class="ritual-divider">🌍</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="o-mundo-e-suas-regras">🌍 O mundo e suas regras</h2>
+<h2 id="o-mundo-e-suas-regras">O mundo e suas regras</h2>
 
 <p>
-O mundo não se adapta a você.<br>
-Você se adapta a ele.
+O mundo nao se adapta a voce.<br>
+Voce se adapta a ele.
 </p>
 
 <ul>
-  <li>não existe economia global</li>
-  <li>não existe acesso instantâneo</li>
-  <li>não existe progressão garantida</li>
+  <li>nao existe economia global</li>
+  <li>nao existe acesso instantaneo</li>
+  <li>nao existe progressao garantida</li>
 </ul>
 
 <p>
-Mover-se pelo mapa <strong>é parte da progressão</strong>.<br>
-Escolher onde ir <strong>é parte do risco</strong>.
+Mover-se pelo mapa <strong>e parte da progressao</strong>.<br>
+Escolher onde ir <strong>e parte do risco</strong>.
 </p>
 
-<div class="ritual-divider">⛏️</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="mineracao-com-progressao-real">⛏️ Mineração com progressão real</h2>
+<h2 id="mineracao-com-progressao-real">Mineracao com progressao real</h2>
 
-<p>Mineração não é um meio. É um <strong>limitador de mundo</strong>.</p>
+<p>Mineracao nao e um meio. E um <strong>limitador de mundo</strong>.</p>
 
 <ul>
   <li>Picaretas possuem tiers</li>
-  <li>Blocos exigem tier mínimo</li>
-  <li>Blocos têm vida</li>
-  <li>Minérios dropam por chance</li>
+  <li>Blocos exigem tier minimo</li>
+  <li>Blocos tem vida</li>
+  <li>Minerios dropam por chance</li>
   <li>Tudo segue raridade</li>
 </ul>
 
 <div class="lore-quote">
-Quanto mais fundo você vai,<br>
+Quanto mais fundo voce vai,<br>
 mais o mundo tenta te impedir.
 </div>
 
-<p>➡️ <a href="mining/overview.html">Sistema de Mineração</a></p>
+<p><a href="mining/overview.html">Sistema de Mineracao</a></p>
 
-<div class="ritual-divider">🔥</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="forja-bigorna-e-o-risco-final">🔥 Forja, bigorna e o risco final</h2>
+<h2 id="forja-bigorna-e-o-risco-final">Forja, bigorna e o risco final</h2>
 
-<p>Forjar não é clicar. É decidir.</p>
+<p>Forjar nao e clicar. E decidir.</p>
 
 <ul>
   <li>forja</li>
   <li>bigorna</li>
-  <li>caldeirão</li>
+  <li>caldeirao</li>
 </ul>
 
 <div class="danger-box">
-⚠️ Falhou no caldeirão?<br>
-O item é perdido. Definitivamente.
+Falhou no caldeirao?<br>
+O item e perdido. Definitivamente.
 </div>
 
-<p>➡️ <a href="forging/overview.html">Forja e Risco</a></p>
+<p><a href="forging/overview.html">Forja e Risco</a></p>
 
-<div class="ritual-divider">🧬</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="equipamentos-atributos-e-traits">🧬 Equipamentos, atributos e traits</h2>
+<h2 id="equipamentos-atributos-e-traits">Equipamentos, atributos e traits</h2>
 
-<p>Itens forjados nunca são iguais.</p>
+<p>Itens forjados nunca sao iguais.</p>
 
 <div class="lore-quote">
-Cada item lendário conta uma história.<br>
+Cada item lendario conta uma historia.<br>
 Nem todas terminam bem.
 </div>
 
-<p>➡️ <a href="equipment/overview.html">Equipamentos e Traits</a></p>
+<p><a href="equipment/overview.html">Equipamentos e Traits</a></p>
 
-<div class="ritual-divider">🧟</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="combate-mobs-e-perigo-real">🧟 Combate, mobs e perigo real</h2>
+<h2 id="combate-mobs-e-perigo-real">Combate, mobs e perigo real</h2>
 
 <p>
-Aqui, combate não é reflexo.<br>
-É leitura, planejamento e consequência.
+Aqui, combate nao e reflexo.<br>
+E leitura, planejamento e consequencia.
 </p>
 
-<p>➡️ <a href="mobs/overview.html">Mobs e Combate</a></p>
+<p><a href="mobs/overview.html">Mobs e Combate</a></p>
 
-<div class="ritual-divider">💰</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="economia-local-e-bancos-fisicos">💰 Economia local e bancos físicos</h2>
+<h2 id="economia-local-e-bancos-fisicos">Economia local e bancos fisicos</h2>
 
 <blockquote>
-Poder econômico é regional.<br>
+Poder economico e regional.<br>
 O mundo importa.
 </blockquote>
 
-<p>➡️ <a href="economy/overview.html">Economia</a></p>
+<p><a href="economy/overview.html">Economia</a></p>
 
-<div class="ritual-divider">👥</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="multiplayer-sem-protecao-artificial">👥 Multiplayer sem proteção artificial</h2>
+<h2 id="multiplayer-sem-protecao-artificial">Multiplayer sem protecao artificial</h2>
 
 <p>
-O jogo não força PvP.<br>
-Mas também não protege contra más decisões.
+O jogo nao forca PvP.<br>
+Mas tambem nao protege contra mas decisoes.
 </p>
 
 <div class="lore-quote">
-Confiança é escolha.<br>
-Consequência também.
+Confianca e escolha.<br>
+Consequencia tambem.
 </div>
 
-<div class="ritual-divider">🧭</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="filosofia-visao-e-direcao">🧭 Filosofia, visão e direção</h2>
+<h2 id="filosofia-visao-e-direcao">Filosofia, visao e direcao</h2>
 
 <ul>
-  <li>não há teleporte livre</li>
-  <li>não há economia global</li>
-  <li>não há progresso automático</li>
-  <li>não há poder sem custo</li>
+  <li>nao ha teleporte livre</li>
+  <li>nao ha economia global</li>
+  <li>nao ha progresso automatico</li>
+  <li>nao ha poder sem custo</li>
 </ul>
 
-<p>➡️ <a href="design-philosophy.html">Filosofia de Design</a></p>
+<p><a href="design-philosophy.html">Filosofia de Design</a></p>
 
-<div class="ritual-divider">📚</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="por-onde-comecar">📚 Por onde começar?</h2>
+<h2 id="por-onde-comecar">Por onde comecar?</h2>
 
 <ol>
   <li><a href="core-concepts/game-loop.html">O Loop do Jogo</a></li>
-  <li><a href="mining/overview.html">Mineração</a></li>
+  <li><a href="mining/overview.html">Mineracao</a></li>
   <li><a href="forging/overview.html">Forja</a></li>
   <li><a href="mobs/overview.html">Mobs</a></li>
   <li><a href="economy/overview.html">Economia</a></li>
 </ol>
 
+<div class="ritual-divider">+</div>
 
-<div class="ritual-divider">📜</div>
-
-<h2 id="sobre-o-projeto">📜 Sobre o Projeto</h2>
+<h2 id="sobre-o-projeto">Sobre o Projeto</h2>
 
 <p>
-<strong>TotalAdventure</strong> é um projeto autoral, desenvolvido com foco em
-<strong>sistemas interligados</strong>, <strong>coerência de mundo</strong> e
-<strong>progressão significativa</strong>.
+<strong>TotalAdventure</strong> e um projeto autoral, desenvolvido com foco em
+<strong>sistemas interligados</strong>, <strong>coerencia de mundo</strong> e
+<strong>progressao significativa</strong>.
 </p>
 
 <p>
-Cada mecânica existe para sustentar uma ideia simples:
-o mundo não gira em torno do jogador — ele reage às decisões dele.
+Cada mecanica existe para sustentar uma ideia simples:
+o mundo nao gira em torno do jogador, ele reage as decisoes dele.
 </p>
 
 <div class="lore-quote">
-Este não é um projeto feito para ser rápido.<br>
-É feito para durar.
+Este nao e um projeto feito para ser rapido.<br>
+E feito para durar.
 </div>
 
-<div class="ritual-divider">🗺️</div>
+<div class="ritual-divider">+</div>
 
-<h2 id="caminho-adiante">🗺️ Caminho Adiante</h2>
+<h2 id="caminho-adiante">Caminho Adiante</h2>
 
 <p>
-TotalAdventure está em desenvolvimento ativo.
+TotalAdventure esta em desenvolvimento ativo.
 </p>
 
 <p>
 Sistemas evoluem.<br>
-Números mudam.<br>
+Numeros mudam.<br>
 Ideias amadurecem.
 </p>
 
 <p>
-O foco não é adicionar conteúdo rapidamente,
-mas aprofundar o que já existe.
+O foco nao e adicionar conteudo rapidamente,
+mas aprofundar o que ja existe.
 </p>
 
 <div class="lore-quote">
-Nada aqui é definitivo.<br>
-Exceto as consequências das suas decisões.
+Nada aqui e definitivo.<br>
+Exceto as consequencias das suas decisoes.
 </div>
 
 <p>
-➡️ <a href="roadmap.html">Ver o Roadmap Vivo</a>
+<a href="roadmap.html">Ver o Roadmap Vivo</a>
 </p>
-
 
 </main>
 </div>
